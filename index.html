@@ -304,7 +304,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
   .help-options li .left {
     display: inline-block;
     text-align: right;
-    width: 400px;
+    width: 350px;
   }
 
   .help-options li .right {
@@ -327,6 +327,10 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
     color: #003c6c;
     display: block;
     width: 100%;
+  }
+
+  .help-options li .right select::after {
+    content:"&#9660;";
   }
 
   .footer-left h3 {
