@@ -88,11 +88,13 @@
                     </div>
                     <div class="right">
                       <select id="undergraduate">
-                        <option value="assualt">Select</option>
-                        <option value="assualt">Assualt</option>
-                        <option value="discrimination">Discrimination</option>
-                        <option value="sexual-harrassment">Sexual Harrassment</option>
-                        <option value="others">Others</option>
+                        <option>(Select an Option)</option>
+                        <option>Sexual Violence</option>
+                        <option>Sexual Harassment</option>
+                        <option>Domestic Violence or Stalking</option>
+                        <option>Race/Ethnicity Discrimination or Harassment</option>
+                        <option>Whistleblower Complaint (e.g. Fraud)</option>
+                        <option">Other Crime (e.g. Robbery, Theft)</option>
                       </select>
                     </div>
                   </li>
@@ -102,11 +104,13 @@
                     </div>
                     <div class="right">
                       <select id="graduate">
-                        <option value="assualt">Select</option>
-                        <option value="assualt">Assualt</option>
-                        <option value="discrimination">Discrimination</option>
-                        <option value="sexual-harrassment">Sexual Harrassment</option>
-                        <option value="others">Others</option>
+                        <option>(Select an Option)</option>
+                        <option>Sexual Violence</option>
+                        <option>Sexual Harassment</option>
+                        <option>Domestic Violence or Stalking</option>
+                        <option>Race/Ethnicity Discrimination or Harassment</option>
+                        <option>Whistleblower Complaint (e.g. Fraud)</option>
+                        <option">Other Crime (e.g. Robbery, Theft)</option>
                       </select>
                     </div>
                   </li>
@@ -116,11 +120,13 @@
                     </div>
                     <div class="right">
                       <select id="faculty">
-                        <option value="assualt">Select</option>
-                        <option value="assualt">Assualt</option>
-                        <option value="discrimination">Discrimination</option>
-                        <option value="sexual-harrassment">Sexual Harrassment</option>
-                        <option value="others">Others</option>
+                        <option>(Select an Option)</option>
+                        <option>Sexual Violence</option>
+                        <option>Sexual Harassment</option>
+                        <option>Domestic Violence or Stalking</option>
+                        <option>Race/Ethnicity Discrimination or Harassment</option>
+                        <option>Whistleblower Complaint (e.g. Fraud)</option>
+                        <option">Other Crime (e.g. Robbery, Theft)</option>
                       </select>
                     </div>
                   </li>
@@ -130,11 +136,13 @@
                     </div>
                     <div class="right">
                       <select id="staff">
-                        <option value="assualt">Select</option>
-                        <option value="assualt">Assualt</option>
-                        <option value="discrimination">Discrimination</option>
-                        <option value="sexual-harrassment">Sexual Harrassment</option>
-                        <option value="others">Others</option>
+                        <option>(Select an Option)</option>
+                        <option>Sexual Violence</option>
+                        <option>Sexual Harassment</option>
+                        <option>Domestic Violence or Stalking</option>
+                        <option>Race/Ethnicity Discrimination or Harassment</option>
+                        <option>Whistleblower Complaint (e.g. Fraud)</option>
+                        <option">Other Crime (e.g. Robbery, Theft)</option>
                       </select>
                     </div>
                   </li>
@@ -144,11 +152,13 @@
                     </div>
                     <div class="right">
                       <select id="witness">
-                        <option value="assualt">Select</option>
-                        <option value="assualt">Assualt</option>
-                        <option value="discrimination">Discrimination</option>
-                        <option value="sexual-harrassment">Sexual Harrassment</option>
-                        <option value="others">Others</option>
+                        <option>(Select an Option)</option>
+                        <option>Sexual Violence</option>
+                        <option>Sexual Harassment</option>
+                        <option>Domestic Violence or Stalking</option>
+                        <option>Race/Ethnicity Discrimination or Harassment</option>
+                        <option>Whistleblower Complaint (e.g. Fraud)</option>
+                        <option">Other Crime (e.g. Robbery, Theft)</option>
                       </select>
                     </div>
                   </li>
@@ -240,7 +250,8 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
   }
 
   .help-search-container {
-    background: url() #ddd;
+    background: url("images/mock-ups.jpg") #ddd;
+    background-size: cover;
     display: block;
     height: 250px;
     margin: 0 auto;
@@ -257,6 +268,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
   .help-search-container span {
     color: #ae0202;
     font-size: 1.5rem;
+    font-weight: 500;
   }
 
   .help-search-box {
@@ -293,7 +305,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
     flex-flow: row;
     margin: 0;
     max-width: 100%;
-    padding: .5em 0;
+    padding: .25em 0;
   }
 
   .help-options li span {
@@ -322,15 +334,11 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    background: rgba(0,60,108, .2);
+    background: rgba(0,60,108, .2) url("images/arrow-down.svg") no-repeat 99% center;
     border: 1px #003c6c solid;
     color: #003c6c;
     display: block;
     width: 100%;
-  }
-
-  .help-options li .right select::after {
-    content:"&#9660;";
   }
 
   .footer-left h3 {
