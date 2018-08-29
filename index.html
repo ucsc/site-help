@@ -88,6 +88,7 @@
                     </div>
                     <div class="right">
                       <select id="undergraduate">
+                        <option value="assualt">Select</option>
                         <option value="assualt">Assualt</option>
                         <option value="discrimination">Discrimination</option>
                         <option value="sexual-harrassment">Sexual Harrassment</option>
@@ -101,6 +102,7 @@
                     </div>
                     <div class="right">
                       <select id="graduate">
+                        <option value="assualt">Select</option>
                         <option value="assualt">Assualt</option>
                         <option value="discrimination">Discrimination</option>
                         <option value="sexual-harrassment">Sexual Harrassment</option>
@@ -114,6 +116,7 @@
                     </div>
                     <div class="right">
                       <select id="faculty">
+                        <option value="assualt">Select</option>
                         <option value="assualt">Assualt</option>
                         <option value="discrimination">Discrimination</option>
                         <option value="sexual-harrassment">Sexual Harrassment</option>
@@ -127,6 +130,7 @@
                     </div>
                     <div class="right">
                       <select id="staff">
+                        <option value="assualt">Select</option>
                         <option value="assualt">Assualt</option>
                         <option value="discrimination">Discrimination</option>
                         <option value="sexual-harrassment">Sexual Harrassment</option>
@@ -140,6 +144,7 @@
                     </div>
                     <div class="right">
                       <select id="witness">
+                        <option value="assualt">Select</option>
                         <option value="assualt">Assualt</option>
                         <option value="discrimination">Discrimination</option>
                         <option value="sexual-harrassment">Sexual Harrassment</option>
@@ -298,12 +303,30 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
 
   .help-options li .left {
     display: inline-block;
+    text-align: right;
     width: 400px;
   }
 
   .help-options li .right {
     display: inline-block;
+    text-align: left;
     max-width: 400px;
+    width: 100%;
+  }
+
+  .help-options li .right select::-ms-expand { /* for IE 11 */
+    display: none;
+  }
+
+  .help-options li .right select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: rgba(0,60,108, .2);
+    border: 1px #003c6c solid;
+    color: #003c6c;
+    display: block;
+    width: 100%;
   }
 
   .footer-left h3 {
