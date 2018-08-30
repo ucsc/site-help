@@ -297,17 +297,13 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
   }
 
   .help-search-box {
+    border: 1px #003c6c solid;
     bottom: 1em;
     display: block;
+    max-width: 70% !important;
     padding: 10px;
     position: absolute;
-    max-width: 80% !important;
     width: 100%;
-  }
-
-  input, 
-  .help-search-box input::-webkit-input-placeholder {
-    font-size: 1.5em;
   }
 
   .help-submit {
@@ -368,7 +364,6 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
 
   .help-data th {
      background: rgba(0,60,108, .2);
-     
   }
 
   .help-data th,
@@ -418,6 +413,11 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
 
   @media screen and (min-width: 31.1875em) {
 
+    input, 
+    .help-search-box input::-webkit-input-placeholder {
+      font-size: 2em;
+    }
+
     .help-options li {
       display: block;
     }
@@ -430,6 +430,12 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
 
   @media screen and (min-width: 37.5em) {
     
+    input, 
+    .help-search-box input::-webkit-input-placeholder {
+      font-size: 2em;
+    }
+
+
     .help-options li {
       display: block;
     }
@@ -441,6 +447,12 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
   }
 
   @media screen and (min-width: 48em) {
+    
+    input, 
+    .help-search-box input::-webkit-input-placeholder {
+      font-size: 1.5em;
+    }
+
     .help-options li {
       display: flex;
     }
@@ -457,6 +469,11 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
 
   @media screen and (min-width: 60em) {
     
+    input, 
+    .help-search-box input::-webkit-input-placeholder {
+      font-size: 1.5em;
+    }
+
     .help-options li {
       display: flex;
     }
