@@ -16,6 +16,9 @@
 <script async="async" src="https://static.ucsc.edu/_responsive/js/main.js?t=20180409144600" type="text/javascript"></script>
 <script defer="true" src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 
+<!-- UI --> 
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
 <!-- END BLOCK: included uniform campus head  -->
 
 <title>UC Santa Cruz | Help Site</title>
@@ -68,7 +71,7 @@
           <div class="main-content" id="mainContent">
             <div class="content contentBox"> 
               <!-- Content -->
-              <h1 class="page-title" id="title">Get the help you need</h1>
+              <h1 class="page-title" id="title">Get Help.</h1>
               <!-- Help top -->
               <form>
                 <div class="help-search-container">
@@ -271,11 +274,15 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
   }
 
   #title, .page-title{
-    margin: 1em 0.25em 0.5em;
+    line-height: 1;
+    font-family: "Roboto",sans-serif;
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin: 0 0.25em 0.5em;
   }
 
   .help-search-container {
-    background: url("images/mock-ups.jpg");
+    background: url("images/help-banner.jpg") no-repeat;
     background-size: cover;
     display: block;
     height: 250px;
@@ -286,12 +293,13 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
   }
 
   .help-search-container h2 {
+    color: #fff;
     margin: 0;
     padding: .5em 0 0;
   }
 
   .help-search-container span {
-    color: #ae0202;
+    color: #fff;
     font-size: 1.5rem;
     font-weight: 700;
   }
@@ -300,7 +308,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
     border: 1px #003c6c solid;
     bottom: 1em;
     display: block;
-    max-width: 70% !important;
+    max-width: 54% !important;
     padding: 10px;
     position: absolute;
     width: 100%;
@@ -313,20 +321,18 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
   }
 
   .help-options {
-    display: block;
     font-size: 1.25em;
     list-style: none;
-    margin: 1em auto;
+    margin: 1em auto 0;
     padding: 0;
-    max-width: 850px;
     width: 100%;
   }
 
   .help-options li {
     flex-flow: row;
+    font-size: .85em;
     margin: 0;
     max-width: 100%;
-    padding: .25em 0;
   }
 
   .help-options li span {
@@ -337,13 +343,13 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
   .help-options li .left {
     display: inline-block;
     text-align: left;
-    width: 350px;
+    width: 300px;
   }
 
   .help-options li .right {
     display: inline-block;
     text-align: left;
-    max-width: 400px;
+    max-width: 350px;
     width: 100%;
   }
 
@@ -413,9 +419,19 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
 
   @media screen and (min-width: 31.1875em) {
 
+    .help-search-container {
+      background: #01589d;
+    }
+
     input, 
     .help-search-box input::-webkit-input-placeholder {
+      max-width: 80%;
       font-size: 2em;
+    }
+
+    .help-options {
+      display: inline-block;
+      max-width: 100%;
     }
 
     .help-options li {
@@ -423,34 +439,54 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
     }
 
     .help-options li .right {
-      max-width: 100%;
+      max-width: 100% !important;
     }
 
   }
 
   @media screen and (min-width: 37.5em) {
+
+    .help-search-container {
+      background: #01589d;
+    }
     
     input, 
     .help-search-box input::-webkit-input-placeholder {
+      max-width: 80%;
       font-size: 2em;
     }
 
+    .help-options {
+      display: inline-block;
+      max-width: 100%;
+    }
 
     .help-options li {
       display: block;
     }
 
     .help-options li .right {
-      max-width: 100%;
+      max-width: 100% !important;
     }
     
   }
 
   @media screen and (min-width: 48em) {
+
+    .help-search-container {
+      background: url("images/help-banner.jpg") no-repeat;
+      background-size: cover;
+    }
     
     input, 
     .help-search-box input::-webkit-input-placeholder {
+      max-width: 54%;
       font-size: 1.5em;
+    }
+
+    .help-options {
+      display: block;
+      max-width: 800px;
     }
 
     .help-options li {
@@ -468,10 +504,21 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
   }
 
   @media screen and (min-width: 60em) {
+
+    .help-search-container {
+      background: url("images/help-banner.jpg") no-repeat;
+      background-size: cover;
+    }
     
     input, 
     .help-search-box input::-webkit-input-placeholder {
+      max-width: 54%;
       font-size: 1.5em;
+    }
+
+    .help-options {
+      display: block;
+      max-width: 800px;
     }
 
     .help-options li {
