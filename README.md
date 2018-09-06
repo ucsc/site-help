@@ -1,1 +1,1 @@
-[Site Preview](https://luckyluke007.github.io/ucsc-help-site/)
+[Site Preview](https://ucsc.github.io/ucsc-help-site/)
