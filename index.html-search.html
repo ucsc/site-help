@@ -24,8 +24,10 @@
     var App = new Vue({
       el: '#app',
       data: {
-        filters: '',
-        userData: [] // initialize empty array
+        filters: '' ,
+        search: '',
+        userData: [], // initialize empty array
+        seen: '',
       },
 
       mounted() { // when the Vue app is booted up, this is run automatically.
@@ -33,6 +35,34 @@
         $.getJSON(dataURL, function(data) {
           self.userData = data.users;
         });
+      },
+
+      //computed
+      computed:{
+        searchData(){
+          return this.userData.filter((users) => {
+            return users.category.toLowerCase().match(this.search.toLowerCase()) || users.contact_department_name.toLowerCase().match(this.search.toLowerCase()) || users.phone.toLowerCase().match(this.search.toLowerCase()) || users.help.toLowerCase().match(this.search.toLowerCase())
+          });
+        }
+      },
+      //end computed
+      watch: {
+        'search': function(val, preVal) {
+          if (val < 1) {
+            this.seen = true
+          }
+          else {
+            this.seen = false
+          }
+        },
+        'filters': function(val, preVal) {
+          if (val = 1) {
+            this.seen = false
+          }
+          else {
+            this.seen = true
+          }
+        }
       }
     })
   }
@@ -98,12 +128,11 @@
                     <div class="help-search-container">
                       <h2>Need emergency assistance now?</h2>
                       <span>Call 911 or campus police: 831-259-2231</span>
-                      <input type="text" name="help" placeholder="Search is coming soon" class="help-search-box">
+                      <input type="text" name="help" v-model="search" placeholder="Search is coming soon" class="help-search-box">
                       <input type="submit" value="Submit" class="help-submit">
                     </div>
                     <!-- Help Top -->
                   </form>
-
                   <form>
                     <ul class="help-options">
                       <li>
@@ -111,9 +140,9 @@
                           I am an <span>undergraduate</span> affected by:
                         </div>
                         <div class="right">
-                          <select id="undergraduate" v-model="filters" v-on:change="onChange">
+                          <select id="undergraduate" v-model="filters">
                             <option value="" selected>Select an Option</option>
-                            <option v-for="data in userData" v-if="data.category == 'undergraduate'" v-bind:value="{ category: data.category, help: data.help, contact: data.contact_department_name, phone: data.phone, website: data.website, report: data.reporting_url }">{{data.help}}</option>
+                            <option v-on:click="seen = seen" v-for="data in userData" v-if="data.category == 'undergraduate'" v-bind:value="{ category: data.category, help: data.help, contact: data.contact_department_name, phone: data.phone, website: data.website, report: data.reporting_url}">{{data.help}}</option>
                           </select>
                         </div>
                       </li>
@@ -124,7 +153,7 @@
                         <div class="right">
                           <select id="graduate" v-model="filters">
                              <option value="">Select an Option</option>
-                             <option v-for="data in userData" v-if="data.category == 'graduate'" v-bind:value="{ category: data.category, help: data.help, contact: data.contact_department_name, phone: data.phone, website: data.website, report: data.reporting_url }">{{data.help}}</option>
+                             <option v-on:change="seen = seen" v-for="data in userData" v-if="data.category == 'graduate'" v-bind:value="{ category: data.category, help: data.help, contact: data.contact_department_name, phone: data.phone, website: data.website, report: data.reporting_url}">{{data.help}}</option>
                           </select>
                         </div>
                       </li>
@@ -135,7 +164,7 @@
                         <div class="right">
                           <select id="faculty" v-model="filters">
                             <option value="">Select an Option</option>
-                            <option v-for="data in userData" v-if="data.category == 'faculty'" v-bind:value="{ category: data.category, help: data.help, contact: data.contact_department_name, phone: data.phone, website: data.website, report: data.reporting_url }">{{data.help}}</option>
+                            <option v-on:click="seen = seen" v-for="data in userData" v-if="data.category == 'faculty'" v-bind:value="{ category: data.category, help: data.help, contact: data.contact_department_name, phone: data.phone, website: data.website, report: data.reporting_url}">{{data.help}}</option>
                           </select>
                         </div>
                       </li>
@@ -146,7 +175,7 @@
                         <div class="right">
                           <select id="staff" v-model="filters">
                              <option value="">Select an Option</option>
-                             <option v-for="data in userData" v-if="data.category == 'staff'" v-bind:value="{ category: data.category, help: data.help, contact: data.contact_department_name, phone: data.phone, website: data.website, report: data.reporting_url }">{{data.help}}</option>
+                             <option v-on:click="seen = seen" v-for="data in userData" v-if="data.category == 'staff'" v-bind:value="{ category: data.category, help: data.help, contact: data.contact_department_name, phone: data.phone, website: data.website, report: data.reporting_url}">{{data.help}}</option>
                           </select>
                         </div>
                       </li>
@@ -155,14 +184,15 @@
                           I am a <span>witness</span> to:
                         </div>
                         <div class="right">
-                          <select id="witness" v-model="filters" v-on:change="onChange">
+                          <select id="witness" v-model="filters">
                             <option value="" selected>Select an Option</option>
-                             <option v-for="data in userData" v-if="data.category == 'witness'" v-bind:value="{ category: data.category, help: data.help, contact: data.contact_department_name, phone: data.phone, website: data.website, report: data.reporting_url }">{{data.help}}</option>
+                             <option v-on:click="seen = seen" v-for="data in userData" v-if="data.category == 'witness'" v-bind:value="{ category: data.category, help: data.help, contact: data.contact_department_name, phone: data.phone, website: data.website, report: data.reporting_url}">{{data.help}}</option>
                           </select>
                         </div>
                       </li>
                     </ul>
                   </form>
+                  <div v-if="seen">
                   <h3>Resources for: {{filters.help}}</h3>
                   <table class="help-data">
                     <tr>
@@ -178,6 +208,25 @@
                       <td>{{filters.report}}</td>
                     </tr>
                   </table>
+                  </div>
+
+                  <div v-else>
+                  <h3>Resources for: {{search}}</h3>
+                  <table class="help-data">
+                    <tr>
+                      <th>Contact/Department Name</th>
+                      <th>Phone</th>
+                      <th>Website</th>
+                      <th>Reporting URL</th>
+                    </tr>
+                    <tr v-for="data in searchData">
+                      <td>{{data.contact_department_name}}</td>
+                      <td>{{data.phone}}</td>
+                      <td>{{data.website}}</td>
+                      <td>{{data.reporting_url}}</td>
+                    </tr>
+                  </table>
+                  </div>
               </div>
 
               <!-- End content -->
