@@ -1,0 +1,84 @@
+{
+  "users": [
+    {
+      "category": "undergraduate",
+      "help": "Sexual Violence",
+      "contact_department_name": "Title IX Office",
+      "phone": "(831) 459-2462",
+      "website": "https://titleix.ucsc.edu/",
+      "reporting_url": "https://goo.gl/ApTZka"
+    },
+    {
+      "category": "undergraduate",
+      "help": "Sexual Harassment",
+      "contact_department_name": "Title IX Office",
+      "phone": "(831) 459-2462",
+      "website": "https://titleix.ucsc.edu/",
+      "reporting_url": "https://goo.gl/ApTZka"
+    },
+    {
+      "category": "graduate",
+      "help": "Sexual Violence",
+      "contact_department_name": "Title IX Office",
+      "phone": "(831) 459-2462",
+      "website": "https://titleix.ucsc.edu/",
+      "reporting_url": "https://goo.gl/ApTZka"
+    },
+    {
+      "category": "graduate",
+      "help": "Sexual Harassment",
+      "contact_department_name": "Title IX Office",
+      "phone": "(831) 459-2462",
+      "website": "https://titleix.ucsc.edu/",
+      "reporting_url": "https://goo.gl/ApTZka"
+    },
+    {
+      "category": "faculty",
+      "help": "Sexual Violence",
+      "contact_department_name": "Title IX Office",
+      "phone": "(831) 459-2462",
+      "website": "https://titleix.ucsc.edu/reporting/faculty-reporting-guide.html",
+      "reporting_url": "https://goo.gl/ApTZka"
+    },
+    {
+      "category": "faculty",
+      "help": "Sexual Harassment",
+      "contact_department_name": "Title IX Office",
+      "phone": "(831) 459-2462",
+      "website": "https://titleix.ucsc.edu/reporting/staff-reporting-guide.html",
+      "reporting_url": "https://goo.gl/ApTZka"
+    },
+    {
+      "category": "staff",
+      "help": "Sexual Violence",
+      "contact_department_name": "Title IX Office",
+      "phone": "(831) 459-2462",
+      "website": "https://titleix.ucsc.edu/reporting/staff-reporting-guide.html",
+      "reporting_url": "https://goo.gl/ApTZka"
+    },
+    {
+      "category": "staff",
+      "help": "Sexual Harassment",
+      "contact_department_name": "Title IX Office",
+      "phone": "(831) 459-2462",
+      "website": "https://titleix.ucsc.edu/reporting/staff-reporting-guide.html",
+      "reporting_url": "https://goo.gl/ApTZka"
+    },
+    {
+      "category": "witness",
+      "help": "Sexual Violence",
+      "contact_department_name": "Title IX Office",
+      "phone": "(831) 459-2462",
+      "website": "https://titleix.ucsc.edu/",
+      "reporting_url": "https://goo.gl/ApTZka"
+    },
+    {
+      "category": "witness",
+      "help": "Sexual Harassment",
+      "contact_department_name": "Title IX Office",
+      "phone": "(831) 459-2462",
+      "website": "https://titleix.ucsc.edu/",
+      "reporting_url": "https://goo.gl/ApTZka"
+    }
+  ]
+}
