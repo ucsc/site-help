@@ -36,7 +36,7 @@
       computed:{
         searchData(){
           return this.userData.filter((users) => {
-            return users.category.toLowerCase().match(this.search.toLowerCase()) || users.contact_department_name.toLowerCase().match(this.search.toLowerCase()) || users.phone.toLowerCase().match(this.search.toLowerCase()) || users.help.toLowerCase().match(this.search.toLowerCase()) || users.filter_term.toLowerCase().match(this.search.toLowerCase())
+            return users.category.toLowerCase().match(this.search.toLowerCase()) || users.contact_department_name.toLowerCase().match(this.search.toLowerCase()) || users.phone.toLowerCase().match(this.search.toLowerCase()) || users.help.toLowerCase().match(this.search.toLowerCase()) || users.filter_term.toUpperCase().match(this.search.toUpperCase())
           });
         }
       }
@@ -135,12 +135,12 @@
                       <div class="right">
                         <select v-model="search" id="graduate">
                           <option value="">Select an Option</option>
-                          <option value="Graduate Sexual Violence">Sexual Violence</option>
-                          <option value="Graduate Sexual Harassment">Sexual Harassment</option>
-                          <option value="Graduate Domestic Violence or Stalking">Domestic Violence or Stalking</option>
-                          <option value="Graduate Race/Ethnicity Discrimination or Harassment">Race/Ethnicity Discrimination or Harassment</option>
-                          <option value="Graduate Whistleblower Complaint">Whistleblower Complaint (e.g. Fraud)</option>
-                          <option value="Graduate Other Crime">Other Crime (e.g. Robbery, Theft)</option>
+                          <option value=" Graduate Sexual Violence">Sexual Violence</option>
+                          <option value=" Graduate Sexual Harassment">Sexual Harassment</option>
+                          <option value=" Graduate Domestic Violence or Stalking">Domestic Violence or Stalking</option>
+                          <option value=" Graduate Race/Ethnicity Discrimination or Harassment">Race/Ethnicity Discrimination or Harassment</option>
+                          <option value=" Graduate Whistleblower Complaint">Whistleblower Complaint (e.g. Fraud)</option>
+                          <option value=" Graduate Other Crime">Other Crime (e.g. Robbery, Theft)</option>
                         </select>
                       </div>
                     </li>

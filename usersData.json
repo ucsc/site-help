@@ -65,7 +65,7 @@
     },
     {
       "category": "UnderGraduate",
-      "help": "Other Crime (e.g. Robbery, Theft) ",
+      "help": "Other Crime (e.g. Robbery, Theft)",
       "filter_term": "UnderGraduate Other Crime",
       "contact_department_name": "UCSC Police",
       "phone": "Anonymous tip line: (831) 459-3TIP (459-3847)",
@@ -75,7 +75,7 @@
     {
       "category": "Graduate",
       "help": "Sexual Violence",
-      "filter_term": "Graduate Sexual Violence",
+      "filter_term": " Graduate Sexual Violence",
       "contact_department_name": "Title IX Office",
       "phone": "(831) 459-2462",
       "website": "https://titleix.ucsc.edu/",
@@ -84,7 +84,7 @@
     {
       "category": "Graduate",
       "help": "Sexual Harassment",
-      "filter_term": "Graduate Sexual Harassment",
+      "filter_term": " Graduate Sexual Harassment",
       "contact_department_name": "Title IX Office",
       "phone": "(831) 459-2462",
       "website": "https://titleix.ucsc.edu/",
@@ -93,7 +93,7 @@
     {
       "category": "Graduate",
       "help": "Race/Ethnicity Discrimination or Harassment",
-      "filter_term": "Graduate Race/Ethnicity Discrimination or Harassment",
+      "filter_term": " Graduate Race/Ethnicity Discrimination or Harassment",
       "contact_department_name": "Ciel Benedetto, Assistant Director for EEO",
       "phone": "(831) 459-3676 or cbene@ucsc.edu",
       "website": "https://diversity.ucsc.edu",
@@ -102,7 +102,7 @@
     {
       "category": "Graduate",
       "help": "Whistleblower Complaint (e.g. Fraud)",
-      "filter_term": "Graduate Whistleblower Complaint",
+      "filter_term": " Graduate Whistleblower Complaint",
       "contact_department_name": "UCSC Locally Designated Official for Whistleblower Matters (SALDO)",
       "phone": "(831) 459-4380 or wbreport@ucsc.edu",
       "website": "http://whistleblower.ucsc.edu",
@@ -111,7 +111,7 @@
     {
       "category": "Graduate",
       "help": "Whistleblower Complaint (e.g. Fraud)",
-      "filter_term": "Graduate Whistleblower Complaint",
+      "filter_term": " Graduate Whistleblower Complaint",
       "contact_department_name": "UC Whistleblower Office",
       "phone": "(800) 403-4744",
       "website": "https://secure.ethicspoint.com/domain/media/en/gui/23531/index.html",
@@ -119,8 +119,8 @@
     },
     {
       "category": "Graduate",
-      "help": "Other Crime (e.g. Robbery, Theft) ",
-      "filter_term": "Graduate Other Crime",
+      "help": "Other Crime (e.g. Robbery, Theft)",
+      "filter_term": " Graduate Other Crime",
       "contact_department_name": "UCSC Police",
       "phone": "Police issues (831) 459-2231",
       "website": "https://police.ucsc.edu",
@@ -128,8 +128,8 @@
     },
     {
       "category": "Graduate",
-      "help": "Other Crime (e.g. Robbery, Theft) ",
-      "filter_term": "Graduate Other Crime",
+      "help": "Other Crime (e.g. Robbery, Theft)",
+      "filter_term": " Graduate Other Crime",
       "contact_department_name": "UCSC Police",
       "phone": "Tip line: (831) 459-3TIP (459-3847)",
       "website": "https://police.ucsc.edu",
@@ -176,7 +176,7 @@
       "help": "Whistleblower Complaint (e.g. Fraud)",
       "filter_term": "Faculty Whistleblower Complaint",
       "contact_department_name": "UC Whistleblower Office",
-      "phone": "(800) 403-4744",
+      "phone": "(800) 403-4744 6",
       "website": "https://secure.ethicspoint.com/domain/media/en/gui/23531/index.htmlhttps://www.ucop.edu/uc-whistleblower/",
       "reporting_url": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid108591?"
     },
@@ -245,7 +245,7 @@
     },
     {
       "category": "Staff",
-      "help": "Other Crime (e.g. Robbery, Theft) ",
+      "help": "Other Crime (e.g. Robbery, Theft)",
       "filter_term": "Staff Other Crime",
       "contact_department_name": "UCSC Police",
       "phone": "(831) 459-2231",
@@ -254,7 +254,7 @@
     },
     {
       "category": "Staff",
-      "help": "Other Crime (e.g. Robbery, Theft) ",
+      "help": "Other Crime (e.g. Robbery, Theft)",
       "filter_term": "Staff Other Crime",
       "contact_department_name": "UCSC Police",
       "phone": "Tip line: (831) 459-3TIP (459-3847)",
@@ -327,7 +327,7 @@
     {
       "category": "Witness",
       "help": "Other Crime (e.g. Robbery, Theft) ",
-      "filter_term": "Witness Other Crime (e.g. Robbery, Theft) ",
+      "filter_term": "Witness Other Crime (e.g. Robbery, Theft)",
       "contact_department_name": "UCSC Police",
       "phone": "Tip line: (831) 459-3TIP (459-3847)",
       "website": "https://police.ucsc.edu",
