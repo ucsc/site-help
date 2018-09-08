@@ -1,0 +1,292 @@
+{
+  "users": [
+    {
+      "category": "undergraduate",
+      "help": "Sexual Violence",
+      "contact_department_name": "Title IX Office",
+      "phone": "(831) 459-2462",
+      "website": "https://titleix.ucsc.edu/",
+      "reporting_url": "https://goo.gl/ApTZka"
+    },
+    {
+      "category": "undergraduate",
+      "help": "Sexual Harassment",
+      "contact_department_name": "Title IX Office",
+      "phone": "(831) 459-2462",
+      "website": "https://titleix.ucsc.edu/",
+      "reporting_url": "https://goo.gl/ApTZka"
+    },
+    {
+      "category": "undergraduate",
+      "help": "Domestic Violence or Stalking",
+      "contact_department_name": "Campus Advocasy, Resources, and Education (CARE)",
+      "phone": "(831) 502-CARE (2273)",
+      "website": "https://care.ucsc.edu",
+      "reporting_url": "https://goo.gl/ApTZka"
+    },
+    {
+      "category": "undergraduate",
+      "help": "Race/Ethnicity Discrimination or Harassment",
+      "contact_department_name": "Ciel Benedetto, Assistant Director for EEO",
+      "phone": "(831) 459-3676 or cbene@ucsc.edu",
+      "website": "https://diversity.ucsc.edu",
+      "reporting_url": "https://goo.gl/ApTZka"
+    },
+    {
+      "category": "undergraduate",
+      "help": "Whistleblower Complaint Local Official (e.g. Fraud)",
+      "contact_department_name": "UCSC Locally Designated Official for Whistleblower Matters (SALDO)",
+      "phone": "(831) 459-4380 or wbreport@ucsc.edu",
+      "website": "http://whistleblower.ucsc.edu",
+      "reporting_url": "https://goo.gl/ApTZka"
+    },
+    {
+      "category": "undergraduate",
+      "help": "Whistleblower Complaint (e.g. Fraud)",
+      "contact_department_name": "UC Whistleblower Office",
+      "phone": "(800) 403-4744",
+      "website": "https://secure.ethicspoint.com/domain/media/en/gui/23531/index.html",
+      "reporting_url": "https://goo.gl/ApTZka"
+    },
+    {
+      "category": "undergraduate",
+      "help": "Other Crime Non-emergency (e.g. Robbery, Theft) ",
+      "contact_department_name": "UCSC Police",
+      "phone": "Non-emergency police issues (831) 459-2231",
+      "website": "https://police.ucsc.edu",
+      "reporting_url": "https://goo.gl/ApTZka"
+    },
+    {
+      "category": "undergraduate",
+      "help": "Other Crime Anonymous (e.g. Robbery, Theft) ",
+      "contact_department_name": "UCSC Police",
+      "phone": "Anonymous tip line: (831) 459-3TIP (459-3847)",
+      "website": "https://police.ucsc.edu",
+      "reporting_url": ""
+    },
+    {
+      "category": "graduate",
+      "help": "Sexual Violence",
+      "contact_department_name": "Title IX Office",
+      "phone": "(831) 459-2462",
+      "website": "https://titleix.ucsc.edu/",
+      "reporting_url": "https://goo.gl/ApTZka"
+    },
+    {
+      "category": "graduate",
+      "help": "Sexual Harassment",
+      "contact_department_name": "Title IX Office",
+      "phone": "(831) 459-2462",
+      "website": "https://titleix.ucsc.edu/",
+      "reporting_url": "https://goo.gl/ApTZka"
+    },
+    {
+      "category": "graduate",
+      "help": "Race/Ethnicity Discrimination or Harassment",
+      "contact_department_name": "Ciel Benedetto, Assistant Director for EEO",
+      "phone": "(831) 459-3676 or cbene@ucsc.edu",
+      "website": "https://diversity.ucsc.edu",
+      "reporting_url": "https://goo.gl/ApTZka"
+    },
+    {
+      "category": "graduate",
+      "help": "Whistleblower Complaint Local Official (e.g. Fraud)",
+      "contact_department_name": "UCSC Locally Designated Official for Whistleblower Matters (SALDO)",
+      "phone": "(831) 459-4380 or wbreport@ucsc.edu",
+      "website": "http://whistleblower.ucsc.edu",
+      "reporting_url": "https://goo.gl/ApTZka"
+    },
+    {
+      "category": "graduate",
+      "help": "Whistleblower Complaint (e.g. Fraud)",
+      "contact_department_name": "UC Whistleblower Office",
+      "phone": "(800) 403-4744",
+      "website": "https://secure.ethicspoint.com/domain/media/en/gui/23531/index.html",
+      "reporting_url": "https://goo.gl/ApTZka"
+    },
+    {
+      "category": "graduate",
+      "help": "Other Crime Non-emergency (e.g. Robbery, Theft) ",
+      "contact_department_name": "UCSC Police",
+      "phone": "Police issues (831) 459-2231",
+      "website": "https://police.ucsc.edu",
+      "reporting_url": "https://goo.gl/ApTZka"
+    },
+    {
+      "category": "graduate",
+      "help": "Other Crime Anonymous (e.g. Robbery, Theft) ",
+      "contact_department_name": "UCSC Police",
+      "phone": "Tip line: (831) 459-3TIP (459-3847)",
+      "website": "https://police.ucsc.edu",
+      "reporting_url": ""
+    },
+    {
+      "category": "faculty",
+      "help": "Sexual Violence",
+      "contact_department_name": "Title IX Office",
+      "phone": "(831) 459-2462",
+      "website": "https://titleix.ucsc.edu/reporting/faculty-reporting-guide\n",
+      "reporting_url": "https://goo.gl/ApTZka"
+    },
+    {
+      "category": "faculty",
+      "help": "Sexual Harassment",
+      "contact_department_name": "Title IX Office",
+      "phone": "(831) 459-2462",
+      "website": "https://titleix.ucsc.edu/reporting/faculty-reporting-guide",
+      "reporting_url": "https://goo.gl/ApTZka"
+    },
+    {
+      "category": "faculty",
+      "help": "Race/Ethnicity Discrimination or Harassment",
+      "contact_department_name": "Ciel Benedetto, Assistant Director for EEO",
+      "phone": "(831) 459-3676 or cbene@ucsc.edu",
+      "website": "https://diversity.ucsc.edu",
+      "reporting_url": "https://goo.gl/ApTZka"
+    },
+    {
+      "category": "faculty",
+      "help": "Whistleblower Complaint Local Official (e.g. Fraud)",
+      "contact_department_name": "UCSC Locally Designated Official for Whistleblower Matters (SALDO)",
+      "phone": "(831) 459-4380 or wbreport@ucsc.edu",
+      "website": "http://whistleblower.ucsc.edu",
+      "reporting_url": "https://goo.gl/ApTZka"
+    },
+    {
+      "category": "faculty",
+      "help": "Whistleblower Complaint (e.g. Fraud)",
+      "contact_department_name": "UC Whistleblower Office",
+      "phone": "(800) 403-4744",
+      "website": "https://secure.ethicspoint.com/domain/media/en/gui/23531/index.html",
+      "reporting_url": "https://goo.gl/ApTZka"
+    },
+    {
+      "category": "faculty",
+      "help": "Other Crime Non-emergency (e.g. Robbery, Theft) ",
+      "contact_department_name": "UCSC Police",
+      "phone": "Police issues (831) 459-2231",
+      "website": "https://police.ucsc.edu",
+      "reporting_url": "https://goo.gl/ApTZka"
+    },
+    {
+      "category": "faculty",
+      "help": "Other Crime Anonymous (e.g. Robbery, Theft) ",
+      "contact_department_name": "UCSC Police",
+      "phone": "Tip line: (831) 459-3TIP (459-3847)",
+      "website": "https://police.ucsc.edu",
+      "reporting_url": ""
+    },
+    {
+      "category": "staff",
+      "help": "Sexual Violence",
+      "contact_department_name": "Title IX Office",
+      "phone": "(831) 459-2462",
+      "website": "https://titleix.ucsc.edu/reporting/staff-reporting-guide",
+      "reporting_url": "https://goo.gl/ApTZka"
+    },
+    {
+      "category": "staff",
+      "help": "Sexual Harassment",
+      "contact_department_name": "Title IX Office",
+      "phone": "(831) 459-2462",
+      "website": "https://titleix.ucsc.edu/reporting/staff-reporting-guide",
+      "reporting_url": "https://goo.gl/ApTZka"
+    },
+    {
+      "category": "staff",
+      "help": "Race/Ethnicity Discrimination or Harassment",
+      "contact_department_name": "Ciel Benedetto, Assistant Director for EEO",
+      "phone": "(831) 459-3676 or cbene@ucsc.edu",
+      "website": "https://diversity.ucsc.edu",
+      "reporting_url": "https://goo.gl/ApTZka"
+    },
+    {
+      "category": "staff",
+      "help": "Whistleblower Complaint Local Official (e.g. Fraud)",
+      "contact_department_name": "UCSC Locally Designated Official for Whistleblower Matters (SALDO)",
+      "phone": "(831) 459-4380 or wbreport@ucsc.edu",
+      "website": "http://whistleblower.ucsc.edu",
+      "reporting_url": "https://goo.gl/ApTZka"
+    },
+    {
+      "category": "staff",
+      "help": "Whistleblower Complaint (e.g. Fraud)",
+      "contact_department_name": "UC Whistleblower Office",
+      "phone": "(800) 403-4744",
+      "website": "https://secure.ethicspoint.com/domain/media/en/gui/23531/index.html",
+      "reporting_url": "https://goo.gl/ApTZka"
+    },
+    {
+      "category": "staff",
+      "help": "Other Crime Non-emergency (e.g. Robbery, Theft) ",
+      "contact_department_name": "UCSC Police",
+      "phone": "(831) 459-2231",
+      "website": "https://police.ucsc.edu",
+      "reporting_url": "https://goo.gl/ApTZka"
+    },
+    {
+      "category": "staff",
+      "help": "Other Crime Anonymous (e.g. Robbery, Theft) ",
+      "contact_department_name": "UCSC Police",
+      "phone": "Tip line: (831) 459-3TIP (459-3847)",
+      "website": "https://police.ucsc.edu",
+      "reporting_url": ""
+    },
+    {
+      "category": "witness",
+      "help": "Sexual Violence",
+      "contact_department_name": "Title IX Office",
+      "phone": "(831) 459-2462",
+      "website": "https://titleix.ucsc.edu/",
+      "reporting_url": "https://goo.gl/ApTZka"
+    },
+    {
+      "category": "witness",
+      "help": "Sexual Harassment",
+      "contact_department_name": "Title IX Office",
+      "phone": "(831) 459-2462",
+      "website": "https://titleix.ucsc.edu/",
+      "reporting_url": "https://goo.gl/ApTZka"
+    },
+    {
+      "category": "witness",
+      "help": "Race/Ethnicity Discrimination or Harassment",
+      "contact_department_name": "Ciel Benedetto, Assistant Director for EEO",
+      "phone": "(831) 459-3676 or cbene@ucsc.edu",
+      "website": "https://diversity.ucsc.edu",
+      "reporting_url": "https://goo.gl/ApTZka"
+    },
+    {
+      "category": "witness",
+      "help": "Whistleblower Complaint Local Official (e.g. Fraud)",
+      "contact_department_name": "UCSC Locally Designated Official for Whistleblower Matters (SALDO)",
+      "phone": "(831) 459-4380 or wbreport@ucsc.edu",
+      "website": "http://whistleblower.ucsc.edu",
+      "reporting_url": "https://goo.gl/ApTZka"
+    },
+    {
+      "category": "witness",
+      "help": "Whistleblower Complaint (e.g. Fraud)",
+      "contact_department_name": "UC Whistleblower Office",
+      "phone": "(800) 403-4744",
+      "website": "https://secure.ethicspoint.com/domain/media/en/gui/23531/index.html",
+      "reporting_url": "https://goo.gl/ApTZka"
+    },
+    {
+      "category": "witness",
+      "help": "Other Crime Non-emergency (e.g. Robbery, Theft) ",
+      "contact_department_name": "UCSC Police",
+      "phone": "Police issues (831) 459-2231",
+      "website": "https://police.ucsc.edu",
+      "reporting_url": "https://goo.gl/ApTZka"
+    },
+    {
+      "category": "witness",
+      "help": "Other Crime Anonymous (e.g. Robbery, Theft) ",
+      "contact_department_name": "UCSC Police",
+      "phone": "Tip line: (831) 459-3TIP (459-3847)",
+      "website": "https://police.ucsc.edu",
+      "reporting_url": ""
+    }
+  ]
+}
