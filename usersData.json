@@ -1,72 +1,72 @@
 {
   "users": [
     {
-      "category": "UnderGraduate",
+      "category": "Undergraduate",
       "help": "Sexual Violence",
-      "filter_term": "UnderGraduate Sexual Violence",
+      "filter_term": "Undergraduate Sexual Violence",
       "contact_department_name": "Title IX Office",
       "phone": "(831) 459-2462",
       "website": "https://titleix.ucsc.edu/",
       "reporting_url": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid108591?"
     },
     {
-      "category": "UnderGraduate",
+      "category": "Undergraduate",
       "help": "Sexual Harassment",
-      "filter_term": "UnderGraduate Sexual Harassment",
+      "filter_term": "Undergraduate Sexual Harassment",
       "contact_department_name": "Title IX Office",
       "phone": "(831) 459-2462",
       "website": "https://titleix.ucsc.edu/",
       "reporting_url": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid108591?"
     },
     {
-      "category": "UnderGraduate",
+      "category": "Undergraduate",
       "help": "Domestic Violence or Stalking",
-      "filter_term": "UnderGraduate Domestic Violence or Stalking",
+      "filter_term": "Undergraduate Domestic Violence or Stalking",
       "contact_department_name": "Campus Advocasy, Resources, and Education (CARE)",
       "phone": "(831) 502-CARE (2273)",
       "website": "https://care.ucsc.edu",
       "reporting_url": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid108591?"
     },
     {
-      "category": "UnderGraduate",
+      "category": "Undergraduate",
       "help": "Race/Ethnicity Discrimination or Harassment",
-      "filter_term": "UnderGraduate Race/Ethnicity Discrimination or Harassment",
+      "filter_term": "Undergraduate Race/Ethnicity Discrimination or Harassment",
       "contact_department_name": "Ciel Benedetto, Assistant Director for EEO",
       "phone": "(831) 459-3676 or cbene@ucsc.edu",
       "website": "https://diversity.ucsc.edu",
       "reporting_url": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid108591?"
     },
     {
-      "category": "UnderGraduate",
+      "category": "Undergraduate",
       "help": "Whistleblower Complaint (e.g. Fraud)",
-      "filter_term": "UnderGraduate Whistleblower Complaint",
+      "filter_term": "Undergraduate Whistleblower Complaint",
       "contact_department_name": "UCSC Locally Designated Official for Whistleblower Matters (SALDO)",
       "phone": "(831) 459-4380 or wbreport@ucsc.edu",
       "website": "http://whistleblower.ucsc.edu",
       "reporting_url": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid108591?"
     },
     {
-      "category": "UnderGraduate",
+      "category": "Undergraduate",
       "help": "Whistleblower Complaint (e.g. Fraud)",
-      "filter_term": "UnderGraduate Whistleblower Complaint",
+      "filter_term": "Undergraduate Whistleblower Complaint",
       "contact_department_name": "UC Whistleblower Office",
       "phone": "(800) 403-4744",
       "website": "https://secure.ethicspoint.com/domain/media/en/gui/23531/index.html",
       "reporting_url": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid108591?"
     },
     {
-      "category": "UnderGraduate",
+      "category": "Undergraduate",
       "help": "Other Crime (e.g. Robbery, Theft) ",
-      "filter_term": "UnderGraduate Other Crime",
+      "filter_term": "Undergraduate Other Crime",
       "contact_department_name": "UCSC Police",
       "phone": "Non-emergency police issues (831) 459-2231",
       "website": "https://police.ucsc.edu",
       "reporting_url": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid108591?"
     },
     {
-      "category": "UnderGraduate",
+      "category": "Undergraduate",
       "help": "Other Crime (e.g. Robbery, Theft)",
-      "filter_term": "UnderGraduate Other Crime",
+      "filter_term": "Undergraduate Other Crime",
       "contact_department_name": "UCSC Police",
       "phone": "Anonymous tip line: (831) 459-3TIP (459-3847)",
       "website": "https://police.ucsc.edu",
