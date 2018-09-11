@@ -24,13 +24,21 @@
     var App = new Vue({
       el: '#app',
       data: {
-        userData: [] // initialize empty array
+        search: '',
+        userData: [], // initialize empty array
       },
-      mounted() { // when the Vue app is booted up, this is run automatically.
+      created() { // when the Vue app is booted up, this is run automatically.
         var self = this // create a closure to access component in the callback below
         $.getJSON(dataURL, function(data) {
           self.userData = data.users;
         });
+      },
+      computed:{
+        searchData(){
+          return this.userData.filter((users) => {
+            return users.category.toLowerCase().match(this.search.toLowerCase()) || users.contact_department_name.toLowerCase().match(this.search.toLowerCase()) || users.phone.toLowerCase().match(this.search.toLowerCase()) || users.help.toLowerCase().match(this.search.toLowerCase()) || users.filter_term.toUpperCase().match(this.search.toUpperCase())
+          });
+        }
       }
     })
   }
@@ -66,7 +74,7 @@
               </ul>
               <div class="search" role="search"> 
                 <!-- Google Custom Search -->
-                <form action="/search.html" id="cse-search-box-site">
+                <form action="https://www.ucsc.edu/search/" id="cse-search-box-site">
                   <div>
                     <label class="hide" for="search-site">Search</label>
                     <input class="query" id="search-site" name="q" placeholder="Search this Site" type="text"/>
@@ -96,7 +104,7 @@
                   <div class="help-search-container">
                     <h2>Need emergency assistance now?</h2>
                     <span>Call 911 or campus police: 831-259-2231</span>
-                    <input type="text" name="help" placeholder="Search for help resources" class="help-search-box">
+                    <input type="text" v-model="search" placeholder="Search for help resources" class="help-search-box">
                     <input type="submit" value="Submit" class="help-submit">
                   </div>
                   <!-- Help Top -->
@@ -109,14 +117,14 @@
                         I am an <span>undergraduate</span> affected by:
                       </div>
                       <div class="right">
-                        <select id="undergraduate">
-                          <option>Select an Option</option>
-                          <option>Sexual Violence</option>
-                          <option>Sexual Harassment</option>
-                          <option>Domestic Violence or Stalking</option>
-                          <option>Race/Ethnicity Discrimination or Harassment</option>
-                          <option>Whistleblower Complaint (e.g. Fraud)</option>
-                          <option">Other Crime (e.g. Robbery, Theft)</option>
+                        <select v-model="search" id="undergraduate">
+                          <option value="">Select an Option</option>
+                          <option value="UnderGraduate Sexual Violence">Sexual Violence</option>
+                          <option value="UnderGraduate Sexual Harassment">Sexual Harassment</option>
+                          <option value="UnderGraduate Domestic Violence or Stalking">Domestic Violence or Stalking</option>
+                          <option value="UnderGraduate Race/Ethnicity Discrimination or Harassment">Race/Ethnicity Discrimination or Harassment</option>
+                          <option value="UnderGraduate Whistleblower Complaint">Whistleblower Complaint (e.g. Fraud)</option>
+                          <option value="UnderGraduate Other Crime">Other Crime (e.g. Robbery, Theft)</option>
                         </select>
                       </div>
                     </li>
@@ -125,14 +133,14 @@
                         I am a <span>graduate student</span> affected by:
                       </div>
                       <div class="right">
-                        <select id="graduate">
-                          <option>Select an Option</option>
-                          <option>Sexual Violence</option>
-                          <option>Sexual Harassment</option>
-                          <option>Domestic Violence or Stalking</option>
-                          <option>Race/Ethnicity Discrimination or Harassment</option>
-                          <option>Whistleblower Complaint (e.g. Fraud)</option>
-                          <option">Other Crime (e.g. Robbery, Theft)</option>
+                        <select v-model="search" id="graduate">
+                          <option value="">Select an Option</option>
+                          <option value=" Graduate Sexual Violence">Sexual Violence</option>
+                          <option value=" Graduate Sexual Harassment">Sexual Harassment</option>
+                          <option value=" Graduate Domestic Violence or Stalking">Domestic Violence or Stalking</option>
+                          <option value=" Graduate Race/Ethnicity Discrimination or Harassment">Race/Ethnicity Discrimination or Harassment</option>
+                          <option value=" Graduate Whistleblower Complaint">Whistleblower Complaint (e.g. Fraud)</option>
+                          <option value=" Graduate Other Crime">Other Crime (e.g. Robbery, Theft)</option>
                         </select>
                       </div>
                     </li>
@@ -141,15 +149,15 @@
                         I am a <span>faculty member</span> affected by:
                       </div>
                       <div class="right">
-                        <select id="faculty">
-                          <option>Select an Option</option>
-                          <option>Sexual Violence</option>
-                          <option>Sexual Harassment</option>
-                          <option>Domestic Violence or Stalking</option>
-                          <option>Race/Ethnicity Discrimination or Harassment</option>
-                          <option>Whistleblower Complaint (e.g. Fraud)</option>
-                          <option">Other Crime (e.g. Robbery, Theft)</option>
-                          <option>I'd prefer to file a complaint with the Senate</option>
+                        <select v-model="search" id="faculty">
+                          <option value="">Select an Option</option>
+                          <option value="Faculty Sexual Violence">Sexual Violence</option>
+                          <option value="Faculty Sexual Harassment">Sexual Harassment</option>
+                          <option value="Faculty Domestic Violence or Stalking">Domestic Violence or Stalking</option>
+                          <option value="Faculty Race/Ethnicity Discrimination or Harassment">Race/Ethnicity Discrimination or Harassment</option>
+                          <option value="Faculty Whistleblower Complaint">Whistleblower Complaint (e.g. Fraud)</option>
+                          <option value="Faculty Other Crime">Other Crime (e.g. Robbery, Theft)</option>
+                          <option value="Faculty I'd prefer to file a complaint with the Senate">I'd prefer to file a complaint with the Senate</option>
                         </select>
                       </div>
                     </li>
@@ -158,15 +166,15 @@
                         I am a <span>staff member</span> affected by:
                       </div>
                       <div class="right">
-                        <select id="staff">
-                          <option>Select an Option</option>
-                          <option>Sexual Violence</option>
-                          <option>Sexual Harassment</option>
-                          <option>Domestic Violence or Stalking</option>
-                          <option>Race/Ethnicity Discrimination or Harassment</option>
-                          <option>Whistleblower Complaint (e.g. Fraud)</option>
-                          <option">Other Crime (e.g. Robbery, Theft)</option>
-                          <option>Complaint Resolution for Employees</option>
+                        <select v-model="search"  id="staff">
+                          <option value="">Select an Option</option>
+                          <option value="Staff Sexual Violence">Sexual Violence</option>
+                          <option value="Staff Sexual Harassment">Sexual Harassment</option>
+                          <option value="Staff Domestic Violence or Stalking">Domestic Violence or Stalking</option>
+                          <option value="Staff Race/Ethnicity Discrimination or Harassment">Race/Ethnicity Discrimination or Harassment</option>
+                          <option value="Staff Whistleblower Complaint">Whistleblower Complaint (e.g. Fraud)</option>
+                          <option value="Staff Other Crime">Other Crime (e.g. Robbery, Theft)</option>
+                          <option value="Staff Complaint Resolution for Employees">Complaint Resolution for Employees</option>
                         </select>
                       </div>
                     </li>
@@ -175,20 +183,20 @@
                         I am a <span>witness</span> to:
                       </div>
                       <div class="right">
-                        <select id="witness">
-                          <option>Select an Option</option>
-                          <option>Sexual Violence</option>
-                          <option>Sexual Harassment</option>
-                          <option>Domestic Violence or Stalking</option>
-                          <option>Race/Ethnicity Discrimination or Harassment</option>
-                          <option>Whistleblower Complaint (e.g. Fraud)</option>
-                          <option">Other Crime (e.g. Robbery, Theft)</option>
+                        <select v-model="search" id="witness">
+                          <option value="">Select an Option</option>
+                          <option value="Witness Sexual Violence">Sexual Violence</option>
+                          <option value="Witness Sexual Harassment">Sexual Harassment</option>
+                          <option value="Witness Domestic Violence or Stalking">Domestic Violence or Stalking</option>
+                          <option value="Witness Race/Ethnicity Discrimination or Harassment">Race/Ethnicity Discrimination or Harassment</option>
+                          <option value="Witness Whistleblower Complaint">Whistleblower Complaint (e.g. Fraud)</option>
+                          <option value="Witness Other Crime">Other Crime (e.g. Robbery, Theft)</option>
                         </select>
                       </div>
                     </li>
                   </ul>
                 </form>
-                <div v-for="data in userData">
+                  <h3>Resources for: <span>{{search}}</span></h3>
                   <table class="help-data">
                   <tr>
                     <th>Contact/Department Name</th>
@@ -196,11 +204,11 @@
                     <th>Website</th>
                     <th>Reporting URL</th>
                   </tr>
-                  <tr>
+                  <tr v-for="data in searchData || underGrad in underGradData">
                     <td>{{data.contact_department_name}}</td>
                     <td>{{data.phone}}</td>
-                    <td>{{data.website}}</td>
-                    <td>{{data.reporting_url}}</td>
+                    <td><a v-bind:href="data.website">View website</a></td>
+                    <td><a v-bind:href="data.reporting_url">File a Report</a></td>
                   </tr>
                 </table>
                 </div>
