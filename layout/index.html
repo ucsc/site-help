@@ -36,7 +36,7 @@
       computed:{
         searchData(){
           return this.userData.filter((users) => {
-            return users.category.toLowerCase().match(this.search.toLowerCase()) || users.contact_department_name.toLowerCase().match(this.search.toLowerCase()) || users.phone.toLowerCase().match(this.search.toLowerCase()) || users.help.toLowerCase().match(this.search.toLowerCase()) || users.filter_term.toUpperCase().match(this.search.toUpperCase())
+            return users.category.toLowerCase().match(this.search.toLowerCase()) || users.contact_department_name.toLowerCase().match(this.search.toLowerCase()) || users.phone.toLowerCase().match(this.search.toLowerCase()) || users.help.toLowerCase().match(this.search.toLowerCase()) || users.filter_term.toLowerCase().match(this.search.toLowerCase())
           });
         }
       }
@@ -47,7 +47,7 @@
 
 <!-- END BLOCK: included uniform campus head  -->
 
-<title>UC Santa Cruz | Help Site</title>
+<title>UC Santa Cruz | Get Help</title>
 </head>
 
 <body class="single-column dept">
@@ -104,8 +104,8 @@
                   <div class="help-search-container">
                     <h2>Need emergency assistance now?</h2>
                     <span>Call 911 or campus police: 831-259-2231</span>
-                    <input type="text" v-model="search" placeholder="Search for help resources" class="help-search-box">
-                    <input type="submit" value="Submit" class="help-submit">
+                    <!-- <input type="text" v-model="search" placeholder="Search for help resources" class="help-search-box">
+                    <input type="submit" value="Submit" class="help-submit"> -->
                   </div>
                   <!-- Help Top -->
                 </form>
@@ -119,12 +119,12 @@
                       <div class="right">
                         <select v-model="search" id="undergraduate">
                           <option value="">Select an Option</option>
-                          <option value="UnderGraduate Sexual Violence">Sexual Violence</option>
-                          <option value="UnderGraduate Sexual Harassment">Sexual Harassment</option>
-                          <option value="UnderGraduate Domestic Violence or Stalking">Domestic Violence or Stalking</option>
-                          <option value="UnderGraduate Race/Ethnicity Discrimination or Harassment">Race/Ethnicity Discrimination or Harassment</option>
-                          <option value="UnderGraduate Whistleblower Complaint">Whistleblower Complaint (e.g. Fraud)</option>
-                          <option value="UnderGraduate Other Crime">Other Crime (e.g. Robbery, Theft)</option>
+                          <option value="Undergraduate Sexual Violence">Sexual Violence</option>
+                          <option value="Undergraduate Sexual Harassment">Sexual Harassment</option>
+                          <option value="Undergraduate Domestic Violence or Stalking">Domestic Violence or Stalking</option>
+                          <option value="Undergraduate Race/Ethnicity Discrimination or Harassment">Race/Ethnicity Discrimination or Harassment</option>
+                          <option value="Undergraduate Whistleblower Complaint">Whistleblower Complaint (e.g. Fraud)</option>
+                          <option value="Undergraduate Other Crime">Other Crime (e.g. Robbery, Theft)</option>
                         </select>
                       </div>
                     </li>
@@ -350,7 +350,6 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
     font-size: 1.25em;
     list-style: none;
     margin: 1em auto 0;
-    padding: 0;
     width: 100%;
   }
 
@@ -458,6 +457,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
     .help-options {
       display: inline-block;
       max-width: 100%;
+      padding: 0;
     }
 
     .help-options li {
@@ -484,6 +484,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
 
     .help-options {
       display: inline-block;
+      padding: 0;
       max-width: 100%;
     }
 
@@ -512,6 +513,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
 
     .help-options {
       display: block;
+      padding: 0;
     }
 
     .help-options li {
@@ -543,6 +545,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
 
     .help-options {
       display: block;
+      padding: 0 0 0 1.25em;
     }
 
     .help-options li {
