@@ -135,7 +135,7 @@
                           <option value="Undergraduate Employment Related Discrimination/Harassment non-Title IX">Employment Related Discrimination/Harassment (non-Title IX)</option>
                           <option value="Undergraduate Discrimination/Harassment non-Title IX">Discrimination/Harassment (non-Title IX)</option>
                           <option value="Undergraduate Whistleblower Complaint Local Official">Whistleblower Complaint Local Official (e.g. Fraud)</option>
-                          <option value="Undergraduate Whistleblower Complaint UC">Whistleblower Complaint (e.g. Fraud)</option>
+                          <option value="Undergraduate UC Whistleblower Complaint">Whistleblower Complaint (e.g. Fraud)</option>
                           <option value="Undergraduate Other Crime Non-Emergency">Other Crime Non-Emergency(e.g. Robbery, Theft, Hate)</option>
                           <option value="Undergraduate Other Crime Anonymous">Other Crime(e.g. Robbery, Theft, Hate)</option>
                          
@@ -163,7 +163,7 @@
                           <option value=" Graduate Basic Incident Report">Basic Incident Report</option>
                           <option value=" Graduate Discrimination/Harassment non-Title IX">Discrimination/Harassment (non-Title IX)</option>
                           <option value=" Graduate Whistleblower Complaint Local Official">Whistleblower Complaint Local Official (e.g. Fraud)</option>
-                          <option value=" Graduate Whistleblower Complaint UC">Whistleblower Complaint (e.g. Fraud)</option>
+                          <option value=" Graduate UC Whistleblower Complaint">Whistleblower Complaint (e.g. Fraud)</option>
                           <option value=" Graduate Other Crime Non-emergency">Other Crime Non-emergency (e.g. Robbery, Theft, Hate)</option>
                           <option value=" Graduate Other Crime Anonymous">Other Crime Anonymous (e.g. Robbery, Theft, Hate)</option>
                         </select>
@@ -188,7 +188,7 @@
                           <option value="Faculty Discrimination or Harassment">Discrimination or Harassment (non-Title IX)</option>
                           <option value="Faculty Bullying/Abusive Conduct in the Workplace">Bullying/Abusive Conduct in the Workplace</option>
                           <option value="Faculty Whistleblower Complaint Local Official">Whistleblower Complaint Local Official (e.g. Fraud)</option>
-                          <option value="Faculty Whistleblower Complaint UC">Whistleblower Complaint (e.g. Fraud)</option>
+                          <option value="Faculty UC Whistleblower Complaint">Whistleblower Complaint (e.g. Fraud)</option>
                           <option value="Faculty Other Crime Non-emergency">Other Crime Non-emergency (e.g. Robbery, Theft, Hate)</option>
                           <option value="Faculty Other Crime Anonymous">Other Crime Anonymous (e.g. Robbery, Theft, Hate)</option>
                           <option value="Faculty I'd prefer to file a complaint with the Senate">I'd prefer to file a complaint with the Senate</option>
@@ -216,7 +216,7 @@
                           <option value="Staff Discrimination/Harassment non-Title IX represented staff">Discrimination/Harassment (non-Title IX) represented staff</option>
                           <option value="Staff Bullying/Abusive Conduct in the Workplace">Bullying/Abusive Conduct in the Workplace</option>
                           <option value="Staff Whistleblower Complaint Local Official">Whistleblower Complaint Local Official (e.g. Fraud)</option>
-                          <option value="Staff Whistleblower Complaint UC">Whistleblower Complaint (e.g. Fraud)</option>
+                          <option value="Staff UC Whistleblower Complaint">Whistleblower Complaint (e.g. Fraud)</option>
                           <option value="Staff Other Crime Non-emergency">Other Crime Non-emergency (e.g. Robbery, Theft Hate)</option>
                           <option value="Staff Other Crime Anonymous">Staff Other Crime Anonymous (e.g. Robbery, Theft, Hate)</option>
                           <option value="Staff Complaint Resolution for Employees unrepresented">Complaint Resolution for Employees (unrepresented)</option>
@@ -242,7 +242,7 @@
                           <option value="Witness Gender Discrimination">Gender Discrimination</option>
                           <option value="Witness Discrimination/Harassment non-Tilte IX">Discrimination/Harassment (non-Tilte IX)</option>
                           <option value="Witness Whistleblower Complaint Local Official">Whistleblower Complaint Local Official (e.g. Fraud)</option>
-                          <option value="Witness Whistleblower Complaint">Whistleblower Complaint (e.g. Fraud)</option>
+                          <option value="Witness UC Whistleblower Complaint">Whistleblower Complaint (e.g. Fraud)</option>
                           <option value="Witness Other Crime Non-emergency">Other Crime Non-emergency (e.g. Robbery, Theft, Hate)</option>
                           <option value="Witness Other Crime Anonymous">Other Crime Anonymous (e.g. Robbery, Theft, Hate)</option>
                         </select>
@@ -254,15 +254,14 @@
                   <table class="help-data">
                   <tr>
                     <th>Contact/Department Name</th>
-                    <th>Phone</th>
+                    <th>Phone/Email</th>
                     <th>Website</th>
-                    <th>Reporting URL</th>
                   </tr>
-                  <tr v-for="data in searchData || underGrad in underGradData">
+                  <tr v-for="data in searchData">
                     <td>{{data.contact_department_name}}</td>
                     <td>{{data.phone}}</td>
                     <td><a v-bind:href="data.website">View website</a></td>
-                    <td><a v-bind:href="data.reporting_url">File a Report</a></td>
+                    <!-- <td><a v-bind:href="data.reporting_url">File a Report</a></td> -->
                   </tr>
                 </table>
                 </div>
