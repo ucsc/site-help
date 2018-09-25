@@ -102,7 +102,7 @@
       "filter_term": "Undergraduate Basic Incident Report",
       "contact_department_name": "Linda Sholtz for info.",
       "phone": "",
-      "website": "#"
+      "website": ""
     },
     {
       "category": "Undergraduate",
@@ -123,7 +123,7 @@
     {
       "category": "Undergraduate",
       "help": "Whistleblower Complaint (e.g. Fraud)",
-      "filter_term": "Undergraduate Whistleblower Complaint",
+      "filter_term": "Undergraduate Whistleblower Complaint Local Official",
       "contact_department_name": "UCSC Locally Designated Official for Whistleblower Matters (SALDO)",
       "phone": "(831) 459-4380 or wbreport@ucsc.edu",
       "website": "http://whistleblower.ucsc.edu"
@@ -254,7 +254,7 @@
       "filter_term": " Graduate Basic Incident Report",
       "contact_department_name": "Linda Shultz for info.",
       "phone": "",
-      "website": "#"
+      "website": ""
     },
     {
       "category": "Graduate",

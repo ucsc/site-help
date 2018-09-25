@@ -24,8 +24,7 @@
     var App = new Vue({
       el: '#app',
       data: {
-        search: 'Search for help resources',
-        filters: [],
+        search: 'Select an option above',
         userData: [], // initialize empty array
       },
       created() { // when the Vue app is booted up, this is run automatically.
@@ -36,19 +35,9 @@
       },
       computed:{
         searchData(){
-          let helpResources = this.userData.filter(users => {
-
-            let match = users.category.toLowerCase().match(this.search.toLowerCase()) || users.contact_department_name.toLowerCase().match(this.search.toLowerCase()) || users.phone.toLowerCase().match(this.search.toLowerCase()) || users.help.toLowerCase().match(this.search.toLowerCase()) || users.filter_term.toLowerCase().match(this.search.toLowerCase()); 
-
-            if (filters = users.filter_term) {
-              return (match && users.filter_term.toLowerCase().match(this.filters.toLowerCase()));
-            }
-
-            return (match && users.filter_term.toLowerCase().match(this.filters.toLowerCase()));
-            
+          return this.userData.filter((users) => {
+            return users.category.toLowerCase().match(this.search.toLowerCase()) || users.contact_department_name.toLowerCase().match(this.search.toLowerCase()) || users.phone.toLowerCase().match(this.search.toLowerCase()) || users.help.toLowerCase().match(this.search.toLowerCase()) || users.filter_term.toLowerCase().match(this.search.toLowerCase())
           });
-
-          return helpResources;
         }
       }
     })
@@ -115,8 +104,8 @@
                   <div class="help-search-container">
                     <h2>Need emergency assistance now?</h2>
                     <span>Call 911 or campus police: 831-259-2231</span>
-                    <input type="text" v-model="search" placeholder="Search for help resources" class="help-search-box" v-on:click="filters = ''">
-                    <input type="submit" value="Submit" class="help-submit">
+                    <!-- <input type="text" v-model="search" placeholder="Search for help resources" class="help-search-box">
+                    <input type="submit" value="Submit" class="help-submit"> -->
                   </div>
                   <!-- Help Top -->
                 </form>
@@ -128,7 +117,7 @@
                         I am an <span>undergraduate</span> affected by:
                       </div>
                       <div class="right">
-                        <select v-model="filters" id="undergraduate" v-on:change="search = ''">
+                        <select v-model="search" id="undergraduate">
                           <option value="">Select an Option</option>
                           <option value="Undergraduate Sexual Violence">Sexual Violence</option>
                           <option value="Undergraduate Sexual Harassment">Sexual Harassment</option>
@@ -158,7 +147,7 @@
                         I am a <span>graduate student</span> affected by:
                       </div>
                       <div class="right">
-                        <select v-model="filters" id="graduate" v-on:change="search = ''">
+                        <select v-model="search" id="graduate">
                           <option value="">Select an Option</option>
                           <option value=" Graduate Sexual Violence">Sexual Violence</option>
                           <option value=" Graduate Sexual Harassment">Sexual Harassment</option>
@@ -185,7 +174,7 @@
                         I am a <span>faculty member</span> affected by:
                       </div>
                       <div class="right">
-                        <select v-model="filters" id="faculty" v-on:change="search = ''">
+                        <select v-model="search" id="faculty">
                           <option value="">Select an Option</option>
                           <option value="Faculty Sexual Violence">Sexual Violence</option>
                           <option value="Faculty Sexual Harassment">Sexual Harassment</option>
@@ -211,7 +200,7 @@
                         I am a <span>staff member</span> affected by:
                       </div>
                       <div class="right">
-                        <select v-model="filters" id="staff" v-on:change="search = ''">
+                        <select v-model="search"  id="staff">
                           <option value="">Select an Option</option>
                           <option value="Staff Sexual Violence">Sexual Violence</option>
                           <option value="Staff Sexual Harassment">Sexual Harassment</option>
@@ -240,7 +229,7 @@
                         I am a <span>witness</span> to:
                       </div>
                       <div class="right">
-                        <select v-model="filters" id="witness" v-on:change="search = ''">
+                        <select v-model="search" id="witness">
                           <option value="">Select an Option</option>
                           <option value="Witness Sexual Violence">Sexual Violence</option>
                           <option value="Witness Sexual Harassment">Sexual Harassment</option>
@@ -261,7 +250,7 @@
                     </li>
                   </ul>
                 </form>
-                  <h3>Resources for: <span>{{search || filters}}</span></h3>
+                  <h3>Resources for: <span>{{search}}</span></h3>
                   <table class="help-data">
                   <tr>
                     <th>Contact/Department Name</th>
@@ -271,7 +260,7 @@
                   <tr v-for="data in searchData">
                     <td>{{data.contact_department_name}}</td>
                     <td>{{data.phone}}</td>
-                    <td><a v-bind:href="data.website" v-if="data.website != ''">View website</a></td>
+                    <td><a v-bind:href="data.website">View website</a></td>
                     <!-- <td><a v-bind:href="data.reporting_url">File a Report</a></td> -->
                   </tr>
                 </table>
