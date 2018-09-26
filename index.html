@@ -25,7 +25,11 @@
       el: '#app',
       data: {
         search: '',
-        filters: '',
+        filters_undergraduate: null,
+        filters_graduate: null,
+        filters_faculty: null,
+        filters_staff: null,
+        filters_witness: null,
         userData: [], // initialize empty array
       },
       created() { // when the Vue app is booted up, this is run automatically.
@@ -34,16 +38,71 @@
           self.userData = data.users;
         });
       },
+
+      methods: {
+        undergraduateChanged() {
+          this.filters_graduate = null;
+          this.filters_faculty = null;
+          this.filters_staff = null;
+          this.filters_witness = null;
+        },
+        graduateChanged() {
+          this.filters_undergraduate = null;
+          this.filters_faculty = null;
+          this.filters_staff = null;
+          this.filters_witness = null;
+        },
+        facultyChanged() {
+          this.filters_undergraduate = null;
+          this.filters_graduate = null;
+          this.filters_staff = null;
+          this.filters_witness = null;
+        },
+        staffChanged() {
+          this.filters_undergraduate = null;
+          this.filters_graduate = null;
+          this.filters_faculty = null;
+          this.filters_witness = null;
+        },
+        witnessChanged() {
+          this.filters_undergraduate = null;
+          this.filters_graduate = null;
+          this.filters_faculty = null;
+          this.filters_staff = null;
+        },
+        searchChanged() {
+          this.filters_undergraduate = null;
+          this.filters_graduate = null;
+          this.filters_faculty = null;
+          this.filters_staff = null;
+          this.filters_witness = null;
+        }
+      },
       computed:{
-        
         searchData() {
 
           let helpResources = this.userData.filter(users => {
 
             let match = users.category.toLowerCase().match(this.search.toLowerCase()) || users.contact_department_name.toLowerCase().match(this.search.toLowerCase()) || users.phone.toLowerCase().match(this.search.toLowerCase()) || users.help.toLowerCase().match(this.search.toLowerCase()) || users.filter_term.toLowerCase().match(this.search.toLowerCase());
 
-            if (this.filters != '') {
-              return (match && users.filter_term.toLowerCase().match(this.filters.toLowerCase()));
+            if (this.filters_undergraduate != null) {
+              return (match && users.filter_term.toLowerCase().match(this.filters_undergraduate.toLowerCase()));
+            }
+
+            if (this.filters_graduate != null) {
+              return (match && users.filter_term.toLowerCase().match(this.filters_graduate.toLowerCase()));
+            }
+
+            if (this.filters_faculty != null) {
+              return (match && users.filter_term.toLowerCase().match(this.filters_faculty.toLowerCase()));
+            }
+
+            if (this.filters_staff != null) {
+              return (match && users.filter_term.toLowerCase().match(this.filters_staff.toLowerCase()));
+            }
+
+            if (this.filters_witness != null) {
+              return (match && users.filter_term.toLowerCase().match(this.filters_witness.toLowerCase()));
             }
 
             return this.search != '' && match;
@@ -117,7 +176,7 @@
                   <div class="help-search-container">
                     <h2>Need emergency assistance now?</h2>
                     <span>Call 911 or campus police: 831-259-2231</span>
-                    <input type="text" v-model="search" placeholder="Search for help resources" class="help-search-box" v-on:click="filters = ''">
+                    <input type="text" v-model="search" placeholder="Search for help resources" class="help-search-box" v-on:click="searchChanged">
                     <input type="submit" value="Submit" class="help-submit">
                   </div>
                   <!-- Help Top -->
@@ -130,8 +189,8 @@
                         I am an <span>undergraduate</span> affected by:
                       </div>
                       <div class="right">
-                        <select v-model="filters" id="undergraduate" v-on:change="search = ''">
-                          <option value="">Select an Option</option>
+                        <select v-model="filters_undergraduate" id="undergraduate" v-on:change="search = ''" @change="undergraduateChanged">
+                          <option :value="null">Select an Option</option>
                           <option value="Undergraduate Sexual Violence">Sexual Violence</option>
                           <option value="Undergraduate Sexual Harassment">Sexual Harassment</option>
                           <option value="Undergraduate Stalking">Stalking</option>
@@ -160,8 +219,8 @@
                         I am a <span>graduate student</span> affected by:
                       </div>
                       <div class="right">
-                        <select v-model="filters" id="graduate" v-on:change="search = ''">
-                          <option value="">Select an Option</option>
+                        <select v-model="filters_graduate" id="graduate" v-on:change="search = ''" @change="graduateChanged">
+                          <option :value="null">Select an Option</option>
                           <option value=" Graduate Sexual Violence">Sexual Violence</option>
                           <option value=" Graduate Sexual Harassment">Sexual Harassment</option>
                           <option value=" Graduate Stalking">Stalking</option>
@@ -187,8 +246,8 @@
                         I am a <span>faculty member</span> affected by:
                       </div>
                       <div class="right">
-                        <select v-model="filters" id="faculty" v-on:change="search = ''">
-                          <option value="">Select an Option</option>
+                        <select v-model="filters_faculty" id="faculty" v-on:change="search = ''" @change="facultyChanged">
+                          <option :value="null">Select an Option</option>
                           <option value="Faculty Sexual Violence">Sexual Violence</option>
                           <option value="Faculty Sexual Harassment">Sexual Harassment</option>
                           <option value="Faculty Stalking">Stalking</option>
@@ -213,8 +272,8 @@
                         I am a <span>staff member</span> affected by:
                       </div>
                       <div class="right">
-                        <select v-model="filters" id="staff" v-on:change="search = ''" @change="onChange(index)">
-                          <option value="">Select an Option</option>
+                        <select v-model="filters_staff" id="staff" v-on:change="search = ''" @change="staffChanged">
+                          <option :value="null">Select an Option</option>
                           <option value="Staff Sexual Violence">Sexual Violence</option>
                           <option value="Staff Sexual Harassment">Sexual Harassment</option>
                           <option value="Staff Stalking">Stalking</option>
@@ -242,8 +301,8 @@
                         I am a <span>witness</span> to:
                       </div>
                       <div class="right">
-                        <select v-model="filters" id="witness" v-on:change="search = ''" @change="onChange(index)">
-                          <option value="">Select an Option</option>
+                        <select v-model="filters_witness" id="witness" v-on:change="search = ''"  @change="witnessChanged">
+                          <option :value="null">Select an Option</option>
                           <option value="Witness Sexual Violence">Sexual Violence</option>
                           <option value="Witness Sexual Harassment">Sexual Harassment</option>
                           <option value="Witness Stalking">Stalking</option>
@@ -263,7 +322,7 @@
                     </li>
                   </ul>
                 </form>
-                  <h3>Resources for: <span>{{search || filters}}</span></h3>
+                  <h3>Resources for: <span>{{search || filters_undergraduate || filters_graduate || filters_faculty || filters_staff || filters_witness}}</span></h3>
                   <table class="help-data">
                   <tr>
                     <th>Contact/Department Name</th>
