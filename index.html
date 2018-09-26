@@ -24,8 +24,8 @@
     var App = new Vue({
       el: '#app',
       data: {
-        search: 'Search for help resources',
-        filters: [],
+        search: '',
+        filters: '',
         userData: [], // initialize empty array
       },
       created() { // when the Vue app is booted up, this is run automatically.
@@ -35,16 +35,18 @@
         });
       },
       computed:{
-        searchData(){
+        
+        searchData() {
+
           let helpResources = this.userData.filter(users => {
 
-            let match = users.category.toLowerCase().match(this.search.toLowerCase()) || users.contact_department_name.toLowerCase().match(this.search.toLowerCase()) || users.phone.toLowerCase().match(this.search.toLowerCase()) || users.help.toLowerCase().match(this.search.toLowerCase()) || users.filter_term.toLowerCase().match(this.search.toLowerCase()); 
+            let match = users.category.toLowerCase().match(this.search.toLowerCase()) || users.contact_department_name.toLowerCase().match(this.search.toLowerCase()) || users.phone.toLowerCase().match(this.search.toLowerCase()) || users.help.toLowerCase().match(this.search.toLowerCase()) || users.filter_term.toLowerCase().match(this.search.toLowerCase());
 
-            if (filters = users.filter_term) {
+            if (this.filters != '') {
               return (match && users.filter_term.toLowerCase().match(this.filters.toLowerCase()));
             }
 
-            return (match && users.filter_term.toLowerCase().match(this.filters.toLowerCase()));
+            return this.search != '' && match;
             
           });
 
@@ -211,7 +213,7 @@
                         I am a <span>staff member</span> affected by:
                       </div>
                       <div class="right">
-                        <select v-model="filters" id="staff" v-on:change="search = ''">
+                        <select v-model="filters" id="staff" v-on:change="search = ''" @change="onChange(index)">
                           <option value="">Select an Option</option>
                           <option value="Staff Sexual Violence">Sexual Violence</option>
                           <option value="Staff Sexual Harassment">Sexual Harassment</option>
@@ -240,7 +242,7 @@
                         I am a <span>witness</span> to:
                       </div>
                       <div class="right">
-                        <select v-model="filters" id="witness" v-on:change="search = ''">
+                        <select v-model="filters" id="witness" v-on:change="search = ''" @change="onChange(index)">
                           <option value="">Select an Option</option>
                           <option value="Witness Sexual Violence">Sexual Violence</option>
                           <option value="Witness Sexual Harassment">Sexual Harassment</option>
@@ -264,11 +266,13 @@
                   <h3>Resources for: <span>{{search || filters}}</span></h3>
                   <table class="help-data">
                   <tr>
+                    <th>Help For</th>
                     <th>Contact/Department Name</th>
                     <th>Phone/Email</th>
                     <th>Website</th>
                   </tr>
                   <tr v-for="data in searchData">
+                    <td>{{data.category}}</td>
                     <td>{{data.contact_department_name}}</td>
                     <td>{{data.phone}}</td>
                     <td><a v-bind:href="data.website" v-if="data.website != ''">View website</a></td>
