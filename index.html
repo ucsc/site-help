@@ -38,7 +38,7 @@
           self.userData = data.users;
         });
       },
-
+      // Reset selections
       methods: {
         undergraduateChanged() {
           this.filters_graduate = null;
@@ -78,13 +78,14 @@
           this.filters_witness = null;
         }
       },
+      // Search and filtering data
       computed:{
         searchData() {
 
           let helpResources = this.userData.filter(users => {
-
+            // input search values
             let match = users.category.toLowerCase().match(this.search.toLowerCase()) || users.contact_department_name.toLowerCase().match(this.search.toLowerCase()) || users.phone.toLowerCase().match(this.search.toLowerCase()) || users.help.toLowerCase().match(this.search.toLowerCase()) || users.filter_term.toLowerCase().match(this.search.toLowerCase());
-
+            // selections filter value
             if (this.filters_undergraduate != null) {
               return (match && users.filter_term.toLowerCase().match(this.filters_undergraduate.toLowerCase()));
             }
