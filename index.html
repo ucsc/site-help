@@ -266,13 +266,11 @@
                   <h3>Resources for: <span>{{search || filters}}</span></h3>
                   <table class="help-data">
                   <tr>
-                    <th>Help For</th>
                     <th>Contact/Department Name</th>
                     <th>Phone/Email</th>
                     <th>Website</th>
                   </tr>
                   <tr v-for="data in searchData">
-                    <td>{{data.category}}</td>
                     <td>{{data.contact_department_name}}</td>
                     <td>{{data.phone}}</td>
                     <td><a v-bind:href="data.website" v-if="data.website != ''">View website</a></td>
