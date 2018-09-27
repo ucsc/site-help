@@ -4,305 +4,221 @@
       "category": "Undergraduate",
       "help": "Sexual Violence",
       "filter_term": "Undergraduate Sexual Violence",
-      "contact_department_name": "Title IX Office / CARE",
+      "contact_department_name": "Title IX Office",
+      "description": "Contact this office to file an official report.",
       "phone": "(831) 459-2462",
-      "website": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid590829?"
+      "website": "https://titleix.ucsc.edu/",
+      "report_url": "https://titleix.ucsc.edu/reporting/index.html#https://wcms.ucsc.edu/entity/open.act?id=15f5bc998072701752a34ca3142b3a65&type=file&"
+    },
+    {
+      "category": "Undergraduate",
+      "help": "Sexual Violence",
+      "filter_term": "Undergraduate Sexual Violence",
+      "contact_department_name": "Campus Advocacy, Resources, and Education (CARE)",
+      "description": "Contact this office to arrange a confidential conversation.",
+      "phone": "(831) 502-2273 or care@ucsc.edu",
+      "website": "https://care.ucsc.edu",
+      "report_url": ""
     },
     {
       "category": "Undergraduate",
       "help": "Sexual Harassment",
       "filter_term": "Undergraduate Sexual Harassment",
-      "contact_department_name": "Title IX Office / CARE",
-      "phone": "(831) 459-2462",
-      "website": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid590829?"
-    },
-    {
-      "category": "Undergraduate",
-      "help": "Stalking",
-      "filter_term": "Undergraduate Stalking",
-      "contact_department_name": "Title IX Office / CARE",
-      "phone": "(831) 459-2462",
-      "website": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid590829?"
-    },
-    {
-      "category": "Undergraduate",
-      "help": "Invasions of Sexual Privacy",
-      "filter_term": "Undergraduate Invasions of Sexual Privacy",
-      "contact_department_name": "Title IX Office / CARE",
-      "phone": "(831) 459-2462",
-      "website": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid590829?"
-    },
-    {
-      "category": "Undergraduate",
-      "help": "Sexual Assault",
-      "filter_term": "Undergraduate Sexual Assault",
-      "contact_department_name": "Title IX Office / CARE",
-      "phone": "(831) 459-2462",
-      "website": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid590829?"
-    },
-    {
-      "category": "Undergraduate",
-      "help": "Dating, Domestic and/or Relationship Violence",
-      "filter_term": "Undergraduate Dating, Domestic and/or Relationship Violence",
-      "contact_department_name": "Title IX Office / CARE",
-      "phone": "(831) 459-2462",
-      "website": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid590829?"
-    },
-    {
-      "category": "Undergraduate",
-      "help": "Sexual Intercourse with a person under the age of 18",
-      "filter_term": "Undergraduate Sexual Intercourse with a person under the age of 18",
-      "contact_department_name": "Title IX Office / CARE",
-      "phone": "(831) 459-2462",
-      "website": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid590829?"
-    },
-    {
-      "category": "Undergraduate",
-      "help": "Exposure of Genitals",
-      "filter_term": "Undergraduate Exposure of Genitals",
-      "contact_department_name": "Title IX Office / CARE",
-      "phone": "(831) 459-2462",
-      "website": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid590829?"
-    },
-    {
-      "category": "Undergraduate",
-      "help": "Gender discrimination",
-      "filter_term": "Undergraduate Gender discrimination",
       "contact_department_name": "Title IX Office",
+      "description": "Contact this office to file an official report.",
       "phone": "(831) 459-2462",
-      "website": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid590829?"
+      "website": "https://titleix.ucsc.edu/",
+      "report_url": "https://titleix.ucsc.edu/reporting/index.html#https://wcms.ucsc.edu/entity/open.act?id=15f5bc998072701752a34ca3142b3a65&type=file&"
     },
     {
       "category": "Undergraduate",
-      "help": "Pregnancy/lactation/parenting concerns",
-      "filter_term": "Undergraduate Pregnancy/lactation/parenting concerns",
+      "help": "Sexual Harassment",
+      "filter_term": "Undergraduate Sexual Harassment",
+      "contact_department_name": "Campus Advocacy, Resources, and Education (CARE)",
+      "description": "Contact this office to arrange a confidential conversation.",
+      "phone": "(831) 502-2273 or care@ucsc.edu",
+      "website": "https://care.ucsc.edu",
+      "report_url": ""
+    },
+    {
+      "category": "Undergraduate",
+      "help": "Domestic Violence or Stalking",
+      "filter_term": "Undergraduate Domestic Violence or Stalking",
+      "contact_department_name": "Campus Advocacy, Resources, and Education (CARE)",
+      "description": "Contact this office to arrange a confidential conversation.",
+      "phone": "(831) 502-CARE (2273)",
+      "website": "https://care.ucsc.edu",
+      "report_url": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid108591?"
+    },
+    {
+      "category": "Undergraduate",
+      "help": "Domestic Violence or Stalking",
+      "filter_term": "Undergraduate Domestic Violence or Stalking",
       "contact_department_name": "Title IX Office",
+      "description": "Contact this office to file an official report.",
       "phone": "(831) 459-2462",
-      "website": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid590829?"
+      "website": "https://titleix.ucsc.edu/",
+      "report_url": "https://titleix.ucsc.edu/reporting/index.html#https://wcms.ucsc.edu/entity/open.act?id=15f5bc998072701752a34ca3142b3a65&type=file&"
     },
     {
       "category": "Undergraduate",
-      "help": "Bullying/Abusive Conduct in the Workplace** only applies to staff student employees",
-      "filter_term": "Undergraduate Bullying/Abusive Conduct in the Workplace only applies to staff student employees",
-      "contact_department_name": "Jennifer Schiffner, Director, Employee & Labor Relations",
-      "phone": "(831)- 459-1930 or jschiffn@ucsc.edu",
-      "website": "https://shr.ucsc.edu/elr/abusive-conduct-and-bullying-in-the-workplace/index.html"
-    },
-    {
-      "category": "Undergraduate",
-      "help": "Bullying/Abusive Conduct in the Workplace for academic employees",
-      "filter_term": "Undergraduate Bullying/Abusive Conduct in the Workplace for academic employees",
-      "contact_department_name": "Susan Fellows, Director of Academic Employee Relations",
-      "phone": "(831) 459-5032",
-      "website": "https://shr.ucsc.edu/elr/abusive-conduct-and-bullying-in-the-workplace/index.html"
-    },
-    {
-      "category": "Undergraduate",
-      "help": "Basic Incident Report",
-      "filter_term": "Undergraduate Basic Incident Report",
-      "contact_department_name": "Linda Sholtz for info.",
-      "phone": "",
-      "website": ""
-    },
-    {
-      "category": "Undergraduate",
-      "help": "Employment Related Discrimination/Harassment (non-Title IX)",
-      "filter_term": "Undergraduate Employment Related Discrimination/Harassment non-Title IX",
+      "help": "Race/Ethnicity Discrimination or Harassment",
+      "filter_term": "Undergraduate Race/Ethnicity Discrimination or Harassment",
       "contact_department_name": "Ciel Benedetto, Assistant Director for EEO",
+      "description": "",
       "phone": "(831) 459-3676 or cbene@ucsc.edu",
-      "website": "https://diversity.ucsc.edu"
-    },
-    {
-      "category": "Undergraduate",
-      "help": "Discrimination/Harassment (non-Title IX)",
-      "filter_term": "Undergraduate Discrimination/Harassment non-Title IX",
-      "contact_department_name": "Dean of Students Office",
-      "phone": "(831) 459-4446 or deanofstudents@ucsc.edu",
-      "website": "https://deanofstudents.ucsc.edu/student-conduct/student-handbook/pdf/110.0-policy-student-grievance.pdf"
+      "website": "https://diversity.ucsc.edu",
+      "report_url": "https://diversity.ucsc.edu/eeo-aa/images/complaint_form.pdf"
     },
     {
       "category": "Undergraduate",
       "help": "Whistleblower Complaint (e.g. Fraud)",
-      "filter_term": "Undergraduate Whistleblower Complaint Local Official",
+      "filter_term": "Undergraduate Whistleblower Complaint",
       "contact_department_name": "UCSC Locally Designated Official for Whistleblower Matters (SALDO)",
+      "description": "",
       "phone": "(831) 459-4380 or wbreport@ucsc.edu",
-      "website": "http://whistleblower.ucsc.edu"
+      "website": "http://whistleblower.ucsc.edu",
+      "report_url": "https://whistleblower.ucsc.edu/about/how-to-file.html"
     },
     {
       "category": "Undergraduate",
       "help": "Whistleblower Complaint (e.g. Fraud)",
-      "filter_term": "Undergraduate UC Whistleblower Complaint",
+      "filter_term": "Undergraduate Whistleblower Complaint",
       "contact_department_name": "UC Whistleblower Office",
+      "description": "",
       "phone": "(800) 403-4744",
-      "website": "https://secure.ethicspoint.com/domain/media/en/gui/23531/index.html"
+      "website": "https://www.ucop.edu/uc-whistleblower",
+      "report_url": "https://secure.ethicspoint.com/domain/media/en/gui/23531/location.html?cid=23942"
     },
     {
       "category": "Undergraduate",
-      "help": "Other Crime (e.g. Robbery, Theft, Hate)",
-      "filter_term": "Undergraduate Other Crime Non-Emergency",
+      "help": "Other Crime (e.g. Robbery, Theft)",
+      "filter_term": "Undergraduate Other Crime",
       "contact_department_name": "UCSC Police",
+      "description": "",
       "phone": "Non-emergency police issues (831) 459-2231",
-      "website": "https://police.ucsc.edu"
+      "website": "https://police.ucsc.edu",
+      "report_url": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid108591?"
     },
     {
       "category": "Undergraduate",
-      "help": "Other Crime (e.g. Robbery, Theft, Hate)",
-      "filter_term": "Undergraduate Other Crime Anonymous",
+      "help": "Other Crime (e.g. Robbery, Theft)",
+      "filter_term": "Undergraduate Other Crime",
       "contact_department_name": "UCSC Police",
+      "description": "",
       "phone": "Anonymous tip line: (831) 459-3TIP (459-3847)",
-      "website": "https://police.ucsc.edu"
+      "website": "https://police.ucsc.edu",
+      "report_url": ""
     },
     {
       "category": "Graduate",
       "help": "Sexual Violence",
       "filter_term": " Graduate Sexual Violence",
-      "contact_department_name": "Title IX Office / CARE",
+      "contact_department_name": "Title IX Office",
+      "description": "Contact this office to file an official report.",
       "phone": "(831) 459-2462",
-      "website": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid590829?"
+      "website": "https://titleix.ucsc.edu/",
+      "report_url": "https://titleix.ucsc.edu/reporting/index.html#https://wcms.ucsc.edu/entity/open.act?id=15f5bc998072701752a34ca3142b3a65&type=file&"
+    },
+    {
+      "category": "Graduate",
+      "help": "Sexual Violence",
+      "filter_term": " Graduate Sexual Violence",
+      "contact_department_name": "Campus Advocacy, Resources, and Education (CARE)",
+      "description": "Contact this office to arrange a confidential conversation.",
+      "phone": "(831) 502-2273 or care@ucsc.edu",
+      "website": "https://care.ucsc.edu",
+      "report_url": ""
     },
     {
       "category": "Graduate",
       "help": "Sexual Harassment",
       "filter_term": " Graduate Sexual Harassment",
-      "contact_department_name": "Title IX Office / CARE",
-      "phone": "(831) 459-2462",
-      "website": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid590829?"
-    },
-    {
-      "category": "Graduate",
-      "help": "Stalking",
-      "filter_term": " Graduate Stalking",
-      "contact_department_name": "Title IX Office / CARE",
-      "phone": "(831) 459-2462",
-      "website": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid590829?"
-    },
-    {
-      "category": "Graduate",
-      "help": "Invasions of Sexual Privacy",
-      "filter_term": " Graduate Invasions of Sexual Privacy",
-      "contact_department_name": "Title IX Office / CARE",
-      "phone": "(831) 459-2462",
-      "website": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid590829?"
-    },
-    {
-      "category": "Graduate",
-      "help": "Sexual Assault",
-      "filter_term": " Graduate Sexual Assault",
-      "contact_department_name": "Title IX Office / CARE",
-      "phone": "(831) 459-2462",
-      "website": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid590829?"
-    },
-    {
-      "category": "Graduate",
-      "help": "Dating, Domestic and/or Relationship Violence",
-      "filter_term": " Graduate Dating, Domestic and/or Relationship Violence",
-      "contact_department_name": "Title IX Office / CARE",
-      "phone": "(831) 459-2462",
-      "website": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid590829?"
-    },
-    {
-      "category": "Graduate",
-      "help": "Sexual Intercourse with a person under the age of 18",
-      "filter_term": " Graduate Sexual Intercourse with a person under the age of 18",
-      "contact_department_name": "Title IX Office / CARE",
-      "phone": "(831) 459-2462",
-      "website": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid590829?"
-    },
-    {
-      "category": "Graduate",
-      "help": "Exposure of Genitals",
-      "filter_term": " Graduate Exposure of Genitals",
       "contact_department_name": "Title IX Office",
+      "description": "Contact this office to file an official report.",
       "phone": "(831) 459-2462",
-      "website": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid590829?"
+      "website": "https://titleix.ucsc.edu/",
+      "report_url": "https://titleix.ucsc.edu/reporting/index.html#https://wcms.ucsc.edu/entity/open.act?id=15f5bc998072701752a34ca3142b3a65&type=file&"
     },
     {
       "category": "Graduate",
-      "help": "Gender discrimination",
-      "filter_term": " Graduate Gender discrimination",
+      "help": "Sexual Harassment",
+      "filter_term": " Graduate Sexual Harassment",
+      "contact_department_name": "Campus Advocacy, Resources, and Education (CARE)",
+      "description": "Contact this office to arrange a confidential conversation.",
+      "phone": "(831) 502-2273 or care@ucsc.edu",
+      "website": "https://care.ucsc.edu",
+      "report_url": ""
+    },
+    {
+      "category": "Graduate",
+      "help": "Domestic Violence or Stalking",
+      "filter_term": " Graduate Domestic Violence or Stalking",
+      "contact_department_name": "Campus Advocacy, Resources, and Education (CARE)",
+      "description": "Contact this office to arrange a confidential conversation.",
+      "phone": "(831) 502-CARE (2273)",
+      "website": "https://care.ucsc.edu",
+      "report_url": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid108591?"
+    },
+    {
+      "category": "Graduate",
+      "help": "Domestic Violence or Stalking",
+      "filter_term": " Graduate Domestic Violence or Stalking",
       "contact_department_name": "Title IX Office",
+      "description": "Contact this office to file an official report.",
       "phone": "(831) 459-2462",
-      "website": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid590829?"
+      "website": "https://titleix.ucsc.edu/",
+      "report_url": "https://titleix.ucsc.edu/reporting/index.html#https://wcms.ucsc.edu/entity/open.act?id=15f5bc998072701752a34ca3142b3a65&type=file&"
     },
     {
       "category": "Graduate",
-      "help": "Pregnancy/lactation/parenting concerns",
-      "filter_term": " Graduate Pregnancy/lactation/parenting concerns",
-      "contact_department_name": "Title IX Office",
-      "phone": "(831) 459-2462",
-      "website": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid590829?"
-    },
-    {
-      "category": "Graduate",
-      "help": "Bullying/Abusive Conduct in the Workplace** only applies to staff student employees",
-      "filter_term": " Graduate Bullying/Abusive Conduct in the Workplace only applies to staff student employees",
-      "contact_department_name": "Jennifer Schiffner, Director, Employee & Labor Relations",
-      "phone": "(831) 459-1930 or jschiffn@ucsc.edu",
-      "website": "https://shr.ucsc.edu/elr/abusive-conduct-and-bullying-in-the-workplace/index.html"
-    },
-    {
-      "category": "Graduate",
-      "help": "Bullying/Abusive Conduct in the Workplace for academic employees",
-      "filter_term": " Graduate Bullying/Abusive Conduct in the Workplace for academic employees",
-      "contact_department_name": "Susan Fellows, Director of Academic Employee Relations",
-      "phone": "(831) 459-5032",
-      "website": "https://shr.ucsc.edu/elr/abusive-conduct-and-bullying-in-the-workplace/index.html"
-    },
-    {
-      "category": "Graduate",
-      "help": "Basic Incident Report",
-      "filter_term": " Graduate Basic Incident Report",
-      "contact_department_name": "Linda Shultz for info.",
-      "phone": "",
-      "website": ""
-    },
-    {
-      "category": "Graduate",
-      "help": "Discrimination/Harassment (non-Title IX)",
-      "filter_term": " Graduate Discrimination/Harassment non-Title IX",
+      "help": "Race/Ethnicity Discrimination or Harassment",
+      "filter_term": " Graduate Race/Ethnicity Discrimination or Harassment",
       "contact_department_name": "Ciel Benedetto, Assistant Director for EEO",
+      "description": "",
       "phone": "(831) 459-3676 or cbene@ucsc.edu",
-      "website": "https://diversity.ucsc.edu"
-    },
-    {
-      "category": "Graduate",
-      "help": "Discrimination/Harassment (non-Title IX)",
-      "filter_term": " Graduate Discrimination/Harassment non-Title IX",
-      "contact_department_name": "Dean of Students Office",
-      "phone": "(831) 459-4446 or deanofstudents@ucsc.edu",
-      "website": "https://deanofstudents.ucsc.edu/student-conduct/student-handbook/pdf/110.0-policy-student-grievance.pdf"
-    },
-    {
-      "category": "Graduate",
-      "help": "Whistleblower Complaint Local Official (e.g. Fraud)",
-      "filter_term": " Graduate Whistleblower Complaint Local Official",
-      "contact_department_name": "UCSC Locally Designated Official for Whistleblower Matters (SALDO)",
-      "phone": "(831) 459-4380 or wbreport@ucsc.edu",
-      "website": "http://whistleblower.ucsc.edu"
+      "website": "https://diversity.ucsc.edu",
+      "report_url": "https://diversity.ucsc.edu/eeo-aa/images/complaint_form.pdf"
     },
     {
       "category": "Graduate",
       "help": "Whistleblower Complaint (e.g. Fraud)",
-      "filter_term": " Graduate UC Whistleblower Complaint",
+      "filter_term": " Graduate Whistleblower Complaint",
+      "contact_department_name": "UCSC Locally Designated Official for Whistleblower Matters (SALDO)",
+      "description": "",
+      "phone": "(831) 459-4380 or wbreport@ucsc.edu",
+      "website": "http://whistleblower.ucsc.edu",
+      "report_url": "https://whistleblower.ucsc.edu/about/how-to-file.html"
+    },
+    {
+      "category": "Graduate",
+      "help": "Whistleblower Complaint (e.g. Fraud)",
+      "filter_term": " Graduate Whistleblower Complaint",
       "contact_department_name": "UC Whistleblower Office",
+      "description": "",
       "phone": "(800) 403-4744",
-      "website": "https://secure.ethicspoint.com/domain/media/en/gui/23531/index.html"
+      "website": "https://www.ucop.edu/uc-whistleblower",
+      "report_url": "https://secure.ethicspoint.com/domain/media/en/gui/23531/location.html?cid=23942"
     },
     {
       "category": "Graduate",
-      "help": "Other Crime Non-emergency (e.g. Robbery, Theft, Hate)",
-      "filter_term": " Graduate Other Crime Non-emergency",
+      "help": "Other Crime (e.g. Robbery, Theft)",
+      "filter_term": " Graduate Other Crime",
       "contact_department_name": "UCSC Police",
-      "phone": "Police issues (831) 459-2231",
-      "website": "https://police.ucsc.edu"
+      "description": "",
+      "phone": "Non-emergency police issues (831) 459-2231",
+      "website": "https://police.ucsc.edu",
+      "report_url": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid108591?"
     },
     {
       "category": "Graduate",
-      "help": "Other Crime Anonymous (e.g. Robbery, Theft, Hate)",
-      "filter_term": " Graduate Other Crime Anonymous",
+      "help": "Other Crime (e.g. Robbery, Theft)",
+      "filter_term": " Graduate Other Crime",
       "contact_department_name": "UCSC Police",
-      "phone": "Tip line: (831) 459-3TIP (459-3847)",
-      "website": "https://police.ucsc.edu"
+      "description": "",
+      "phone": "Anonymous tip line: (831) 459-3TIP (459-3847)",
+      "website": "https://police.ucsc.edu",
+      "report_url": ""
     },
     {
       "category": "Faculty",
