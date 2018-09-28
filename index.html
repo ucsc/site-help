@@ -541,57 +541,25 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
     text-transform: lowercase;
   }
 
-
-  @media screen and (min-width: 31.1875em) {
+  @media screen and (max-width: 31.125em) {
 
     .help-search-container {
       background: #01589d;
+      height: 150px;
     }
 
-    input, 
-    .help-search-box input::-webkit-input-placeholder {
-      max-width: 80%;
-      font-size: 2em;
+    h2 {
+      font-size: 1em;
     }
 
-    .help-options {
-      display: inline-block;
-      max-width: 100%;
-      padding: 0;
+    .help-search-container span {
+      font-size: 1rem;
     }
 
-    .help-options li {
-      display: block;
+    .help-search-box {
+      padding: 5px;
+      position: none;
     }
-
-    .help-options li .right {
-      max-width: 100%;
-    }
-
-    .help-data tr th {
-      display: none;
-    }
-
-    .help-data tr td {
-      display: block;
-      width: 100%;
-      border-bottom: 0px;
-    }
-
-    .help-data tr td:first-child {
-      display: block;
-      font-weight: 600;
-    }
-    
-    .help-data tr td:last-child {
-      display: block;
-      border-bottom: 1px solid #ccc;
-      padding-bottom: 15px;
-    }
-
-  }
-
-  @media screen and (max-width: 31.125em) {
 
     .help-data tr th {
       background: rgba(0,60,108, .2);
@@ -615,12 +583,99 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
       padding-bottom: 15px;
     }
 
+    .callout-left, .left {
+      margin: 0 1em 0em 0;
+    }
+
+  }
+
+
+  @media screen and (min-width: 31.1875em) {
+
+    .help-search-container {
+      background: #01589d;
+      height: 150px;
+    }
+
+    h2 {
+      font-size: 1.15em;
+    }
+
+    .help-search-container span {
+      font-size: 1.05rem;
+    }
+
+    .help-search-box {
+      padding: 5px;
+      position: none;
+    }
+
+    input, 
+    .help-search-box input::-webkit-input-placeholder {
+      max-width: 80%;
+      font-size: 2em;
+    }
+
+    .help-options {
+      display: inline-block;
+      max-width: 100%;
+      padding: 0;
+    }
+
+    .help-options li {
+      display: block;
+    }
+
+    .help-options li .right {
+      max-width: 100%;
+    }
+
+    .help-data tr th {
+      display: none;
+    }
+
+    .help-data tr td {
+      display: block;
+      width: 100%;
+      border-bottom: 0px;
+    }
+
+    .help-data tr td:first-child {
+      display: block;
+      font-weight: 600;
+    }
+    
+    .help-data tr td:last-child {
+      display: block;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 15px;
+    }
+
+    .callout-left, .left {
+      margin: 0 1em 0em 0;
+    }
+
   }
 
   @media screen and (min-width: 37.5em) {
 
     .help-search-container {
       background: #01589d;
+      height: 200px;
+    }
+
+    h2 {
+      font-size: 1.25em;
+    }
+
+
+    .help-search-container span {
+      font-size: 1.25rem;
+    }
+
+    .help-search-box {
+      padding: 5px;
+      position: absolute;
     }
     
     input, 
@@ -664,6 +719,10 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
       border-bottom: 1px solid #ccc;
       padding-bottom: 15px;
     }
+
+    .callout-left, .left {
+      margin: 0 1em 0em 0;
+    }
     
   }
 
@@ -672,6 +731,20 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
     .help-search-container {
       background: url("images/help-banner.jpg") no-repeat;
       background-size: cover;
+      height: 250px;
+    }
+
+    h2 {
+      font-size: 1.5em;
+    }
+
+    .help-search-container span {
+      font-size: 1.5rem;
+    }
+
+    .help-search-box {
+      padding: 5px;
+      position: absolute;
     }
     
     input, 
@@ -711,6 +784,10 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
       width: 100% !important;
     }
 
+    .callout-left, .left {
+      margin: 0 1em 1em 0;
+    }
+
   }
 
   @media screen and (min-width: 60em) {
@@ -718,6 +795,20 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
     .help-search-container {
       background: url("images/help-banner.jpg") no-repeat;
       background-size: cover;
+      height: 250px;
+    }
+
+    h2 {
+      font-size: 1.5em;
+    }
+
+    .help-search-container span {
+      font-size: 1.5rem;
+    }
+
+    .help-search-box {
+      padding: 10px;
+      position: absolute;
     }
     
     input, 
@@ -755,6 +846,10 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
 
     .main-footer .footer-left {
       width: 100% !important;
+    }
+
+    .callout-left, .left {
+      margin: 0 1em 1em 0;
     }
 
   }
