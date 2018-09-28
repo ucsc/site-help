@@ -226,20 +226,10 @@
                           <option :value="null">Select an Option</option>
                           <option value="Faculty Sexual Violence">Sexual Violence</option>
                           <option value="Faculty Sexual Harassment">Sexual Harassment</option>
-                          <option value="Faculty Stalking">Stalking</option>
-                          <option value="Faculty Invasions of Sexual Privacy">Invasions of Sexual Privacy</option>
-                          <option value="Faculty Sexual Assault">Sexual Assault</option>
-                          <option value="Faculty Dating, Domestic and/or Relationship Violence">Dating, Domestic and/or Relationship Violence</option>
-                          <option value="Faculty Sexual Intercourse with a person under the age of 18">Sexual Intercourse with a person under the age of 18</option>
-                          <option value="Faculty Exposure of Genitals">Exposure of Genitals</option>
-                          <option value="Faculty Pregnancy/lactation/parenting concerns">Pregnancy/lactation/parenting concerns</option>
-                          <option value="Faculty Discrimination or Harassment">Discrimination or Harassment (non-Title IX)</option>
-                          <option value="Faculty Bullying/Abusive Conduct in the Workplace">Bullying/Abusive Conduct in the Workplace</option>
-                          <option value="Faculty Whistleblower Complaint Local Official">Whistleblower Complaint Local Official (e.g. Fraud)</option>
-                          <option value="Faculty UC Whistleblower Complaint">Whistleblower Complaint (e.g. Fraud)</option>
-                          <option value="Faculty Other Crime Non-emergency">Other Crime Non-emergency (e.g. Robbery, Theft, Hate)</option>
-                          <option value="Faculty Other Crime Anonymous">Other Crime Anonymous (e.g. Robbery, Theft, Hate)</option>
-                          <option value="Faculty I'd prefer to file a complaint with the Senate">I'd prefer to file a complaint with the Senate</option>
+                          <option value="Faculty Domestic Violence or Stalking">Domestic Violence or Stalking</option>
+                          <option value="Faculty Race/Ethnicity Discrimination or Harassment">Race/Ethnicity Discrimination or Harassment</option>
+                          <option value="Faculty Whistleblower Complaint">Whistleblower Complaint (e.g. Fraud)</option>
+                          <option value="Faculty Other Crime">Other Crime (e.g. Robbery, Theft) </option>
                         </select>
                       </div>
                     </li>
@@ -252,23 +242,10 @@
                           <option :value="null">Select an Option</option>
                           <option value="Staff Sexual Violence">Sexual Violence</option>
                           <option value="Staff Sexual Harassment">Sexual Harassment</option>
-                          <option value="Staff Stalking">Stalking</option>
-                          <option value="Staff Invasions of Sexual Privacy">Invasions of Sexual Privacy</option>
-                          <option value="Staff Sexual Assault">Sexual Assault</option>
-                          <option value="Staff Dating, Domestic and/or Relationship Violence">Dating, Domestic and/or Relationship Violence</option>
-                          <option value="Staff Sexual Intercourse with a person under the age of 18">Sexual Intercourse with a person under the age of 18</option>
-                          <option value="Staff Exposure of Genitals">Exposure of Genitals</option>
-                          <option value="Staff Pregnancy/lactation/parenting concerns">Pregnancy/lactation/parenting concerns</option>
-                          <option value="Staff Discrimination/Harassment non-Title IX represented and non-represented staff">Discrimination/Harassment (non-Title IX) represented and non-represented staff</option>
-                          <option value="Staff Discrimination/Harassment non-Title IX non-represented staff">Discrimination/Harassment (non-Title IX) non-represented staff</option>
-                          <option value="Staff Discrimination/Harassment non-Title IX represented staff">Discrimination/Harassment (non-Title IX) represented staff</option>
-                          <option value="Staff Bullying/Abusive Conduct in the Workplace">Bullying/Abusive Conduct in the Workplace</option>
-                          <option value="Staff Whistleblower Complaint Local Official">Whistleblower Complaint Local Official (e.g. Fraud)</option>
-                          <option value="Staff UC Whistleblower Complaint">Whistleblower Complaint (e.g. Fraud)</option>
-                          <option value="Staff Other Crime Non-emergency">Other Crime Non-emergency (e.g. Robbery, Theft Hate)</option>
-                          <option value="Staff Other Crime Anonymous">Staff Other Crime Anonymous (e.g. Robbery, Theft, Hate)</option>
-                          <option value="Staff Complaint Resolution for Employees unrepresented">Complaint Resolution for Employees (unrepresented)</option>
-                          <option value="Staff Grievance Resolution for Employees represented">Grievance Resolution for Employees (represented)</option>
+                          <option value="Staff Domestic Violence or Stalking">Domestic Violence or Stalking</option>
+                          <option value="Staff Race/Ethnicity Discrimination or Harassment">Race/Ethnicity Discrimination or Harassment</option>
+                          <option value="Staff Whistleblower Complaint">Whistleblower Complaint (e.g. Fraud)</option>
+                          <option value="Staff Other Crime">Other Crime (e.g. Robbery, Theft)</option>
                         </select>
                       </div>
                     </li>
@@ -281,18 +258,10 @@
                           <option :value="null">Select an Option</option>
                           <option value="Witness Sexual Violence">Sexual Violence</option>
                           <option value="Witness Sexual Harassment">Sexual Harassment</option>
-                          <option value="Witness Stalking">Stalking</option>
-                          <option value="Witness Invasions of Sexual Privacy">Invasions of Sexual Privacy</option>
-                          <option value="Witness Sexual Assault">Sexual Assault</option>
-                          <option value="Witness Dating, Domestic and/or Relationship Violence">Dating, Domestic and/or Relationship Violence</option>
-                          <option value="Witness Sexual Intercourse with a person under the age of 18">Sexual Intercourse with a person under the age of 18</option>
-                          <option value="Witness Exposure of Genitals">Exposure of Genitals</option>
-                          <option value="Witness Gender Discrimination">Gender Discrimination</option>
-                          <option value="Witness Discrimination/Harassment non-Tilte IX">Discrimination/Harassment (non-Tilte IX)</option>
-                          <option value="Witness Whistleblower Complaint Local Official">Whistleblower Complaint Local Official (e.g. Fraud)</option>
-                          <option value="Witness UC Whistleblower Complaint">Whistleblower Complaint (e.g. Fraud)</option>
-                          <option value="Witness Other Crime Non-emergency">Other Crime Non-emergency (e.g. Robbery, Theft, Hate)</option>
-                          <option value="Witness Other Crime Anonymous">Other Crime Anonymous (e.g. Robbery, Theft, Hate)</option>
+                          <option value="Witness Domestic Violence or Stalking">Domestic Violence or Stalking</option>
+                          <option value="Witness Race/Ethnicity Discrimination or Harassment">Race/Ethnicity Discrimination or Harassment</option>
+                          <option value="Witness Whistleblower Complaint">Whistleblower Complaint (e.g. Fraud)</option>
+                          <option value="Witness Other Crime">Other Crime (e.g. Robbery, Theft)</option>
                         </select>
                       </div>
                     </li>
@@ -561,6 +530,12 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
       position: none;
     }
 
+    input, 
+    .help-search-box input::-webkit-input-placeholder {
+      max-width: 80%;
+      font-size: 1em;
+    }
+
     .help-data tr th {
       background: rgba(0,60,108, .2);
       display: none;
@@ -613,7 +588,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
     input, 
     .help-search-box input::-webkit-input-placeholder {
       max-width: 80%;
-      font-size: 2em;
+      font-size: 1em;
     }
 
     .help-options {
