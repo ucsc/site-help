@@ -17,105 +17,6 @@
 <script defer="true" src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 
 <!-- UI --> 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.3.0/vue.js"></script>
-<script>
-  window.onload = function () {
-    var dataURL = 'usersData.json';
-    var App = new Vue({
-      el: '#app',
-      data: {
-        search: '',
-        filters_undergraduate: null,
-        filters_graduate: null,
-        filters_faculty: null,
-        filters_staff: null,
-        filters_witness: null,
-        userData: [], // initialize empty array
-      },
-      created() { // when the Vue app is booted up, this is run automatically.
-        var self = this // create a closure to access component in the callback below
-        $.getJSON(dataURL, function(data) {
-          self.userData = data.users;
-        });
-      },
-      // Reset selections
-      methods: {
-        undergraduateChanged() {
-          this.filters_graduate = null;
-          this.filters_faculty = null;
-          this.filters_staff = null;
-          this.filters_witness = null;
-        },
-        graduateChanged() {
-          this.filters_undergraduate = null;
-          this.filters_faculty = null;
-          this.filters_staff = null;
-          this.filters_witness = null;
-        },
-        facultyChanged() {
-          this.filters_undergraduate = null;
-          this.filters_graduate = null;
-          this.filters_staff = null;
-          this.filters_witness = null;
-        },
-        staffChanged() {
-          this.filters_undergraduate = null;
-          this.filters_graduate = null;
-          this.filters_faculty = null;
-          this.filters_witness = null;
-        },
-        witnessChanged() {
-          this.filters_undergraduate = null;
-          this.filters_graduate = null;
-          this.filters_faculty = null;
-          this.filters_staff = null;
-        },
-        searchChanged() {
-          this.filters_undergraduate = null;
-          this.filters_graduate = null;
-          this.filters_faculty = null;
-          this.filters_staff = null;
-          this.filters_witness = null;
-        }
-      },
-      // Search and filtering data
-      computed:{
-        searchData() {
-
-          let helpResources = this.userData.filter(users => {
-            // input search values
-            let match = users.category.toLowerCase().match(this.search.toLowerCase()) || users.contact_department_name.toLowerCase().match(this.search.toLowerCase()) || users.phone.toLowerCase().match(this.search.toLowerCase()) || users.help.toLowerCase().match(this.search.toLowerCase()) || users.filter_term.toLowerCase().match(this.search.toLowerCase()) || users.description.toLowerCase().match(this.search.toLowerCase());
-            // selections filter value
-            if (this.filters_undergraduate != null) {
-              return (match && users.filter_term.toLowerCase().match(this.filters_undergraduate.toLowerCase()));
-            }
-
-            if (this.filters_graduate != null) {
-              return (match && users.filter_term.toLowerCase().match(this.filters_graduate.toLowerCase()));
-            }
-
-            if (this.filters_faculty != null) {
-              return (match && users.filter_term.toLowerCase().match(this.filters_faculty.toLowerCase()));
-            }
-
-            if (this.filters_staff != null) {
-              return (match && users.filter_term.toLowerCase().match(this.filters_staff.toLowerCase()));
-            }
-
-            if (this.filters_witness != null) {
-              return (match && users.filter_term.toLowerCase().match(this.filters_witness.toLowerCase()));
-            }
-
-            return this.search != '' && match;
-            
-          });
-
-          return helpResources;
-        }
-      }
-    })
-  }
-</script>
 
 
 <!-- END BLOCK: included uniform campus head  -->
@@ -172,122 +73,21 @@
               <!-- Content -->
               <h1 class="page-title" id="title">Get Help.</h1>
               <!-- Help top -->
-              <div id="app">
-                <form>
-                  <div class="help-search-container">
-                    <h2>Need emergency assistance now?</h2>
-                    <span>Call 911 or campus police: 831-259-2231</span>
-                    <input type="text" v-model="search" placeholder="Search for help resources" class="help-search-box" v-on:click="searchChanged">
-                    <input type="submit" value="Submit" class="help-submit">
-                  </div>
-                  <!-- Help Top -->
-                </form>
-
-                <form>
-                  <ul class="help-options">
-                    <li>
-                      <div class="left">
-                        I am an <span>undergraduate</span> affected by:
-                      </div>
-                      <div class="right">
-                        <select v-model="filters_undergraduate" id="undergraduate" v-on:change="search = ''" @change="undergraduateChanged">
-                          <option :value="null">Select an Option</option>
-                          <option value="Undergraduate Sexual Violence">Sexual Violence</option>
-                          <option value="Undergraduate Sexual Harassment">Sexual Harassment</option>
-                          <option value="Undergraduate Domestic Violence or Stalking">Domestic Violence or Stalking</option>
-                          <option value="Undergraduate Race/Ethnicity Discrimination or Harassment">Race/Ethnicity Discrimination or Harassment</option>
-                          <option value="Undergraduate Whistleblower Complaint">Whistleblower Complaint (e.g. Fraud)</option>
-                          <option value="Undergraduate Other Crime">Other Crime (e.g. Robbery, Theft)</option>
-                        </select>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="left">
-                        I am a <span>graduate student</span> affected by:
-                      </div>
-                      <div class="right">
-                        <select v-model="filters_graduate" id="graduate" v-on:change="search = ''" @change="graduateChanged">
-                          <option :value="null">Select an Option</option>
-                          <option value=" Graduate Sexual Violence">Sexual Violence</option>
-                          <option value=" Graduate Sexual Harassment">Sexual Harassment</option>
-                          <option value=" Graduate Domestic Violence or Stalking">Domestic Violence or Stalking</option>
-                          <option value=" Graduate Race/Ethnicity Discrimination or Harassment">Race/Ethnicity Discrimination or Harassment</option>
-                          <option value=" Graduate Whistleblower Complaint">Whistleblower Complaint (e.g. Fraud)</option>
-                          <option value=" Graduate Other Crime">Other Crime (e.g. Robbery, Theft)</option>
-                        </select>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="left">
-                        I am a <span>faculty member</span> affected by:
-                      </div>
-                      <div class="right">
-                        <select v-model="filters_faculty" id="faculty" v-on:change="search = ''" @change="facultyChanged">
-                          <option :value="null">Select an Option</option>
-                          <option value="Faculty Sexual Violence">Sexual Violence</option>
-                          <option value="Faculty Sexual Harassment">Sexual Harassment</option>
-                          <option value="Faculty Domestic Violence or Stalking">Domestic Violence or Stalking</option>
-                          <option value="Faculty Race/Ethnicity Discrimination or Harassment">Race/Ethnicity Discrimination or Harassment</option>
-                          <option value="Faculty Whistleblower Complaint">Whistleblower Complaint (e.g. Fraud)</option>
-                          <option value="Faculty Other Crime">Other Crime (e.g. Robbery, Theft) </option>
-                        </select>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="left">
-                        I am a <span>staff member</span> affected by:
-                      </div>
-                      <div class="right">
-                        <select v-model="filters_staff" id="staff" v-on:change="search = ''" @change="staffChanged">
-                          <option :value="null">Select an Option</option>
-                          <option value="Staff Sexual Violence">Sexual Violence</option>
-                          <option value="Staff Sexual Harassment">Sexual Harassment</option>
-                          <option value="Staff Domestic Violence or Stalking">Domestic Violence or Stalking</option>
-                          <option value="Staff Race/Ethnicity Discrimination or Harassment">Race/Ethnicity Discrimination or Harassment</option>
-                          <option value="Staff Whistleblower Complaint">Whistleblower Complaint (e.g. Fraud)</option>
-                          <option value="Staff Other Crime">Other Crime (e.g. Robbery, Theft)</option>
-                        </select>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="left">
-                        I am a <span>witness</span> to:
-                      </div>
-                      <div class="right">
-                        <select v-model="filters_witness" id="witness" v-on:change="search = ''"  @change="witnessChanged">
-                          <option :value="null">Select an Option</option>
-                          <option value="Witness Sexual Violence">Sexual Violence</option>
-                          <option value="Witness Sexual Harassment">Sexual Harassment</option>
-                          <option value="Witness Domestic Violence or Stalking">Domestic Violence or Stalking</option>
-                          <option value="Witness Race/Ethnicity Discrimination or Harassment">Race/Ethnicity Discrimination or Harassment</option>
-                          <option value="Witness Whistleblower Complaint">Whistleblower Complaint (e.g. Fraud)</option>
-                          <option value="Witness Other Crime">Other Crime (e.g. Robbery, Theft)</option>
-                        </select>
-                      </div>
-                    </li>
-                  </ul>
-                </form>
-                  <h3>Resources for: <span>{{search || filters_undergraduate || filters_graduate || filters_faculty || filters_staff || filters_witness}}</span></h3>
-                  <table class="help-data">
-                  <tr>
-                    <th>Contact/Department Name</th>
-                    <th>Phone/Email</th>
-                    <th></th>
-                    <th>Website</th>
-                    <th>Report Site</th>
-                  </tr>
-                  <tr v-for="data in searchData">
-                    <td wrap>{{data.contact_department_name}}</td>
-                    <td>{{data.phone}}</td>
-                    <td><span v-if="data.description != ''">{{data.description}}</span></td>
-                    <td nowrap><a v-bind:href="data.website" v-if="data.website != ''">View website</a></td>
-                    <td nowrap><a v-bind:href="data.report_url" v-if="data.report_url != ''">File a Report</a></td> 
-                  </tr>
-                </table>
+                                      <iframe height="577"
+                                allowTransparency="true"
+                                frameborder="0"
+                                scrolling="no"
+                                style="width:100%;border:none"
+                                src="https://ucsc.wufoo.com/embed/rpfv6t21ez2osp/">
+                          <a href="https://ucsc.wufoo.com/forms/rpfv6t21ez2osp/">
+                            Help site feedback form
+                          </a>
+                        </iframe>
+                                              
 
 
-                </div>
-              </div>
+                
+              
               
               <!-- End content -->
               
@@ -297,9 +97,8 @@
       </div>
     </div>
      <div class="help-feedback">
-                  <p>Please help us help you. 
-Is this tool helpful? <br/>Do you need help finding a resource? Let us know and we will get back to you.</p>
-<a href="/feedback.html" class="btn">Feedback</a>
+              
+<a href="/index.html" class="btn">Back to help site</a>
                 </div>
     <div class="main-footer">
       <div class="row" id="footer">
