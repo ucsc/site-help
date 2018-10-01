@@ -305,6 +305,11 @@
         </div>
       </div>
     </div>
+    <div class="report-right-mobile">
+      <span>
+                      File a <strong>Public Incident Report</strong><br>
+                      <a href="https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid929778" class="btn">File a Report</a>
+                    </span></div>
      <div class="help-feedback">
                   
 <a href="/feedback-form.html" class="btn">Feedback</a>
@@ -454,15 +459,23 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
     width: 100%;
   }
 
-  .report-right span {
+  .report-right span,
+  .report-right-mobile span{
     display: inline-block;
     vertical-align: middle;
     line-height: 1.5em;
   }
 
-  .report-right span strong {
+  .report-right span strong,
+  .report-right-mobile span strong {
     color: #003c6c;
     font-weight: bold;
+  }
+
+  .report-right-mobile {
+    margin-bottom: 2em;
+    text-align: center;
+    width: 100%;
   }
 
   .help-options li {
@@ -557,7 +570,8 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
   }
 
   .help-feedback a.btn,
-  .report-right span .btn {
+  .report-right span .btn,
+  .report-right-mobile span .btn {
     display: inline-block;
     background: #01589d;
     border-radius: 5px;
@@ -603,6 +617,10 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
 
     .report-right {
       display: none;
+    }
+
+    .report-right-mobile {
+      display: inline-block;
     }
 
     .help-data tr th {
@@ -682,6 +700,10 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
       display: none;
     }
 
+    .report-right-mobile {
+      display: inline-block;
+    }
+
     .help-data tr th {
       display: none;
     }
@@ -756,6 +778,10 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
 
     .report-right {
       display: none;
+    }
+
+    .report-right-mobile {
+      display: inline-block;
     }
 
     .help-data tr th {
@@ -835,6 +861,10 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
       max-width: 325px;
     }
 
+    .report-right-mobile {
+      display: none;
+    }
+
 
     .help-data tr th {
       background: rgba(0,60,108, .2);
@@ -908,6 +938,10 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
     .report-right {
       display: inline-block;
       max-width: 325px;
+    }
+
+    .report-right-mobile {
+      display: none;
     }
 
     .help-data tr th {
