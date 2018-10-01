@@ -169,9 +169,12 @@
       <div class="row" id="sprflt">
         <div id="main" role="main">
           <div class="main-content" id="mainContent">
+
             <div class="content contentBox"> 
+              
               <!-- Content -->
               <h1 class="page-title" id="title">Get Help.</h1>
+              <a href="https://google.com" class="hide-page">Hide page now</a>
               <!-- Help top -->
               <div id="app">
                 <form>
@@ -388,6 +391,11 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
 
 <style>
 
+  .contentBox, .content-box {
+    position: relative;
+    overflow-x: visible;
+  }
+
   h3 span {
     color: #003c6c;
   }
@@ -577,6 +585,18 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
     border-radius: 5px;
     color: #fff;
     padding: 10px;
+  }
+
+  .hide-page {
+    background: #da216d;
+    border-radius: 5px;
+    color: #fff;
+    display:block; 
+    right: 4em; 
+    padding: 5px; 
+    position: absolute;
+    top: -.5em; 
+    z-index: 3000; 
   }
 
   @media screen and (max-width: 31.125em) {
