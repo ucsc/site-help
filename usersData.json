@@ -72,6 +72,16 @@
     },
     {
       "category": "Undergraduate",
+      "help": "Race/Ethnicity Discrimination or Harassment",
+      "filter_term": "Undergraduate Race/Ethnicity Discrimination or Harassment",
+      "contact_department_name": "Dean of Students",
+      "description": "",
+      "phone": "(831) 459-4446 or deanofstudents@ucsc.edu",
+      "website": "https://reporthate.ucsc.edu/",
+      "report_url": "https://ucsc-advocate.symplicity.com/care_report/index.php/pid039305?"
+    },
+    {
+      "category": "Undergraduate",
       "help": "Whistleblower Complaint (e.g. Fraud)",
       "filter_term": "Undergraduate Whistleblower Complaint",
       "contact_department_name": "UCSC Locally Designated Official for Whistleblower Matters (SALDO)",
@@ -179,6 +189,16 @@
       "phone": "(831) 459-3676 or cbene@ucsc.edu",
       "website": "https://diversity.ucsc.edu",
       "report_url": "https://diversity.ucsc.edu/eeo-aa/images/complaint_form.pdf"
+    },
+    {
+      "category": "Graduate",
+      "help": "Race/Ethnicity Discrimination or Harassment",
+      "filter_term": " Graduate Race/Ethnicity Discrimination or Harassment",
+      "contact_department_name": "Dean of Students",
+      "description": "",
+      "phone": "(831) 459-4446 or deanofstudents@ucsc.edu",
+      "website": "https://reporthate.ucsc.edu/",
+      "report_url": "https://ucsc-advocate.symplicity.com/care_report/index.php/pid039305?"
     },
     {
       "category": "Graduate",
