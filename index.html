@@ -282,7 +282,6 @@
                   <h3>Resources for: <span>{{search || filters_undergraduate || filters_graduate || filters_faculty || filters_staff || filters_witness}}</span></h3>
                   <table class="help-data">
                   <tr>
-                    <th>Category</th>
                     <th>Contact/Department Name</th>
                     <th>Phone/Email</th>
                     <th></th>
@@ -290,7 +289,6 @@
                     <th>Report Site</th>
                   </tr>
                   <tr v-for="data in searchData">
-                    <td wrap>{{data.category}}</td>
                     <td wrap>{{data.contact_department_name}}</td>
                     <td>{{data.phone}}</td>
                     <td><span v-if="data.description != ''">{{data.description}}</span></td>
