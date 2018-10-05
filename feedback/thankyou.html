@@ -71,18 +71,12 @@
           <div class="main-content" id="mainContent">
             <div class="content contentBox"> 
               <!-- Content -->
-              <h1 class="page-title" id="title">Feedback</h1>
+              <h1 class="page-title" id="title">Thank you</h1>
+              <a href="https://google.com" class="hide-page">Hide Page Now</a>
               <!-- Help top -->
-                                      <iframe height="700"
-                                allowTransparency="true"
-                                frameborder="0"
-                                scrolling="no"
-                                style="width:100%;border:none"
-                                src="https://ucsc.wufoo.com/embed/rpfv6t21ez2osp/">
-                          <a href="https://ucsc.wufoo.com/forms/rpfv6t21ez2osp/">
-                            Help site feedback form
-                          </a>
-                        </iframe>
+             
+              <p>Thank you for your feedback.</p>
+              
                                               
 
 
@@ -98,7 +92,7 @@
     </div>
      <div class="help-feedback">
               
-<a href="/index.html" class="btn">Back to main page</a>
+<a href="../index.html" class="btn">Back to main page</a>
                 </div>
     <div class="main-footer" role="contentinfo">
       <div class="row" id="footer">
@@ -172,6 +166,11 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
 
 <style>
 
+  .contentBox, .content-box {
+    position: relative;
+    overflow-x: visible;
+  }
+
   h3 span {
     color: #003c6c;
   }
@@ -185,7 +184,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
   }
 
   .help-search-container {
-    background: url("images/help-banner.jpg") no-repeat;
+    background: url("images/help-banner.jpg") no-repeat #01589d;
     background-size: cover;
     display: block;
     height: 250px;
@@ -209,11 +208,11 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
 
   .help-search-box {
     border: 1px #003c6c solid;
-    bottom: 1em;
     display: block;
+    margin-top: .5em;
     max-width: 54% !important;
     padding: 10px;
-    position: absolute;
+    position: relative;
     width: 100%;
   }
 
@@ -223,14 +222,47 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
     outline: none;
   }
 
+  .help-options-container {
+    display: flex;
+    width: 100%;
+  }
+
   .help-options {
-    font-size: 1.25em;
+    float: left;
+    font-size: 1.15em;
     list-style: none;
-    margin: 1em auto 0;
+    width: 100%;
+  }
+
+  .report-right {
+    display: inline-block;
+    float: right;
+    line-height: 300px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .report-right span,
+  .report-right-mobile span{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.5em;
+  }
+
+  .report-right span strong,
+  .report-right-mobile span strong {
+    color: #003c6c;
+    font-weight: bold;
+  }
+
+  .report-right-mobile {
+    margin-bottom: 2em;
+    text-align: center;
     width: 100%;
   }
 
   .help-options li {
+    align-items: center;
     flex-flow: row;
     font-size: .85em;
     margin: 0;
@@ -320,7 +352,9 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
     width: 100%;
   }
 
-  .help-feedback a.btn {
+  .help-feedback a.btn,
+  .report-right span .btn,
+  .report-right-mobile span .btn {
     display: inline-block;
     background: #01589d;
     border-radius: 5px;
@@ -328,7 +362,22 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
     padding: 10px;
   }
 
+  .hide-page {
+    background: #da216d;
+    border-radius: 5px;
+    color: #fff;
+    display:block; 
+    right: 4em; 
+    padding: 5px; 
+    position: absolute;
+    z-index: 3000; 
+  }
+
   @media screen and (max-width: 31.125em) {
+
+    ul {
+      margin-left: 0;
+    }
 
     .help-search-container {
       background: #01589d;
@@ -352,6 +401,24 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
     .help-search-box input::-webkit-input-placeholder {
       max-width: 80%;
       font-size: 1em;
+    }
+
+    .help-options-container {
+      display: inline-block;
+    }
+
+    .help-options {
+      display: inline-block;
+      max-width: 100%;
+      padding: 0;
+    }
+
+    .report-right {
+      display: none;
+    }
+
+    .report-right-mobile {
+      display: inline-block;
     }
 
     .help-data tr th {
@@ -380,10 +447,18 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
       margin: 0 1em 0em 0;
     }
 
+    .hide-page {
+      top: -2.15em;
+    }
+
   }
 
 
   @media screen and (min-width: 31.1875em) {
+
+    ul {
+      margin-left: 0;
+    }
 
     .help-search-container {
       background: #01589d;
@@ -409,6 +484,10 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
       font-size: 1em;
     }
 
+    .help-options-container {
+      display: inline-block;
+    }
+
     .help-options {
       display: inline-block;
       max-width: 100%;
@@ -421,6 +500,14 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
 
     .help-options li .right {
       max-width: 100%;
+    }
+
+    .report-right {
+      display: none;
+    }
+
+    .report-right-mobile {
+      display: inline-block;
     }
 
     .help-data tr th {
@@ -448,9 +535,17 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
       margin: 0 1em 0em 0;
     }
 
+    .hide-page {
+      top: -2.15em;
+    }
+
   }
 
   @media screen and (min-width: 37.5em) {
+
+    ul {
+      margin-left: 0;
+    }
 
     .help-search-container {
       background: #01589d;
@@ -477,6 +572,10 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
       font-size: 2em;
     }
 
+    .help-options-container {
+      display: inline-block;
+    }
+
     .help-options {
       display: inline-block;
       padding: 0;
@@ -489,6 +588,14 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
 
     .help-options li .right {
       max-width: 100%;
+    }
+
+    .report-right {
+      display: none;
+    }
+
+    .report-right-mobile {
+      display: inline-block;
     }
 
     .help-data tr th {
@@ -516,14 +623,21 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
     .callout-left, .left {
       margin: 0 1em 0em 0;
     }
+
+    .hide-page {
+      top: -2.15em;
+    }
     
   }
 
   @media screen and (min-width: 48em) {
 
+    ul {
+      margin-left: 0;
+    }
+
     .help-search-container {
-      background: url("images/help-banner.jpg") no-repeat;
-      background-size: cover;
+      background: #01589d;
       height: 250px;
     }
 
@@ -546,18 +660,33 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
       font-size: 1.5em;
     }
 
-    .help-options {
-      display: block;
-      padding: 0;
-    }
-
-    .help-options li {
+    .help-options-container {
       display: flex;
     }
 
-    .help-options li .right {
-      max-width: 400px;
+    .help-options {
+      display: block;
+      padding: 0;
+      max-width: 600px;
     }
+
+    .help-options li {
+      display: block;
+    }
+
+    .help-options li .right {
+      max-width: 100%;
+    }
+
+    .report-right {
+      display: inline-block;
+      max-width: 325px;
+    }
+
+    .report-right-mobile {
+      display: none;
+    }
+
 
     .help-data tr th {
       background: rgba(0,60,108, .2);
@@ -578,15 +707,23 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
     }
 
     .callout-left, .left {
-      margin: 0 1em 1em 0;
+      margin: 0 1em 0 0;
+    }
+
+    .hide-page {
+      top: -.5em;
     }
 
   }
 
   @media screen and (min-width: 60em) {
 
+    ul {
+      margin-left: 1em;
+    }
+
     .help-search-container {
-      background: url("images/help-banner.jpg") no-repeat;
+      background: url("images/help-banner.jpg") no-repeat #01589d;
       background-size: cover;
       height: 250px;
     }
@@ -610,9 +747,14 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
       font-size: 1.5em;
     }
 
+    .help-options-container {
+      display: flex;
+    }
+
     .help-options {
       display: block;
-      padding: 0 0 0 1.25em;
+      padding: 0 0 0 .25em;
+      max-width: 675px;
     }
 
     .help-options li {
@@ -621,6 +763,15 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
 
     .help-options li .right {
       max-width: 450px;
+    }
+
+    .report-right {
+      display: inline-block;
+      max-width: 400px;
+    }
+
+    .report-right-mobile {
+      display: none;
     }
 
     .help-data tr th {
