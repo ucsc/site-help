@@ -274,7 +274,7 @@
                   </form>
                   <div class="report-right">
                     <span>
-                      File a <strong>Public Incident Report</strong><br>
+                      <strong>Public Incident Report</strong><br>
                       <a href="https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid929778" class="btn">File a Report</a>
                     </span>
                   </div>
@@ -282,6 +282,7 @@
                   <h3>Resources for: <span>{{search || filters_undergraduate || filters_graduate || filters_faculty || filters_staff || filters_witness}}</span></h3>
                   <table class="help-data">
                   <tr>
+                    <th>Category</th>
                     <th>Contact/Department Name</th>
                     <th>Phone/Email</th>
                     <th></th>
@@ -289,6 +290,7 @@
                     <th>Report Site</th>
                   </tr>
                   <tr v-for="data in searchData">
+                    <td wrap>{{data.category}}</td>
                     <td wrap>{{data.contact_department_name}}</td>
                     <td>{{data.phone}}</td>
                     <td><span v-if="data.description != ''">{{data.description}}</span></td>
@@ -432,7 +434,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
   .help-search-box {
     border: 1px #003c6c solid;
     display: block;
-    margin-top: .5em;
+    margin-top: 2em;
     max-width: 54% !important;
     padding: 10px;
     position: relative;
