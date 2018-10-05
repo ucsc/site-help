@@ -5,333 +5,540 @@
       "help": "Sexual Violence",
       "filter_term": "Undergraduate Sexual Violence",
       "contact_department_name": "Title IX Office",
+      "description": "Contact this office to file an official report.",
       "phone": "(831) 459-2462",
       "website": "https://titleix.ucsc.edu/",
-      "reporting_url": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid108591?"
+      "report_url": "https://titleix.ucsc.edu/reporting/index.html#https://wcms.ucsc.edu/entity/open.act?id=15f5bc998072701752a34ca3142b3a65&type=file&\n"
+    },
+    {
+      "category": "Undergraduate",
+      "help": "Sexual Violence",
+      "filter_term": "Undergraduate Sexual Violence",
+      "contact_department_name": "Campus Advocacy, Resources, and Education (CARE)",
+      "description": "Contact this office to arrange a confidential conversation.",
+      "phone": "(831) 502-2273  or care@ucsc.edu",
+      "website": "https://care.ucsc.edu",
+      "report_url": ""
     },
     {
       "category": "Undergraduate",
       "help": "Sexual Harassment",
       "filter_term": "Undergraduate Sexual Harassment",
       "contact_department_name": "Title IX Office",
+      "description": "Contact this office to file an official report.",
       "phone": "(831) 459-2462",
       "website": "https://titleix.ucsc.edu/",
-      "reporting_url": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid108591?"
+      "report_url": "https://titleix.ucsc.edu/reporting/index.html#https://wcms.ucsc.edu/entity/open.act?id=15f5bc998072701752a34ca3142b3a65&type=file&"
+    },
+    {
+      "category": "Undergraduate",
+      "help": "Sexual Harassment",
+      "filter_term": "Undergraduate Sexual Harassment",
+      "contact_department_name": "Campus Advocacy, Resources, and Education (CARE)",
+      "description": "Contact this office to arrange a confidential conversation.",
+      "phone": "(831) 502-2273  or care@ucsc.edu",
+      "website": "https://care.ucsc.edu",
+      "report_url": ""
     },
     {
       "category": "Undergraduate",
       "help": "Domestic Violence or Stalking",
       "filter_term": "Undergraduate Domestic Violence or Stalking",
-      "contact_department_name": "Campus Advocasy, Resources, and Education (CARE)",
+      "contact_department_name": "Campus Advocacy, Resources, and Education (CARE)",
+      "description": "Contact this office to arrange a confidential conversation.",
       "phone": "(831) 502-CARE (2273)",
       "website": "https://care.ucsc.edu",
-      "reporting_url": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid108591?"
+      "report_url": ""
+    },
+    {
+      "category": "Undergraduate",
+      "help": "Domestic Violence or Stalking",
+      "filter_term": "Undergraduate Domestic Violence or Stalking",
+      "contact_department_name": "Title IX Office",
+      "description": "Contact this office to file an official report.",
+      "phone": "(831) 459-2462",
+      "website": "https://titleix.ucsc.edu/",
+      "report_url": "https://titleix.ucsc.edu/reporting/index.html#https://wcms.ucsc.edu/entity/open.act?id=15f5bc998072701752a34ca3142b3a65&type=file&\n"
     },
     {
       "category": "Undergraduate",
       "help": "Race/Ethnicity Discrimination or Harassment",
       "filter_term": "Undergraduate Race/Ethnicity Discrimination or Harassment",
-      "contact_department_name": "Ciel Benedetto, Assistant Director for EEO",
+      "contact_department_name": "Office for Diversity, Equity, and Inclusion",
+      "description": "Ciel Benedetto, Assistant Director for EEO",
       "phone": "(831) 459-3676 or cbene@ucsc.edu",
       "website": "https://diversity.ucsc.edu",
-      "reporting_url": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid108591?"
+      "report_url": "https://diversity.ucsc.edu/eeo-aa/images/complaint_form.pdf"
+    },
+    {
+      "category": "Undergraduate",
+      "help": "Race/Ethnicity Discrimination or Harassment",
+      "filter_term": "Undergraduate Race/Ethnicity Discrimination or Harassment",
+      "contact_department_name": "Dean of Students",
+      "description": "",
+      "phone": "(831) 459-4446 or deanofstudents@ucsc.edu",
+      "website": "https://reporthate.ucsc.edu/",
+      "report_url": "https://ucsc-advocate.symplicity.com/care_report/index.php/pid039305?"
     },
     {
       "category": "Undergraduate",
       "help": "Whistleblower Complaint (e.g. Fraud)",
       "filter_term": "Undergraduate Whistleblower Complaint",
       "contact_department_name": "UCSC Locally Designated Official for Whistleblower Matters (SALDO)",
+      "description": "",
       "phone": "(831) 459-4380 or wbreport@ucsc.edu",
-      "website": "http://whistleblower.ucsc.edu",
-      "reporting_url": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid108591?"
+      "website": "https://whistleblower.ucsc.edu",
+      "report_url": "https://whistleblower.ucsc.edu/about/form.pdf"
     },
     {
       "category": "Undergraduate",
       "help": "Whistleblower Complaint (e.g. Fraud)",
       "filter_term": "Undergraduate Whistleblower Complaint",
       "contact_department_name": "UC Whistleblower Office",
+      "description": "",
       "phone": "(800) 403-4744",
-      "website": "https://secure.ethicspoint.com/domain/media/en/gui/23531/index.html",
-      "reporting_url": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid108591?"
+      "website": "https://www.ucop.edu/uc-whistleblower\n",
+      "report_url": "https://secure.ethicspoint.com/domain/media/en/gui/23531/location.html?cid=23942"
     },
     {
       "category": "Undergraduate",
       "help": "Other Crime (e.g. Robbery, Theft) ",
       "filter_term": "Undergraduate Other Crime",
       "contact_department_name": "UCSC Police",
+      "description": "",
       "phone": "Non-emergency police issues (831) 459-2231",
       "website": "https://police.ucsc.edu",
-      "reporting_url": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid108591?"
+      "report_url": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid108591?"
     },
     {
       "category": "Undergraduate",
-      "help": "Other Crime (e.g. Robbery, Theft)",
+      "help": "Other Crime (e.g. Robbery, Theft) ",
       "filter_term": "Undergraduate Other Crime",
       "contact_department_name": "UCSC Police",
+      "description": "",
       "phone": "Anonymous tip line: (831) 459-3TIP (459-3847)",
       "website": "https://police.ucsc.edu",
-      "reporting_url": ""
+      "report_url": ""
     },
     {
       "category": "Graduate",
       "help": "Sexual Violence",
       "filter_term": " Graduate Sexual Violence",
       "contact_department_name": "Title IX Office",
+      "description": "Contact this office to file an official report.",
       "phone": "(831) 459-2462",
       "website": "https://titleix.ucsc.edu/",
-      "reporting_url": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid108591?"
+      "report_url": "https://titleix.ucsc.edu/reporting/index.html#https://wcms.ucsc.edu/entity/open.act?id=15f5bc998072701752a34ca3142b3a65&type=file&\n"
+    },
+    {
+      "category": "Graduate",
+      "help": "Sexual Violence",
+      "filter_term": " Graduate Sexual Violence",
+      "contact_department_name": "Campus Advocacy, Resources, and Education (CARE)",
+      "description": "Contact this office to arrange a confidential conversation.",
+      "phone": "(831) 502-2273  or care@ucsc.edu",
+      "website": "https://care.ucsc.edu",
+      "report_url": ""
     },
     {
       "category": "Graduate",
       "help": "Sexual Harassment",
       "filter_term": " Graduate Sexual Harassment",
       "contact_department_name": "Title IX Office",
+      "description": "Contact this office to file an official report.",
       "phone": "(831) 459-2462",
       "website": "https://titleix.ucsc.edu/",
-      "reporting_url": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid108591?"
+      "report_url": "https://titleix.ucsc.edu/reporting/index.html#https://wcms.ucsc.edu/entity/open.act?id=15f5bc998072701752a34ca3142b3a65&type=file&"
+    },
+    {
+      "category": "Graduate",
+      "help": "Sexual Harassment",
+      "filter_term": " Graduate Sexual Harassment",
+      "contact_department_name": "Campus Advocacy, Resources, and Education (CARE)",
+      "description": "Contact this office to arrange a confidential conversation.",
+      "phone": "(831) 502-2273  or care@ucsc.edu",
+      "website": "https://care.ucsc.edu",
+      "report_url": ""
+    },
+    {
+      "category": "Graduate",
+      "help": "Domestic Violence or Stalking",
+      "filter_term": " Graduate Domestic Violence or Stalking",
+      "contact_department_name": "Campus Advocacy, Resources, and Education (CARE)",
+      "description": "Contact this office to arrange a confidential conversation.",
+      "phone": "(831) 502-CARE (2273)",
+      "website": "https://care.ucsc.edu",
+      "report_url": ""
+    },
+    {
+      "category": "Graduate",
+      "help": "Domestic Violence or Stalking",
+      "filter_term": " Graduate Domestic Violence or Stalking",
+      "contact_department_name": "Title IX Office",
+      "description": "Contact this office to file an official report.",
+      "phone": "(831) 459-2462",
+      "website": "https://titleix.ucsc.edu/",
+      "report_url": "https://titleix.ucsc.edu/reporting/index.html#https://wcms.ucsc.edu/entity/open.act?id=15f5bc998072701752a34ca3142b3a65&type=file&\n"
     },
     {
       "category": "Graduate",
       "help": "Race/Ethnicity Discrimination or Harassment",
       "filter_term": " Graduate Race/Ethnicity Discrimination or Harassment",
-      "contact_department_name": "Ciel Benedetto, Assistant Director for EEO",
+      "contact_department_name": "Office for Diversity, Equity, and Inclusion",
+      "description": "Ciel Benedetto, Assistant Director for EEO",
       "phone": "(831) 459-3676 or cbene@ucsc.edu",
       "website": "https://diversity.ucsc.edu",
-      "reporting_url": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid108591?"
+      "report_url": "https://diversity.ucsc.edu/eeo-aa/images/complaint_form.pdf"
+    },
+    {
+      "category": "Graduate",
+      "help": "Race/Ethnicity Discrimination or Harassment",
+      "filter_term": " Graduate Race/Ethnicity Discrimination or Harassment",
+      "contact_department_name": "Dean of Students",
+      "description": "",
+      "phone": "(831) 459-4446 or deanofstudents@ucsc.edu",
+      "website": "https://reporthate.ucsc.edu/",
+      "report_url": "https://ucsc-advocate.symplicity.com/care_report/index.php/pid039305?"
     },
     {
       "category": "Graduate",
       "help": "Whistleblower Complaint (e.g. Fraud)",
       "filter_term": " Graduate Whistleblower Complaint",
       "contact_department_name": "UCSC Locally Designated Official for Whistleblower Matters (SALDO)",
+      "description": "",
       "phone": "(831) 459-4380 or wbreport@ucsc.edu",
-      "website": "http://whistleblower.ucsc.edu",
-      "reporting_url": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid108591?"
+      "website": "https://whistleblower.ucsc.edu",
+      "report_url": "https://whistleblower.ucsc.edu/about/form.pdf"
     },
     {
       "category": "Graduate",
       "help": "Whistleblower Complaint (e.g. Fraud)",
       "filter_term": " Graduate Whistleblower Complaint",
       "contact_department_name": "UC Whistleblower Office",
+      "description": "",
       "phone": "(800) 403-4744",
-      "website": "https://secure.ethicspoint.com/domain/media/en/gui/23531/index.html",
-      "reporting_url": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid108591?"
+      "website": "https://www.ucop.edu/uc-whistleblower\n",
+      "report_url": "https://secure.ethicspoint.com/domain/media/en/gui/23531/location.html?cid=23942"
     },
     {
       "category": "Graduate",
-      "help": "Other Crime (e.g. Robbery, Theft)",
+      "help": "Other Crime (e.g. Robbery, Theft) ",
       "filter_term": " Graduate Other Crime",
       "contact_department_name": "UCSC Police",
-      "phone": "Police issues (831) 459-2231",
+      "description": "",
+      "phone": "Non-emergency police issues (831) 459-2231",
       "website": "https://police.ucsc.edu",
-      "reporting_url": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid108591?"
+      "report_url": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid108591?"
     },
     {
       "category": "Graduate",
-      "help": "Other Crime (e.g. Robbery, Theft)",
+      "help": "Other Crime (e.g. Robbery, Theft) ",
       "filter_term": " Graduate Other Crime",
       "contact_department_name": "UCSC Police",
-      "phone": "Tip line: (831) 459-3TIP (459-3847)",
+      "description": "",
+      "phone": "Anonymous tip line: (831) 459-3TIP (459-3847)",
       "website": "https://police.ucsc.edu",
-      "reporting_url": ""
+      "report_url": ""
     },
     {
       "category": "Faculty",
       "help": "Sexual Violence",
       "filter_term": "Faculty Sexual Violence",
       "contact_department_name": "Title IX Office",
+      "description": "Contact this office to file an official report.",
       "phone": "(831) 459-2462",
-      "website": "https://titleix.ucsc.edu/reporting/Faculty-reporting-guide",
-      "reporting_url": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid108591?"
+      "website": "https://titleix.ucsc.edu",
+      "report_url": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid309921?"
+    },
+    {
+      "category": "Faculty",
+      "help": "Sexual Violence",
+      "filter_term": "Faculty Sexual Violence",
+      "contact_department_name": "Campus Advocacy, Resources, and Education (CARE)",
+      "description": "Contact this office to arrange a confidential conversation.",
+      "phone": "(831) 502-2273  or care@ucsc.edu",
+      "website": "https://care.ucsc.edu",
+      "report_url": ""
     },
     {
       "category": "Faculty",
       "help": "Sexual Harassment",
       "filter_term": "Faculty Sexual Harassment",
       "contact_department_name": "Title IX Office",
+      "description": "Contact this office to file an official report.",
       "phone": "(831) 459-2462",
-      "website": "https://titleix.ucsc.edu/reporting/Faculty-reporting-guide",
-      "reporting_url": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid108591?"
+      "website": ": https://titleix.ucsc.edu/reporting/faculty-reporting-guide.html",
+      "report_url": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid309921?"
+    },
+    {
+      "category": "Faculty",
+      "help": "Domestic Violence or Stalking",
+      "filter_term": "Faculty Domestic Violence or Stalking",
+      "contact_department_name": "Campus Advocacy, Resources, and Education (CARE)",
+      "description": "Contact this office to arrange a confidential conversation.",
+      "phone": "(831) 502-2273 or care@ucsc.edu",
+      "website": "https://care.ucsc.edu",
+      "report_url": ""
+    },
+    {
+      "category": "Faculty",
+      "help": "Domestic Violence or Stalking",
+      "filter_term": "Faculty Domestic Violence or Stalking",
+      "contact_department_name": "Title IX Office",
+      "description": "Contact this office to file an official report.",
+      "phone": "(831) 459-2462",
+      "website": "https://titleix.ucsc.edu/",
+      "report_url": "https://titleix.ucsc.edu/reporting/index.html#https://wcms.ucsc.edu/entity/open.act?id=15f5bc998072701752a34ca3142b3a65&type=file&\n"
     },
     {
       "category": "Faculty",
       "help": "Race/Ethnicity Discrimination or Harassment",
       "filter_term": "Faculty Race/Ethnicity Discrimination or Harassment",
-      "contact_department_name": "Ciel Benedetto, Assistant Director for EEO",
+      "contact_department_name": "Office for Diversity, Equity, and Inclusion",
+      "description": "Ciel Benedetto, Assistant Director for EEO",
       "phone": "(831) 459-3676 or cbene@ucsc.edu",
       "website": "https://diversity.ucsc.edu",
-      "reporting_url": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid108591?"
+      "report_url": "https://diversity.ucsc.edu/eeo-aa/images/complaint_form.pdf"
     },
     {
       "category": "Faculty",
       "help": "Whistleblower Complaint (e.g. Fraud)",
       "filter_term": "Faculty Whistleblower Complaint",
       "contact_department_name": "UCSC Locally Designated Official for Whistleblower Matters (SALDO)",
+      "description": "",
       "phone": "(831) 459-4380 or wbreport@ucsc.edu",
-      "website": "http://whistleblower.ucsc.edu",
-      "reporting_url": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid108591?"
+      "website": "https://whistleblower.ucsc.edu",
+      "report_url": "https://whistleblower.ucsc.edu/about/form.pdf"
     },
     {
       "category": "Faculty",
       "help": "Whistleblower Complaint (e.g. Fraud)",
       "filter_term": "Faculty Whistleblower Complaint",
       "contact_department_name": "UC Whistleblower Office",
-      "phone": "(800) 403-4744 6",
-      "website": "https://secure.ethicspoint.com/domain/media/en/gui/23531/index.htmlhttps://www.ucop.edu/uc-whistleblower/",
-      "reporting_url": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid108591?"
+      "description": "",
+      "phone": "(800) 403-4744",
+      "website": "https://www.ucop.edu/uc-whistleblower",
+      "report_url": "https://secure.ethicspoint.com/domain/media/en/gui/23531/location.html?cid=23942"
     },
     {
       "category": "Faculty",
       "help": "Other Crime (e.g. Robbery, Theft) ",
       "filter_term": "Faculty Other Crime",
       "contact_department_name": "UCSC Police",
-      "phone": "Police issues (831) 459-2231",
+      "description": "",
+      "phone": "Non-emergency police issues (831) 459-2231",
       "website": "https://police.ucsc.edu",
-      "reporting_url": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid108591?"
+      "report_url": ""
     },
     {
       "category": "Faculty",
       "help": "Other Crime (e.g. Robbery, Theft) ",
       "filter_term": "Faculty Other Crime",
       "contact_department_name": "UCSC Police",
-      "phone": "Tip line: (831) 459-3TIP (459-3847)",
+      "description": "",
+      "phone": "Anonymous tip line: (831) 459-3TIP (459-3847)",
       "website": "https://police.ucsc.edu",
-      "reporting_url": ""
+      "report_url": ""
     },
     {
       "category": "Staff",
       "help": "Sexual Violence",
       "filter_term": "Staff Sexual Violence",
       "contact_department_name": "Title IX Office",
+      "description": "Contact this office to file an official report.",
       "phone": "(831) 459-2462",
-      "website": "https://titleix.ucsc.edu/reporting/staff-reporting-guide",
-      "reporting_url": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid108591?"
+      "website": "https://titleix.ucsc.edu",
+      "report_url": "https://titleix.ucsc.edu/reporting/staff-reporting-guide"
+    },
+    {
+      "category": "Staff",
+      "help": "Sexual Violence",
+      "filter_term": "Staff Sexual Violence",
+      "contact_department_name": "Campus Advocacy, Resources, and Education (CARE)",
+      "description": "Contact this office to arrange a confidential conversation.",
+      "phone": "(831) 502-2273  or care@ucsc.edu",
+      "website": "https://care.ucsc.edu",
+      "report_url": ""
     },
     {
       "category": "Staff",
       "help": "Sexual Harassment",
       "filter_term": "Staff Sexual Harassment",
       "contact_department_name": "Title IX Office",
+      "description": "Contact this office to file an official report.",
       "phone": "(831) 459-2462",
-      "website": "https://titleix.ucsc.edu/reporting/staff-reporting-guide",
-      "reporting_url": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid108591?"
+      "website": "https://titleix.ucsc.edu/reporting/staff-reporting-guide.html",
+      "report_url": ""
+    },
+    {
+      "category": "Staff",
+      "help": "Domestic Violence or Stalking",
+      "filter_term": "Staff Domestic Violence or Stalking",
+      "contact_department_name": "Campus Advocacy, Resources, and Education (CARE)",
+      "description": "Contact this office to arrange a confidential conversation.",
+      "phone": "(831) 502-2273 or care@ucsc.edu",
+      "website": "https://care.ucsc.edu",
+      "report_url": ""
+    },
+    {
+      "category": "Staff",
+      "help": "Domestic Violence or Stalking",
+      "filter_term": "Staff Domestic Violence or Stalking",
+      "contact_department_name": "Title IX Office",
+      "description": "Contact this office to file an official report.",
+      "phone": "(831) 459-2462",
+      "website": "https://titleix.ucsc.edu/",
+      "report_url": "https://titleix.ucsc.edu/reporting/index.html#https://wcms.ucsc.edu/entity/open.act?id=15f5bc998072701752a34ca3142b3a65&type=file&\n"
     },
     {
       "category": "Staff",
       "help": "Race/Ethnicity Discrimination or Harassment",
       "filter_term": "Staff Race/Ethnicity Discrimination or Harassment",
-      "contact_department_name": "Ciel Benedetto, Assistant Director for EEO",
+      "contact_department_name": "Office for Diversity, Equity, and Inclusion",
+      "description": "Ciel Benedetto, Assistant Director for EEO",
       "phone": "(831) 459-3676 or cbene@ucsc.edu",
       "website": "https://diversity.ucsc.edu",
-      "reporting_url": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid108591?"
+      "report_url": "https://ehs.ucsc.edu/programs/research-safety/drones.html"
     },
     {
       "category": "Staff",
       "help": "Whistleblower Complaint (e.g. Fraud)",
       "filter_term": "Staff Whistleblower Complaint",
       "contact_department_name": "UCSC Locally Designated Official for Whistleblower Matters (SALDO)",
+      "description": "",
       "phone": "(831) 459-4380 or wbreport@ucsc.edu",
-      "website": "http://whistleblower.ucsc.edu",
-      "reporting_url": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid108591?"
+      "website": "https://whistleblower.ucsc.edu",
+      "report_url": "https://whistleblower.ucsc.edu/about/form.pdf"
     },
     {
       "category": "Staff",
       "help": "Whistleblower Complaint (e.g. Fraud)",
       "filter_term": "Staff Whistleblower Complaint",
       "contact_department_name": "UC Whistleblower Office",
+      "description": "",
       "phone": "(800) 403-4744",
-      "website": "https://secure.ethicspoint.com/domain/media/en/gui/23531/index.html",
-      "reporting_url": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid108591?"
+      "website": "https://whistleblower.ucsc.edu",
+      "report_url": "https://secure.ethicspoint.com/domain/media/en/gui/23531/location.html?cid=23942"
     },
     {
       "category": "Staff",
       "help": "Other Crime (e.g. Robbery, Theft)",
       "filter_term": "Staff Other Crime",
       "contact_department_name": "UCSC Police",
-      "phone": "(831) 459-2231",
+      "description": "",
+      "phone": "Non-emergency police issues (831) 459-2231",
       "website": "https://police.ucsc.edu",
-      "reporting_url": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid108591?"
+      "report_url": ""
     },
     {
       "category": "Staff",
       "help": "Other Crime (e.g. Robbery, Theft)",
       "filter_term": "Staff Other Crime",
       "contact_department_name": "UCSC Police",
-      "phone": "Tip line: (831) 459-3TIP (459-3847)",
+      "description": "",
+      "phone": "Anonymous tip line: (831) 459-3TIP (459-3847)",
       "website": "https://police.ucsc.edu",
-      "reporting_url": ""
-    },
-    {
-      "category": "Staff",
-      "help": "Complaint Resolution for Employees",
-      "filter_term": "Staff Complaint Resolution for Employees",
-      "contact_department_name": "",
-      "phone": "",
-      "website": "",
-      "reporting_url": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid108591?"
+      "report_url": ""
     },
     {
       "category": "Witness",
       "help": "Sexual Violence",
       "filter_term": "Witness Sexual Violence",
       "contact_department_name": "Title IX Office",
+      "description": "Contact this office to file an official report.",
       "phone": "(831) 459-2462",
-      "website": "https://titleix.ucsc.edu/",
-      "reporting_url": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid108591?"
+      "website": "https://titleix.ucsc.edu",
+      "report_url": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid309921?"
+    },
+    {
+      "category": "Witness",
+      "help": "Sexual Violence",
+      "filter_term": "Witness Sexual Violence",
+      "contact_department_name": "Campus Advocacy, Resources, and Education (CARE)",
+      "description": "Contact this office to arrange a confidential conversation.",
+      "phone": "(831) 502-2273  or care@ucsc.edu",
+      "website": "https://care.ucsc.edu",
+      "report_url": ""
     },
     {
       "category": "Witness",
       "help": "Sexual Harassment",
       "filter_term": "Witness Sexual Harassment",
       "contact_department_name": "Title IX Office",
+      "description": "Contact this office to file an official report.",
+      "phone": "(831) 459-2462",
+      "website": "https://titleix.ucsc.edu",
+      "report_url": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid309921?"
+    },
+    {
+      "category": "Witness",
+      "help": "Domestic Violence or Stalking",
+      "filter_term": "Witness Domestic Violence or Stalking",
+      "contact_department_name": "Campus Advocacy, Resources, and Education (CARE)",
+      "description": "Contact this office to arrange a confidential conversation.",
+      "phone": "(831) 502-2273 or care@ucsc.edu",
+      "website": "https://care.ucsc.edu",
+      "report_url": ""
+    },
+    {
+      "category": "Witness",
+      "help": "Domestic Violence or Stalking",
+      "filter_term": "Witness Domestic Violence or Stalking",
+      "contact_department_name": "Title IX Office",
+      "description": "Contact this office to file an official report.",
       "phone": "(831) 459-2462",
       "website": "https://titleix.ucsc.edu/",
-      "reporting_url": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid108591?"
+      "report_url": "https://titleix.ucsc.edu/reporting/index.html#https://wcms.ucsc.edu/entity/open.act?id=15f5bc998072701752a34ca3142b3a65&type=file&\n"
     },
     {
       "category": "Witness",
       "help": "Race/Ethnicity Discrimination or Harassment",
       "filter_term": "Witness Race/Ethnicity Discrimination or Harassment",
-      "contact_department_name": "Ciel Benedetto, Assistant Director for EEO",
+      "contact_department_name": "Office for Diversity, Equity, and Inclusion",
+      "description": "Ciel Benedetto, Assistant Director for EEO",
       "phone": "(831) 459-3676 or cbene@ucsc.edu",
       "website": "https://diversity.ucsc.edu",
-      "reporting_url": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid108591?"
+      "report_url": "https://diversity.ucsc.edu/eeo-aa/images/complaint_form.pdf"
     },
     {
       "category": "Witness",
       "help": "Whistleblower Complaint (e.g. Fraud)",
       "filter_term": "Witness Whistleblower Complaint",
       "contact_department_name": "UCSC Locally Designated Official for Whistleblower Matters (SALDO)",
+      "description": "",
       "phone": "(831) 459-4380 or wbreport@ucsc.edu",
-      "website": "http://whistleblower.ucsc.edu",
-      "reporting_url": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid108591?"
+      "website": "https://whistleblower.ucsc.edu",
+      "report_url": "https://whistleblower.ucsc.edu/about/form.pdf"
     },
     {
       "category": "Witness",
       "help": "Whistleblower Complaint (e.g. Fraud)",
       "filter_term": "Witness Whistleblower Complaint",
       "contact_department_name": "UC Whistleblower Office",
+      "description": "",
       "phone": "(800) 403-4744",
-      "website": "https://secure.ethicspoint.com/domain/media/en/gui/23531/index.html",
-      "reporting_url": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid108591?"
+      "website": "https://whistleblower.ucsc.edu",
+      "report_url": "https://secure.ethicspoint.com/domain/media/en/gui/23531/location.html?cid=23942"
     },
     {
       "category": "Witness",
       "help": "Other Crime (e.g. Robbery, Theft)",
       "filter_term": "Witness Other Crime",
       "contact_department_name": "UCSC Police",
-      "phone": "Police issues (831) 459-2231",
+      "description": "",
+      "phone": "Non-emergency police issues (831) 459-2231",
       "website": "https://police.ucsc.edu",
-      "reporting_url": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid108591?"
+      "report_url": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid741542?rep_type=999"
     },
     {
       "category": "Witness",
       "help": "Other Crime (e.g. Robbery, Theft) ",
-      "filter_term": "Witness Other Crime (e.g. Robbery, Theft)",
+      "filter_term": "Witness Other Crime",
       "contact_department_name": "UCSC Police",
-      "phone": "Tip line: (831) 459-3TIP (459-3847)",
+      "description": "",
+      "phone": "Anonymous tip line: (831) 459-3TIP (459-3847)",
       "website": "https://police.ucsc.edu",
-      "reporting_url": ""
+      "report_url": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid741542?rep_type=999"
     }
   ]
 }
