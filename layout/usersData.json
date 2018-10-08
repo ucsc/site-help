@@ -46,7 +46,7 @@
       "filter_term": "Undergraduate Domestic Violence or Stalking",
       "contact_department_name": "Campus Advocacy, Resources, and Education (CARE)",
       "description": "Contact this office to arrange a confidential conversation.",
-      "phone": "(831) 502-CARE (2273)",
+      "phone": "(831) 502-2273  or care@ucsc.edu",
       "website": "https://care.ucsc.edu",
       "report_url": ""
     },
@@ -75,7 +75,7 @@
       "help": "Race/Ethnicity Discrimination or Harassment",
       "filter_term": "Undergraduate Race/Ethnicity Discrimination or Harassment",
       "contact_department_name": "Dean of Students",
-      "description": "",
+      "description": "Report Hate",
       "phone": "(831) 459-4446 or deanofstudents@ucsc.edu",
       "website": "https://reporthate.ucsc.edu/",
       "report_url": "https://ucsc-advocate.symplicity.com/care_report/index.php/pid039305?"
@@ -123,7 +123,7 @@
     {
       "category": "Graduate",
       "help": "Sexual Violence",
-      "filter_term": " Graduate Sexual Violence",
+      "filter_term": "Graduate Sexual Violence",
       "contact_department_name": "Title IX Office",
       "description": "Contact this office to file an official report.",
       "phone": "(831) 459-2462",
@@ -166,7 +166,7 @@
       "filter_term": " Graduate Domestic Violence or Stalking",
       "contact_department_name": "Campus Advocacy, Resources, and Education (CARE)",
       "description": "Contact this office to arrange a confidential conversation.",
-      "phone": "(831) 502-CARE (2273)",
+      "phone": "(831) 502-2273  or care@ucsc.edu",
       "website": "https://care.ucsc.edu",
       "report_url": ""
     },
@@ -195,7 +195,7 @@
       "help": "Race/Ethnicity Discrimination or Harassment",
       "filter_term": " Graduate Race/Ethnicity Discrimination or Harassment",
       "contact_department_name": "Dean of Students",
-      "description": "",
+      "description": "Report Hate",
       "phone": "(831) 459-4446 or deanofstudents@ucsc.edu",
       "website": "https://reporthate.ucsc.edu/",
       "report_url": "https://ucsc-advocate.symplicity.com/care_report/index.php/pid039305?"
@@ -241,6 +241,36 @@
       "report_url": ""
     },
     {
+      "category": "Graduate",
+      "help": "Bullying and abusive conduct in the workplace",
+      "filter_term": " Graduate Bullying and abusive conduct in the workplace",
+      "contact_department_name": "Staff Human Resources",
+      "description": "Jennifer Schiffner,  Director, Employee & Labor Relations",
+      "phone": "459-1930 or jschiffn@ucsc.edu",
+      "website": "https://shr.ucsc.edu/elr/abusive-conduct-and-bullying-in-the-workplace/what-is-bullying.html",
+      "report_url": ""
+    },
+    {
+      "category": "Graduate",
+      "help": "Bullying and abusive conduct in the workplace",
+      "filter_term": " Graduate Bullying and abusive conduct in the workplace",
+      "contact_department_name": "Academic Personnel Office",
+      "description": "Susan Fellows, Director, Academic Employee Relations",
+      "phone": "459-5032 or sfellows@ucsc.edu",
+      "website": "https://apo.ucsc.edu/",
+      "report_url": ""
+    },
+    {
+      "category": "Graduate",
+      "help": "Bullying and abusive conduct in the workplace",
+      "filter_term": " Graduate Bullying and abusive conduct in the workplace",
+      "contact_department_name": "Conflict Resolution Services - for Confidential Advising",
+      "description": "Nancy Heischman, Director of Conflict Resolution Services",
+      "phone": "459-2290 or nheischm@ucsc.edu",
+      "website": "https://ombuds.ucsc.edu/graduate/index.html",
+      "report_url": ""
+    },
+    {
       "category": "Faculty",
       "help": "Sexual Violence",
       "filter_term": "Faculty Sexual Violence",
@@ -267,7 +297,7 @@
       "contact_department_name": "Title IX Office",
       "description": "Contact this office to file an official report.",
       "phone": "(831) 459-2462",
-      "website": ": https://titleix.ucsc.edu/reporting/faculty-reporting-guide.html",
+      "website": "https://titleix.ucsc.edu/reporting/Faculty-reporting-guide.html",
       "report_url": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid309921?"
     },
     {
@@ -302,8 +332,8 @@
     },
     {
       "category": "Faculty",
-      "help": "Whistleblower Complaint (e.g. Fraud)",
-      "filter_term": "Faculty Whistleblower Complaint",
+      "help": "Whistleblower Complaint Local Official (e.g. Fraud)",
+      "filter_term": "Faculty Whistleblower Complaint Local Official",
       "contact_department_name": "UCSC Locally Designated Official for Whistleblower Matters (SALDO)",
       "description": "",
       "phone": "(831) 459-4380 or wbreport@ucsc.edu",
@@ -322,22 +352,52 @@
     },
     {
       "category": "Faculty",
-      "help": "Other Crime (e.g. Robbery, Theft) ",
-      "filter_term": "Faculty Other Crime",
+      "help": "Other Crime Non-emergency (e.g. Robbery, Theft) ",
+      "filter_term": "Faculty Other Crime Non-emergency",
       "contact_department_name": "UCSC Police",
       "description": "",
-      "phone": "Non-emergency police issues (831) 459-2231",
+      "phone": "Police issues (831) 459-2231",
       "website": "https://police.ucsc.edu",
       "report_url": ""
     },
     {
       "category": "Faculty",
-      "help": "Other Crime (e.g. Robbery, Theft) ",
-      "filter_term": "Faculty Other Crime",
+      "help": "Other Crime Anonymous (e.g. Robbery, Theft) ",
+      "filter_term": "Faculty Other Crime Anonymous",
       "contact_department_name": "UCSC Police",
       "description": "",
-      "phone": "Anonymous tip line: (831) 459-3TIP (459-3847)",
+      "phone": "Tip line: (831) 459-3TIP (459-3847)",
       "website": "https://police.ucsc.edu",
+      "report_url": ""
+    },
+    {
+      "category": "Faculty",
+      "help": "Bullying and abusive conduct in the workplace",
+      "filter_term": "Faculty Bullying and abusive conduct in the workplace",
+      "contact_department_name": "Staff Human Resources",
+      "description": "Jennifer Schiffner,  Director, Employee & Labor Relations",
+      "phone": "459-1930 or jschiffn@ucsc.edu",
+      "website": "https://shr.ucsc.edu/elr/abusive-conduct-and-bullying-in-the-workplace/what-is-bullying.html",
+      "report_url": ""
+    },
+    {
+      "category": "Faculty",
+      "help": "Bullying and abusive conduct in the workplace",
+      "filter_term": "Faculty Bullying and abusive conduct in the workplace",
+      "contact_department_name": "Academic Personnel Office",
+      "description": "Susan Fellows, Director, Academic Employee Relations",
+      "phone": "459-5032 or sfellows@ucsc.edu",
+      "website": "https://apo.ucsc.edu/",
+      "report_url": ""
+    },
+    {
+      "category": "Faculty",
+      "help": "Bullying and abusive conduct in the workplace",
+      "filter_term": "Faculty Bullying and abusive conduct in the workplace",
+      "contact_department_name": "Conflict Resolution Services - for Confidential Advising",
+      "description": "Nancy Heischman, Director of Conflict Resolution Services",
+      "phone": "459-2290 or nheischm@ucsc.edu",
+      "website": "https://ombuds.ucsc.edu/faculty-academic-staff/index.html",
       "report_url": ""
     },
     {
@@ -402,8 +462,8 @@
     },
     {
       "category": "Staff",
-      "help": "Whistleblower Complaint (e.g. Fraud)",
-      "filter_term": "Staff Whistleblower Complaint",
+      "help": "Whistleblower Complaint Local Official (e.g. Fraud)",
+      "filter_term": "Staff Whistleblower Complaint Local Official",
       "contact_department_name": "UCSC Locally Designated Official for Whistleblower Matters (SALDO)",
       "description": "",
       "phone": "(831) 459-4380 or wbreport@ucsc.edu",
@@ -422,22 +482,52 @@
     },
     {
       "category": "Staff",
-      "help": "Other Crime (e.g. Robbery, Theft)",
-      "filter_term": "Staff Other Crime",
+      "help": "Other Crime Non-emergency (e.g. Robbery, Theft) ",
+      "filter_term": "Staff Other Crime Non-emergency",
       "contact_department_name": "UCSC Police",
       "description": "",
-      "phone": "Non-emergency police issues (831) 459-2231",
+      "phone": "(831) 459-2231",
       "website": "https://police.ucsc.edu",
       "report_url": ""
     },
     {
       "category": "Staff",
-      "help": "Other Crime (e.g. Robbery, Theft)",
-      "filter_term": "Staff Other Crime",
+      "help": "Other Crime Anonymous (e.g. Robbery, Theft) ",
+      "filter_term": "Staff Other Crime Anonymous",
       "contact_department_name": "UCSC Police",
       "description": "",
-      "phone": "Anonymous tip line: (831) 459-3TIP (459-3847)",
+      "phone": "Tip line: (831) 459-3TIP (459-3847)",
       "website": "https://police.ucsc.edu",
+      "report_url": ""
+    },
+    {
+      "category": "Staff",
+      "help": "Bullying and abusive conduct in the workplace",
+      "filter_term": "Staff Bullying and abusive conduct in the workplace",
+      "contact_department_name": "Staff Human Resources",
+      "description": "Jennifer Schiffner,  Director, Employee & Labor Relations",
+      "phone": "459-1930 jschiffn@ucsc.edu",
+      "website": "https://shr.ucsc.edu/elr/abusive-conduct-and-bullying-in-the-workplace/what-is-bullying.html",
+      "report_url": ""
+    },
+    {
+      "category": "Staff",
+      "help": "Bullying and abusive conduct in the workplace",
+      "filter_term": "Staff Bullying and abusive conduct in the workplace",
+      "contact_department_name": "Academic Personnel Office",
+      "description": "Susan Fellows, Director, Academic Employee Relations",
+      "phone": "459-5032 or sfellows@ucsc.edu",
+      "website": "https://apo.ucsc.edu/",
+      "report_url": ""
+    },
+    {
+      "category": "Staff",
+      "help": "Bullying and abusive conduct in the workplace",
+      "filter_term": "Staff Bullying and abusive conduct in the workplace",
+      "contact_department_name": "Conflict Resolution Services - for Confidential Advising",
+      "description": "Nancy Heischman, Director of Conflict Resolution Services",
+      "phone": "459-2290 or nheischm@ucsc.edu",
+      "website": "https://ombuds.ucsc.edu/staff/index.html",
       "report_url": ""
     },
     {
@@ -502,8 +592,18 @@
     },
     {
       "category": "Witness",
-      "help": "Whistleblower Complaint (e.g. Fraud)",
-      "filter_term": "Witness Whistleblower Complaint",
+      "help": "Race/Ethnicity Discrimination or Harassment",
+      "filter_term": "Witness Race/Ethnicity Discrimination or Harassment",
+      "contact_department_name": "Dean of Students",
+      "description": "",
+      "phone": "(831) 459-4446 or deanofstudents@ucsc.edu",
+      "website": "https://reporthate.ucsc.edu/",
+      "report_url": "https://ucsc-advocate.symplicity.com/care_report/index.php/pid039305?"
+    },
+    {
+      "category": "Witness",
+      "help": "Whistleblower Complaint Local Official (e.g. Fraud)",
+      "filter_term": "Witness Whistleblower Complaint Local Official",
       "contact_department_name": "UCSC Locally Designated Official for Whistleblower Matters (SALDO)",
       "description": "",
       "phone": "(831) 459-4380 or wbreport@ucsc.edu",
@@ -522,21 +622,21 @@
     },
     {
       "category": "Witness",
-      "help": "Other Crime (e.g. Robbery, Theft)",
-      "filter_term": "Witness Other Crime",
+      "help": "Other Crime Non-emergency (e.g. Robbery, Theft) ",
+      "filter_term": "Witness Other Crime Non-emergency",
       "contact_department_name": "UCSC Police",
       "description": "",
-      "phone": "Non-emergency police issues (831) 459-2231",
+      "phone": "(831) 459-2231",
       "website": "https://police.ucsc.edu",
       "report_url": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid741542?rep_type=999"
     },
     {
       "category": "Witness",
-      "help": "Other Crime (e.g. Robbery, Theft) ",
-      "filter_term": "Witness Other Crime",
+      "help": "Other Crime Anonymous (e.g. Robbery, Theft) ",
+      "filter_term": "Witness Other Crime Anonymous",
       "contact_department_name": "UCSC Police",
       "description": "",
-      "phone": "Anonymous tip line: (831) 459-3TIP (459-3847)",
+      "phone": "Tip line: (831) 459-3TIP (459-3847)",
       "website": "https://police.ucsc.edu",
       "report_url": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid741542?rep_type=999"
     }
