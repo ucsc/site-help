@@ -294,7 +294,7 @@
                     <td>{{data.phone}}</td>
                     <td><span v-if="data.description != ''">{{data.description}}</span></td>
                     <td nowrap><a v-bind:href="data.website_url" v-if="data.website_url != ''">View website</a></td>
-                    <td nowrap><a v-bind:href="data.report_url" v-if="data.report_url != ''">File a Report</a></td> 
+                    <td nowrap><a v-bind:href="data.report_url" v-if="data.report_url != ''">File a Report</a><span v-if="data.report_url == ''">N/A</span></td> 
                   </tr>
                 </table>
 
