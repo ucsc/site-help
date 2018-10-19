@@ -197,7 +197,7 @@
                         <div class="right">
                           <select v-model="filters_undergraduate" id="undergraduate" v-on:change="search = ''" @change="undergraduateChanged">
                             <option :value="null">Select an Option</option>
-                            <!-- <option v-for="data in userData" v-if="data.category == 'Undergraduate'" :value="data.filter_term">{{data.help}}</option> -->
+                            <!-- <option v-for="data in userData" v-if="data.i_am == 'Undergraduate students'" :value="data.filter_term">{{data.category}}</option> -->
                             <option value="Undergraduate students Sexual Assault">Sexual Assault</option>
                             <option value="Undergraduate students Sexual Harassment">Sexual Harassment</option>
                             <option value="Undergraduate students Relationship Violence or Stalking">Relationship Violence or Stalking</option>
