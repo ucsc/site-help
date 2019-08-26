@@ -17,60 +17,11 @@
 <script defer="true" src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 
 <!-- UI --> 
-<script src="https://unpkg.com/vue@2.5.13/dist/vue.js"></script>
-<script>
-  window.onload = function () {
-    var dataURL = 'usersData.json';
-    var App = new Vue({
-      el: '#app',
-      data: {
-        filters: '' ,
-        search: '',
-        userData: [], // initialize empty array
-        seen: '',
-      },
 
-      mounted() { // when the Vue app is booted up, this is run automatically.
-        var self = this // create a closure to access component in the callback below
-        $.getJSON(dataURL, function(data) {
-          self.userData = data.users;
-        });
-      },
-
-      //computed
-      computed:{
-        searchData(){
-          return this.userData.filter((users) => {
-            return users.category.toLowerCase().match(this.search.toLowerCase()) || users.contact_department_name.toLowerCase().match(this.search.toLowerCase()) || users.phone.toLowerCase().match(this.search.toLowerCase()) || users.help.toLowerCase().match(this.search.toLowerCase())
-          });
-        }
-      },
-      //end computed
-      watch: {
-        'search': function(val, preVal) {
-          if (val < 1) {
-            this.seen = true
-          }
-          else {
-            this.seen = false
-          }
-        },
-        'filters': function(val, preVal) {
-          if (val = 1) {
-            this.seen = false
-          }
-          else {
-            this.seen = true
-          }
-        }
-      }
-    })
-  }
-</script>
 
 <!-- END BLOCK: included uniform campus head  -->
 
-<title>UC Santa Cruz | Help Site</title>
+<title>UC Santa Cruz | Get Help</title>
 </head>
 
 <body class="single-column dept">
@@ -97,7 +48,7 @@
               </ul>
               <div class="search" role="search"> 
                 <!-- Google Custom Search -->
-                <form action="/search.html" id="cse-search-box-site">
+                <form action="https://www.ucsc.edu/search/" id="cse-search-box-site">
                   <div>
                     <label class="hide" for="search-site">Search</label>
                     <input class="query" id="search-site" name="q" placeholder="Search this Site" type="text"/>
@@ -120,115 +71,25 @@
           <div class="main-content" id="mainContent">
             <div class="content contentBox"> 
               <!-- Content -->
-              <h1 class="page-title" id="title">Get Help.</h1>
+              <h1 class="page-title" id="title">Feedback</h1>
+              <a href="https://google.com" class="hide-page">Hide Page Now</a>
               <!-- Help top -->
-              <div id="app">
+                                      <iframe height="700"
+                                allowTransparency="true"
+                                frameborder="0"
+                                scrolling="no"
+                                style="width:100%;border:none"
+                                src="https://ucsc.wufoo.com/embed/rpfv6t21ez2osp/">
+                          <a href="https://ucsc.wufoo.com/forms/rpfv6t21ez2osp/">
+                            Help site feedback form
+                          </a>
+                        </iframe>
+                                              
+
+
                 
-                  <form>
-                    <div class="help-search-container">
-                      <h2>Need emergency assistance now?</h2>
-                      <span>Call 911 or campus police: 831-259-2231</span>
-                      <input type="text" name="help" v-model="search" placeholder="Search is coming soon" class="help-search-box">
-                      <input type="submit" value="Submit" class="help-submit">
-                    </div>
-                    <!-- Help Top -->
-                  </form>
-                  <form>
-                    <ul class="help-options">
-                      <li>
-                        <div class="left">
-                          I am an <span>undergraduate</span> affected by:
-                        </div>
-                        <div class="right">
-                          <select id="undergraduate" v-model="filters">
-                            <option value="" selected>Select an Option</option>
-                            <option v-on:click="seen = seen" v-for="data in userData" v-if="data.category == 'undergraduate'" v-bind:value="{ category: data.category, help: data.help, contact: data.contact_department_name, phone: data.phone, website: data.website, report: data.reporting_url}">{{data.help}}</option>
-                          </select>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="left">
-                          I am a <span>graduate student</span> affected by:
-                        </div>
-                        <div class="right">
-                          <select id="graduate" v-model="filters">
-                             <option value="">Select an Option</option>
-                             <option v-on:change="seen = seen" v-for="data in userData" v-if="data.category == 'graduate'" v-bind:value="{ category: data.category, help: data.help, contact: data.contact_department_name, phone: data.phone, website: data.website, report: data.reporting_url}">{{data.help}}</option>
-                          </select>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="left">
-                          I am a <span>faculty member</span> affected by:
-                        </div>
-                        <div class="right">
-                          <select id="faculty" v-model="filters">
-                            <option value="">Select an Option</option>
-                            <option v-on:click="seen = seen" v-for="data in userData" v-if="data.category == 'faculty'" v-bind:value="{ category: data.category, help: data.help, contact: data.contact_department_name, phone: data.phone, website: data.website, report: data.reporting_url}">{{data.help}}</option>
-                          </select>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="left">
-                          I am a <span>staff member</span> affected by:
-                        </div>
-                        <div class="right">
-                          <select id="staff" v-model="filters">
-                             <option value="">Select an Option</option>
-                             <option v-on:click="seen = seen" v-for="data in userData" v-if="data.category == 'staff'" v-bind:value="{ category: data.category, help: data.help, contact: data.contact_department_name, phone: data.phone, website: data.website, report: data.reporting_url}">{{data.help}}</option>
-                          </select>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="left">
-                          I am a <span>witness</span> to:
-                        </div>
-                        <div class="right">
-                          <select id="witness" v-model="filters">
-                            <option value="" selected>Select an Option</option>
-                             <option v-on:click="seen = seen" v-for="data in userData" v-if="data.category == 'witness'" v-bind:value="{ category: data.category, help: data.help, contact: data.contact_department_name, phone: data.phone, website: data.website, report: data.reporting_url}">{{data.help}}</option>
-                          </select>
-                        </div>
-                      </li>
-                    </ul>
-                  </form>
-                  <div v-if="seen">
-                  <h3>Resources for: {{filters.help}}</h3>
-                  <table class="help-data">
-                    <tr>
-                      <th>Contact/Department Name</th>
-                      <th>Phone</th>
-                      <th>Website</th>
-                      <th>Reporting URL</th>
-                    </tr>
-                    <tr>
-                      <td>{{filters.contact}}</td>
-                      <td>{{filters.phone}}</td>
-                      <td>{{filters.website}}</td>
-                      <td>{{filters.report}}</td>
-                    </tr>
-                  </table>
-                  </div>
-
-                  <div v-else>
-                  <h3>Resources for: {{search}}</h3>
-                  <table class="help-data">
-                    <tr>
-                      <th>Contact/Department Name</th>
-                      <th>Phone</th>
-                      <th>Website</th>
-                      <th>Reporting URL</th>
-                    </tr>
-                    <tr v-for="data in searchData">
-                      <td>{{data.contact_department_name}}</td>
-                      <td>{{data.phone}}</td>
-                      <td>{{data.website}}</td>
-                      <td>{{data.reporting_url}}</td>
-                    </tr>
-                  </table>
-                  </div>
-              </div>
-
+              
+              
               <!-- End content -->
               
             </div>
@@ -236,7 +97,11 @@
         </div>
       </div>
     </div>
-    <div class="main-footer">
+     <div class="help-feedback">
+              
+<a href="../index.html" class="btn">Back to main page</a>
+                </div>
+    <div class="main-footer" role="contentinfo">
       <div class="row" id="footer">
         <div class="footer-left">
           <h3>Confidential Resources</h3>
@@ -254,7 +119,7 @@
             <div class="right"> <span>Counseling & Psychological Services
               <ul>
                 <li>931-459-2628</li>
-                <li><a href="https://cap.ucsc.edu">caps.ucsc.edu</a></li>
+                <li><a href="https://caps.ucsc.edu">caps.ucsc.edu</a></li>
               </ul>
               </span> </div>
             <!-- End right --> 
@@ -284,17 +149,15 @@
 <!-- BLOCK: uniform campus bottom scripts  --> 
 
 <!-- Google Tag Manager -->
-<noscript>
-<iframe src="//www.googletagmanager.com/ns.html?id=GTM-5RFHNC"
-height="0" width="0" style="display:none;visibility:hidden"></iframe>
-</noscript>
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-5RFHNC"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-5RFHNC');</script> 
-<!-- End Google Tag Manager --> 
-<!-- Siteimprove --> 
+})(window,document,'script','dataLayer','GTM-5RFHNC');</script>
+<!-- End Google Tag Manager -->
+<!-- Siteimprove -->
 <script type="text/javascript">
 /*<![CDATA[*/
 (function() {
@@ -303,12 +166,17 @@ sz.src = '//siteimproveanalytics.com/js/siteanalyze_8343.js';
 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
 })();
 /*]]>*/
-</script> 
-<!-- end Siteimprove --> 
+</script>
+<!-- end Siteimprove -->
 
 <!-- END BLOCK: uniform campus bottom scripts  -->
 
 <style>
+
+  .contentBox, .content-box {
+    position: relative;
+    overflow-x: visible;
+  }
 
   h3 span {
     color: #003c6c;
@@ -323,7 +191,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
   }
 
   .help-search-container {
-    background: url("images/help-banner.jpg") no-repeat;
+    background: url("images/help-banner.jpg") no-repeat #01589d;
     background-size: cover;
     display: block;
     height: 250px;
@@ -347,11 +215,11 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
 
   .help-search-box {
     border: 1px #003c6c solid;
-    bottom: 1em;
     display: block;
+    margin-top: .5em;
     max-width: 54% !important;
     padding: 10px;
-    position: absolute;
+    position: relative;
     width: 100%;
   }
 
@@ -361,15 +229,47 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
     outline: none;
   }
 
+  .help-options-container {
+    display: flex;
+    width: 100%;
+  }
+
   .help-options {
-    font-size: 1.25em;
+    float: left;
+    font-size: 1.15em;
     list-style: none;
-    margin: 1em auto 0;
-    padding: 0;
+    width: 100%;
+  }
+
+  .report-right {
+    display: inline-block;
+    float: right;
+    line-height: 300px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .report-right span,
+  .report-right-mobile span{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.5em;
+  }
+
+  .report-right span strong,
+  .report-right-mobile span strong {
+    color: #003c6c;
+    font-weight: bold;
+  }
+
+  .report-right-mobile {
+    margin-bottom: 2em;
+    text-align: center;
     width: 100%;
   }
 
   .help-options li {
+    align-items: center;
     flex-flow: row;
     font-size: .85em;
     margin: 0;
@@ -407,10 +307,6 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
     color: #003c6c;
     display: block;
     width: 100%;
-  }
-
-  .help-data th {
-     background: rgba(0,60,108, .2);
   }
 
   .help-data th,
@@ -457,22 +353,152 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
     text-transform: lowercase;
   }
 
+  .help-feedback {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+  }
 
-  @media screen and (min-width: 31.1875em) {
+  .help-feedback a.btn,
+  .report-right span .btn,
+  .report-right-mobile span .btn {
+    display: inline-block;
+    background: #01589d;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px;
+  }
+
+  .hide-page {
+    background: #da216d;
+    border-radius: 5px;
+    color: #fff;
+    display:block; 
+    right: 4em; 
+    padding: 5px; 
+    position: absolute;
+    z-index: 3000; 
+  }
+
+  @media screen and (max-width: 31.125em) {
+
+    ul {
+      margin-left: 0;
+    }
 
     .help-search-container {
       background: #01589d;
+      height: 150px;
+    }
+
+    h2 {
+      font-size: 1em;
+    }
+
+    .help-search-container span {
+      font-size: 1rem;
+    }
+
+    .help-search-box {
+      padding: 5px;
+      position: none;
     }
 
     input, 
     .help-search-box input::-webkit-input-placeholder {
       max-width: 80%;
-      font-size: 2em;
+      font-size: 1em;
+    }
+
+    .help-options-container {
+      display: inline-block;
     }
 
     .help-options {
       display: inline-block;
       max-width: 100%;
+      padding: 0;
+    }
+
+    .report-right {
+      display: none;
+    }
+
+    .report-right-mobile {
+      display: inline-block;
+    }
+
+    .help-data tr th {
+      background: rgba(0,60,108, .2);
+      display: none;
+    }
+
+    .help-data tr td {
+      display: block;
+      width: 100%;
+      border-bottom: 0px;
+    }
+
+    .help-data tr td:first-child {
+      display: block;
+      font-weight: 600;
+    }
+    
+    .help-data tr td:last-child {
+      display: block;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 15px;
+    }
+
+    .callout-left, .left {
+      margin: 0 1em 0em 0;
+    }
+
+    .hide-page {
+      top: -2.15em;
+    }
+
+  }
+
+
+  @media screen and (min-width: 31.1875em) {
+
+    ul {
+      margin-left: 0;
+    }
+
+    .help-search-container {
+      background: #01589d;
+      height: 150px;
+    }
+
+    h2 {
+      font-size: 1.15em;
+    }
+
+    .help-search-container span {
+      font-size: 1.05rem;
+    }
+
+    .help-search-box {
+      padding: 5px;
+      position: none;
+    }
+
+    input, 
+    .help-search-box input::-webkit-input-placeholder {
+      max-width: 80%;
+      font-size: 1em;
+    }
+
+    .help-options-container {
+      display: inline-block;
+    }
+
+    .help-options {
+      display: inline-block;
+      max-width: 100%;
+      padding: 0;
     }
 
     .help-options li {
@@ -481,14 +507,70 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
 
     .help-options li .right {
       max-width: 100%;
+    }
+
+    .report-right {
+      display: none;
+    }
+
+    .report-right-mobile {
+      display: inline-block;
+    }
+
+    .help-data tr th {
+      display: none;
+    }
+
+    .help-data tr td {
+      display: block;
+      width: 100%;
+      border-bottom: 0px;
+    }
+
+    .help-data tr td:first-child {
+      display: block;
+      font-weight: 600;
+    }
+    
+    .help-data tr td:last-child {
+      display: block;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 15px;
+    }
+
+    .callout-left, .left {
+      margin: 0 1em 0em 0;
+    }
+
+    .hide-page {
+      top: -2.15em;
     }
 
   }
 
   @media screen and (min-width: 37.5em) {
 
+    ul {
+      margin-left: 0;
+    }
+
     .help-search-container {
       background: #01589d;
+      height: 200px;
+    }
+
+    h2 {
+      font-size: 1.25em;
+    }
+
+
+    .help-search-container span {
+      font-size: 1.25rem;
+    }
+
+    .help-search-box {
+      padding: 5px;
+      position: absolute;
     }
     
     input, 
@@ -497,8 +579,13 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
       font-size: 2em;
     }
 
+    .help-options-container {
+      display: inline-block;
+    }
+
     .help-options {
       display: inline-block;
+      padding: 0;
       max-width: 100%;
     }
 
@@ -508,15 +595,70 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
 
     .help-options li .right {
       max-width: 100%;
+    }
+
+    .report-right {
+      display: none;
+    }
+
+    .report-right-mobile {
+      display: inline-block;
+    }
+
+    .help-data tr th {
+      display: none;
+    }
+
+
+    .help-data tr td {
+      display: block;
+      width: 100%;
+      border-bottom: 0px;
+    }
+
+    .help-data tr td:first-child {
+      display: block;
+      font-weight: 600;
+    }
+    
+    .help-data tr td:last-child {
+      display: block;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 8px;
+    }
+
+    .callout-left, .left {
+      margin: 0 1em 0em 0;
+    }
+
+    .hide-page {
+      top: -2.15em;
     }
     
   }
 
   @media screen and (min-width: 48em) {
 
+    ul {
+      margin-left: 0;
+    }
+
     .help-search-container {
-      background: url("images/help-banner.jpg") no-repeat;
-      background-size: cover;
+      background: #01589d;
+      height: 250px;
+    }
+
+    h2 {
+      font-size: 1.5em;
+    }
+
+    .help-search-container span {
+      font-size: 1.5rem;
+    }
+
+    .help-search-box {
+      padding: 5px;
+      position: absolute;
     }
     
     input, 
@@ -525,29 +667,85 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
       font-size: 1.5em;
     }
 
-    .help-options {
-      display: block;
-    }
-
-    .help-options li {
+    .help-options-container {
       display: flex;
     }
 
+    .help-options {
+      display: block;
+      padding: 0;
+      max-width: 600px;
+    }
+
+    .help-options li {
+      display: block;
+    }
+
     .help-options li .right {
-      max-width: 400px;
+      max-width: 100%;
+    }
+
+    .report-right {
+      display: inline-block;
+      max-width: 325px;
+    }
+
+    .report-right-mobile {
+      display: none;
+    }
+
+
+    .help-data tr th {
+      background: rgba(0,60,108, .2);
+      display: table-cell;
+    }
+
+    .help-data tr td,
+    .help-data tr td:first-child,
+    .help-data tr td:last-child {
+      border-bottom: 1px solid #ccc;
+      display: table-cell;
+      padding-bottom: auto;
+      width: auto;
     }
 
     .main-footer .footer-left {
       width: 100% !important;
     }
 
+    .callout-left, .left {
+      margin: 0 1em 0 0;
+    }
+
+    .hide-page {
+      top: -.5em;
+    }
+
   }
 
   @media screen and (min-width: 60em) {
 
+    ul {
+      margin-left: 1em;
+    }
+
     .help-search-container {
-      background: url("images/help-banner.jpg") no-repeat;
+      background: url("images/help-banner.jpg") no-repeat #01589d;
       background-size: cover;
+      height: 250px;
+    }
+
+    h2 {
+      font-size: 1.5em;
+    }
+
+    .help-search-container span {
+      font-size: 1.5rem;
+    }
+
+    .help-search-box {
+      padding: 10px;
+      position: absolute;
     }
     
     input, 
@@ -556,8 +754,14 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
       font-size: 1.5em;
     }
 
+    .help-options-container {
+      display: flex;
+    }
+
     .help-options {
       display: block;
+      padding: 0 0 0 .25em;
+      max-width: 675px;
     }
 
     .help-options li {
@@ -568,8 +772,35 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
       max-width: 450px;
     }
 
+    .report-right {
+      display: inline-block;
+      max-width: 400px;
+    }
+
+    .report-right-mobile {
+      display: none;
+    }
+
+    .help-data tr th {
+      background: rgba(0,60,108, .2);
+      display: table-cell;
+    }
+
+    .help-data tr td,
+    .help-data tr td:first-child,
+    .help-data tr td:last-child {
+      border-bottom: 1px solid #ccc;
+      display: table-cell;
+      padding-bottom: auto;
+      width: auto;
+    }
+
     .main-footer .footer-left {
       width: 100% !important;
+    }
+
+    .callout-left, .left {
+      margin: 0 1em 1em 0;
     }
 
   }
