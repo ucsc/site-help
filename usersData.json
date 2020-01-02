@@ -115,15 +115,15 @@
       "category": "Disability Discrimination or Harassment",
       "filter_term": "Undergraduate students Disability Discrimination or Harassment",
       "department_name": "William Kidder, ADA & Whistleblower Compliance",
-      "description": "",
-      "phone": "(831) 459-2295 or wkidder@ucsc.edu",
-      "website_url": "https://reporthate.ucsc.edu/",
+      "description": "(831) 459-2295 or wkidder@ucsc.edu",
+      "phone": "https://reporthate.ucsc.edu/",
+      "website_url": "https://ucsc-advocate.symplicity.com/care_report/index.php/pid039305?",
       "report_url": ""
     },
     {
       "i_am": "Undergraduate students",
       "category": "Whistleblower Complaint (e.g. Fraud)",
-      "filter_term": "Undergraduate students Whistleblower Complaint (e.g. Fraud)",
+      "filter_term": "Undergraduate students Whistleblower Complaint",
       "department_name": "UCSC Locally Designated Official for Whistleblower Matters (SALDO)",
       "description": "",
       "phone": "(831) 459-4380 or wbreport@ucsc.edu",
@@ -133,7 +133,7 @@
     {
       "i_am": "Undergraduate students",
       "category": "Whistleblower Complaint (e.g. Fraud)",
-      "filter_term": "Undergraduate students Whistleblower Complaint (e.g. Fraud)",
+      "filter_term": "Undergraduate students Whistleblower Complaint",
       "department_name": "UC Whistleblower Office",
       "description": "",
       "phone": "(800) 403-4744",
@@ -143,7 +143,7 @@
     {
       "i_am": "Undergraduate students",
       "category": "Other Crime (e.g. Robbery, Theft) ",
-      "filter_term": "Undergraduate students Other Crime (e.g. Robbery, Theft) ",
+      "filter_term": "Undergraduate students Other Crime ",
       "department_name": "UCSC Police",
       "description": "",
       "phone": "Non-emergency police issues (831) 459-2231",
@@ -153,7 +153,7 @@
     {
       "i_am": "Undergraduate students",
       "category": "Other Crime (e.g. Robbery, Theft) ",
-      "filter_term": "Undergraduate students Other Crime (e.g. Robbery, Theft) ",
+      "filter_term": "Undergraduate students Other Crime",
       "department_name": "UCSC Police",
       "description": "",
       "phone": "Anonymous tip line: (831) 459-3TIP (459-3847)",
@@ -164,10 +164,10 @@
       "i_am": "Undergraduate students",
       "category": "Suicide Prevention",
       "filter_term": "Undergraduate students Suicide Prevention",
-      "department_name": "Campus Advocasy, Resources, and Education (CARE)",
-      "description": "",
-      "phone": "(831) 502-CARE (2273)",
-      "website_url": "https://care.ucsc.edu",
+      "department_name": "Counseling and Psychological Services (CAPS)",
+      "description": "(831) 459-2628",
+      "phone": "https://caps.ucsc.edu",
+      "website_url": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid108591?",
       "report_url": ""
     },
     {
@@ -285,15 +285,15 @@
       "category": "Disability Discrimination or Harassment",
       "filter_term": " Graduate students Disability Discrimination or Harassment",
       "department_name": "William Kidder, ADA & Whistleblower Compliance",
-      "description": "",
-      "phone": "(831) 459-2295 or wkidder@ucsc.edu",
-      "website_url": "https://reporthate.ucsc.edu/",
+      "description": "(831) 459-2295 or wkidder@ucsc.edu",
+      "phone": "https://reporthate.ucsc.edu/",
+      "website_url": "https://ucsc-advocate.symplicity.com/care_report/index.php/pid039305?",
       "report_url": ""
     },
     {
       "i_am": " Graduate students",
       "category": "Whistleblower Complaint (e.g. Fraud)",
-      "filter_term": " Graduate students Whistleblower Complaint (e.g. Fraud)",
+      "filter_term": " Graduate students Whistleblower Complaint",
       "department_name": "UCSC Locally Designated Official for Whistleblower Matters (SALDO)",
       "description": "",
       "phone": "(831) 459-4380 or wbreport@ucsc.edu",
@@ -303,7 +303,7 @@
     {
       "i_am": " Graduate students",
       "category": "Whistleblower Complaint (e.g. Fraud)",
-      "filter_term": " Graduate students Whistleblower Complaint (e.g. Fraud)",
+      "filter_term": " Graduate students Whistleblower Complaint",
       "department_name": "UC Whistleblower Office",
       "description": "",
       "phone": "(800) 403-4744",
@@ -313,7 +313,7 @@
     {
       "i_am": " Graduate students",
       "category": "Other Crime (e.g. Robbery, Theft) ",
-      "filter_term": " Graduate students Other Crime (e.g. Robbery, Theft) ",
+      "filter_term": " Graduate students Other Crime",
       "department_name": "UCSC Police",
       "description": "",
       "phone": "Non-emergency police issues (831) 459-2231",
@@ -323,7 +323,7 @@
     {
       "i_am": " Graduate students",
       "category": "Other Crime (e.g. Robbery, Theft) ",
-      "filter_term": " Graduate students Other Crime (e.g. Robbery, Theft) ",
+      "filter_term": " Graduate students Other Crime",
       "department_name": "UCSC Police",
       "description": "",
       "phone": "Anonymous tip line: (831) 459-3TIP (459-3847)",
@@ -345,8 +345,8 @@
       "category": "Bullying and abusive conduct in the workplace",
       "filter_term": " Graduate students Bullying and abusive conduct in the workplace",
       "department_name": "Academic Personnel Office",
-      "description": "Susan Fellows, Director, Academic Employee Relations",
-      "phone": "459-5032 or sfellows@ucsc.edu",
+      "description": "Grace McClintock, Assistant Vice Provost",
+      "phone": "459-5254 or grace@ucsc.edu",
       "website_url": "https://apo.ucsc.edu/",
       "report_url": ""
     },
@@ -364,10 +364,10 @@
       "i_am": " Graduate students",
       "category": "Suicide Prevention",
       "filter_term": " Graduate students Suicide Prevention",
-      "department_name": "Campus Advocasy, Resources, and Education (CARE)",
-      "description": "",
-      "phone": "(831) 502-CARE (2273)",
-      "website_url": "https://care.ucsc.edu",
+      "department_name": "Counseling and Psychological Services (CAPS)",
+      "description": "(831) 459-2628",
+      "phone": "https://caps.ucsc.edu",
+      "website_url": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid108591?",
       "report_url": ""
     },
     {
@@ -475,15 +475,15 @@
       "category": "Disability Discrimination or Harassment",
       "filter_term": "Faculty Disability Discrimination or Harassment",
       "department_name": "William Kidder, ADA & Whistleblower Compliance",
-      "description": "",
-      "phone": "(831) 459-2295 or wkidder@ucsc.edu",
-      "website_url": "https://reporthate.ucsc.edu/",
+      "description": "(831) 459-2295 or wkidder@ucsc.edu",
+      "phone": "https://reporthate.ucsc.edu/",
+      "website_url": "https://ucsc-advocate.symplicity.com/care_report/index.php/pid039305?",
       "report_url": ""
     },
     {
       "i_am": "Faculty",
       "category": "Whistleblower Complaint Local Official (e.g. Fraud)",
-      "filter_term": "Faculty Whistleblower Complaint Local Official (e.g. Fraud)",
+      "filter_term": "Faculty Whistleblower Complaint Local Official",
       "department_name": "UCSC Locally Designated Official for Whistleblower Matters (SALDO)",
       "description": "",
       "phone": "(831) 459-4380 or wbreport@ucsc.edu",
@@ -493,7 +493,7 @@
     {
       "i_am": "Faculty",
       "category": "Whistleblower Complaint (e.g. Fraud)",
-      "filter_term": "Faculty Whistleblower Complaint (e.g. Fraud)",
+      "filter_term": "Faculty Whistleblower Complaint",
       "department_name": "UC Whistleblower Office",
       "description": "",
       "phone": "(800) 403-4744",
@@ -503,7 +503,7 @@
     {
       "i_am": "Faculty",
       "category": "Other Crime Non-emergency (e.g. Robbery, Theft) ",
-      "filter_term": "Faculty Other Crime Non-emergency (e.g. Robbery, Theft) ",
+      "filter_term": "Faculty Other Crime Non-emergency",
       "department_name": "UCSC Police",
       "description": "",
       "phone": "Police issues (831) 459-2231",
@@ -513,7 +513,7 @@
     {
       "i_am": "Faculty",
       "category": "Other Crime Anonymous (e.g. Robbery, Theft) ",
-      "filter_term": "Faculty Other Crime Anonymous (e.g. Robbery, Theft) ",
+      "filter_term": "Faculty Other Crime Anonymous",
       "department_name": "UCSC Police",
       "description": "",
       "phone": "Tip line: (831) 459-3TIP (459-3847)",
@@ -535,8 +535,8 @@
       "category": "Bullying and abusive conduct in the workplace",
       "filter_term": "Faculty Bullying and abusive conduct in the workplace",
       "department_name": "Academic Personnel Office",
-      "description": "Susan Fellows, Director, Academic Employee Relations",
-      "phone": "459-5032 or sfellows@ucsc.edu",
+      "description": "Grace McClintock, Assistant Vice Provost",
+      "phone": "459-5254 or grace@ucsc.edu",
       "website_url": "https://apo.ucsc.edu/",
       "report_url": ""
     },
@@ -554,10 +554,10 @@
       "i_am": "Faculty",
       "category": "Suicide Prevention",
       "filter_term": "Faculty Suicide Prevention",
-      "department_name": "Campus Advocasy, Resources, and Education (CARE)",
-      "description": "",
-      "phone": "(831) 502-CARE (2273)",
-      "website_url": "https://care.ucsc.edu",
+      "department_name": "Counseling and Psychological Services (CAPS)",
+      "description": "(831) 459-2628",
+      "phone": "https://caps.ucsc.edu",
+      "website_url": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid108591?",
       "report_url": ""
     },
     {
@@ -641,9 +641,9 @@
       "report_url": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid135546?"
     },
     {
-      "i_am": "Staff",
+      "i_am": "",
       "category": "Relationship Violence or Stalking",
-      "filter_term": "Staff Relationship Violence or Stalking",
+      "filter_term": " Relationship Violence or Stalking",
       "department_name": "UCSC Police",
       "description": "",
       "phone": "459-2231, ext 1 or 911",
@@ -665,15 +665,15 @@
       "category": "Disability Discrimination or Harassment",
       "filter_term": "Staff Disability Discrimination or Harassment",
       "department_name": "William Kidder, ADA & Whistleblower Compliance",
-      "description": "",
-      "phone": "(831) 459-2295 or wkidder@ucsc.edu",
-      "website_url": "https://reporthate.ucsc.edu/",
+      "description": "(831) 459-2295 or wkidder@ucsc.edu",
+      "phone": "https://reporthate.ucsc.edu/",
+      "website_url": "https://ucsc-advocate.symplicity.com/care_report/index.php/pid039305?",
       "report_url": ""
     },
     {
       "i_am": "Staff",
       "category": "Whistleblower Complaint Local Official (e.g. Fraud)",
-      "filter_term": "Staff Whistleblower Complaint Local Official (e.g. Fraud)",
+      "filter_term": "Staff Whistleblower Complaint Local Official",
       "department_name": "UCSC Locally Designated Official for Whistleblower Matters (SALDO)",
       "description": "",
       "phone": "(831) 459-4380 or wbreport@ucsc.edu",
@@ -683,7 +683,7 @@
     {
       "i_am": "Staff",
       "category": "Whistleblower Complaint (e.g. Fraud)",
-      "filter_term": "Staff Whistleblower Complaint (e.g. Fraud)",
+      "filter_term": "Staff Whistleblower Complaint",
       "department_name": "UC Whistleblower Office",
       "description": "",
       "phone": "(800) 403-4744",
@@ -693,7 +693,7 @@
     {
       "i_am": "Staff",
       "category": "Other Crime Non-emergency (e.g. Robbery, Theft) ",
-      "filter_term": "Staff Other Crime Non-emergency (e.g. Robbery, Theft) ",
+      "filter_term": "Staff Other Crime Non-emergency",
       "department_name": "UCSC Police",
       "description": "",
       "phone": "(831) 459-2231",
@@ -703,7 +703,7 @@
     {
       "i_am": "Staff",
       "category": "Other Crime Anonymous (e.g. Robbery, Theft) ",
-      "filter_term": "Staff Other Crime Anonymous (e.g. Robbery, Theft) ",
+      "filter_term": "Staff Other Crime Anonymous",
       "department_name": "UCSC Police",
       "description": "",
       "phone": "Tip line: (831) 459-3TIP (459-3847)",
@@ -725,8 +725,8 @@
       "category": "Bullying and abusive conduct in the workplace",
       "filter_term": "Staff Bullying and abusive conduct in the workplace",
       "department_name": "Academic Personnel Office",
-      "description": "Susan Fellows, Director, Academic Employee Relations",
-      "phone": "459-5032 or sfellows@ucsc.edu",
+      "description": "Grace McClintock, Assistant Vice Provost",
+      "phone": "459-5254 or grace@ucsc.edu",
       "website_url": "https://apo.ucsc.edu/",
       "report_url": ""
     },
@@ -744,10 +744,10 @@
       "i_am": "Staff",
       "category": "Suicide Prevention",
       "filter_term": "Staff Suicide Prevention",
-      "department_name": "Campus Advocasy, Resources, and Education (CARE)",
-      "description": "",
-      "phone": "(831) 502-CARE (2273)",
-      "website_url": "https://care.ucsc.edu",
+      "department_name": "Counseling and Psychological Services (CAPS)",
+      "description": "(831) 459-2628",
+      "phone": "https://caps.ucsc.edu",
+      "website_url": "https://ucsc-gme-advocate.symplicity.com/public_report/index.php/pid108591?",
       "report_url": ""
     },
     {
@@ -863,7 +863,7 @@
     {
       "i_am": "Witness",
       "category": "Whistleblower Complaint Local Official (e.g. Fraud)",
-      "filter_term": "Witness Whistleblower Complaint Local Official (e.g. Fraud)",
+      "filter_term": "Witness Whistleblower Complaint Local Official",
       "department_name": "UCSC Locally Designated Official for Whistleblower Matters (SALDO)",
       "description": "",
       "phone": "(831) 459-4380 or wbreport@ucsc.edu",
@@ -873,7 +873,7 @@
     {
       "i_am": "Witness",
       "category": "Whistleblower Complaint (e.g. Fraud)",
-      "filter_term": "Witness Whistleblower Complaint (e.g. Fraud)",
+      "filter_term": "Witness Whistleblower Complaint",
       "department_name": "UC Whistleblower Office",
       "description": "",
       "phone": "(800) 403-4744",
@@ -883,7 +883,7 @@
     {
       "i_am": "Witness",
       "category": "Other Crime Non-emergency (e.g. Robbery, Theft) ",
-      "filter_term": "Witness Other Crime Non-emergency (e.g. Robbery, Theft) ",
+      "filter_term": "Witness Other Crime Non-emergency",
       "department_name": "UCSC Police",
       "description": "",
       "phone": "(831) 459-2231",
@@ -893,7 +893,7 @@
     {
       "i_am": "Witness",
       "category": "Other Crime Anonymous (e.g. Robbery, Theft) ",
-      "filter_term": "Witness Other Crime Anonymous (e.g. Robbery, Theft) ",
+      "filter_term": "Witness Other Crime Anonymous",
       "department_name": "UCSC Police",
       "description": "",
       "phone": "Tip line: (831) 459-3TIP (459-3847)",
