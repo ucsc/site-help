@@ -116,7 +116,7 @@
       "filter_term": "Undergraduate students Disability Discrimination or Harassment",
       "department_name": "ADA & Whistleblower Compliance",
       "description": "",
-      "phone": "(831) 459-5087 or roagarci@ucsc.edu",
+      "phone": "ccarrol2@ucsc.edu",
       "website_url": "https://reporthate.ucsc.edu/",
       "report_url": "https://uctitleix.i-sight.com/portal/Santa%20Cruz"
     },
@@ -163,7 +163,7 @@
     {
       "i_am": "Undergraduate students",
       "category": "Student Employment Concerns (not related to discrimination or harassment)",
-      "filter_term": "Undergraduate students Student Employment Concerns (not related to discrimination or harassment)",
+      "filter_term": "Undergraduate students Student Employment Concerns",
       "department_name": "Dean of Students",
       "description": "",
       "phone": "(831) 459-4446 or deanofstudents@ucsc.edu",
@@ -306,7 +306,7 @@
       "filter_term": " Graduate students Disability Discrimination or Harassment",
       "department_name": "ADA & Whistleblower Compliance",
       "description": "",
-      "phone": "(831) 459-5087 or roagarci@ucsc.edu",
+      "phone": "ccarrol2@ucsc.edu",
       "website_url": "https://reporthate.ucsc.edu/",
       "report_url": "https://uctitleix.i-sight.com/portal/Santa%20Cruz"
     },
@@ -374,10 +374,10 @@
       "i_am": " Graduate students",
       "category": "Bullying and abusive conduct in the workplace",
       "filter_term": " Graduate students Bullying and abusive conduct in the workplace",
-      "department_name": "Conflict Resolution Services - for Confidential Advising",
+      "department_name": "Office of the Ombuds",
       "description": "",
-      "phone": "(831) 459-2290 or nheischm@ucsc.edu",
-      "website_url": "https://ombuds.ucsc.edu/graduate/index.html",
+      "phone": "",
+      "website_url": "https://ombuds.ucsc.edu/",
       "report_url": ""
     },
     {
@@ -506,7 +506,7 @@
       "filter_term": "Faculty Disability Discrimination or Harassment",
       "department_name": "ADA & Whistleblower Compliance",
       "description": "",
-      "phone": "(831) 459-5087 or roagarci@ucsc.edu",
+      "phone": "(831) 459-5087 or ccarrol2@ucsc.edu",
       "website_url": "https://reporthate.ucsc.edu/",
       "report_url": "https://uctitleix.i-sight.com/portal/Santa%20Cruz"
     },
@@ -574,10 +574,10 @@
       "i_am": "Faculty",
       "category": "Bullying and abusive conduct in the workplace",
       "filter_term": "Faculty Bullying and abusive conduct in the workplace",
-      "department_name": "Conflict Resolution Services - for Confidential Advising",
+      "department_name": "Ombuds",
       "description": "",
-      "phone": "(831) 459-2290 or nheischm@ucsc.edu",
-      "website_url": "https://ombuds.ucsc.edu/faculty-academic-staff/index.html",
+      "phone": "",
+      "website_url": "https://ombuds.ucsc.edu",
       "report_url": ""
     },
     {
@@ -696,7 +696,7 @@
       "filter_term": "Staff Disability Discrimination or Harassment",
       "department_name": "ADA & Whistleblower Compliance",
       "description": "",
-      "phone": "(831) 459-5087 or roagarci@ucsc.edu",
+      "phone": "(831) 459-5087 or ccarrol2@ucsc.edu",
       "website_url": "https://reporthate.ucsc.edu/",
       "report_url": "https://uctitleix.i-sight.com/portal/Santa%20Cruz"
     },
@@ -746,7 +746,7 @@
       "filter_term": "Staff Bullying and abusive conduct in the workplace",
       "department_name": "Staff Human Resources",
       "description": "",
-      "phone": "459-1930\tor elrinfo@ucsc.edu",
+      "phone": "459-1930 or elrinfo@ucsc.edu",
       "website_url": "https://shr.ucsc.edu/elr/abusive-conduct-and-bullying-in-the-workplace/what-is-bullying.html",
       "report_url": ""
     },
@@ -764,10 +764,10 @@
       "i_am": "Staff",
       "category": "Bullying and abusive conduct in the workplace",
       "filter_term": "Staff Bullying and abusive conduct in the workplace",
-      "department_name": "Conflict Resolution Services - for Confidential Advising",
+      "department_name": "Office of the Ombuds",
       "description": "",
-      "phone": "459-2290 or nheischm@ucsc.edu",
-      "website_url": "https://ombuds.ucsc.edu/staff/index.html",
+      "phone": "",
+      "website_url": "https://ombuds.ucsc.edu",
       "report_url": ""
     },
     {
